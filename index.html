@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 200 Club of Monmouth County</title>
+<meta name="description" content="The 200 Club of Monmouth County supports first responders and their families through scholarships, Valor Awards, and immediate aid.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<style>
+:root{
+  --blue:#2b5fa8;--bd:#1a3f75;--bx:#0f2548;
+  --bm:#3a72c4;--bl:#dce8f7;--bp:#f0f5fc;
+  --gold:#c9a14a;--gold-d:#a6822f;
+  --w:#fff;--off:#f8f9fb;--t:#111827;--m:#4b5563;
+  --lt:#8899aa;--br:#e2e8f0;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;font-size:17px;color:var(--t);background:var(--w);-webkit-font-smoothing:antialiased;line-height:1.65;}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;}}
+
+/* NAV */
+nav{background:#fff;border-bottom:1px solid var(--br);position:sticky;top:0;z-index:1000;}
+.ni{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:68px;}
+.logo{display:flex;align-items:center;gap:12px;cursor:pointer;text-decoration:none;}
+.logo img{height:42px;width:auto;}
+.logo-t{font-size:14px;font-weight:600;color:var(--bd);line-height:1.3;}
+.logo-t small{display:block;font-size:10px;font-weight:400;color:var(--lt);letter-spacing:1.5px;text-transform:uppercase;}
+.nl{display:flex;align-items:center;gap:4px;list-style:none;}
+.nl a{color:var(--m);text-decoration:none;font-size:14px;font-weight:500;padding:8px 12px;border-radius:6px;transition:color .15s,background .15s;cursor:pointer;white-space:nowrap;}
+.nl a:hover{color:var(--blue);background:var(--bp);}
+.ncta{background:var(--blue)!important;color:#fff!important;border-radius:6px!important;padding:9px 18px!important;font-weight:600!important;}
+.ncta:hover{background:var(--bd)!important;}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none;}
+.ham span{width:22px;height:2px;background:var(--t);border-radius:2px;}
+.mob{display:none;position:fixed;inset:68px 0 0;background:#fff;z-index:999;padding:24px 32px;border-top:1px solid var(--br);overflow-y:auto;}
+.mob.open{display:block;}
+.mob a{display:block;font-size:17px;font-weight:500;color:var(--t);padding:14px 0;border-bottom:1px solid var(--br);cursor:pointer;text-decoration:none;}
+.mob .mc{background:var(--blue);color:#fff!important;border-radius:8px;padding:14px 20px!important;text-align:center;margin-top:16px;border-bottom:none!important;font-weight:600;}
+
+/* PAGES */
+.pg{display:none;}.pg.active{display:block;}
+
+/* HERO SLIDESHOW */
+.hero{position:relative;height:88vh;min-height:560px;overflow:hidden;background:var(--bx);}
+.hs{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease;}
+.hs.on{opacity:1;}
+.hs-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:1;}
+.hs-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(120deg,rgba(15,37,72,.85) 0%,rgba(26,63,117,.7) 50%,rgba(43,95,168,.5) 100%);}
+.hs-ph{position:absolute;inset:0;background:linear-gradient(135deg,var(--bx),var(--bd));display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;opacity:.6;}
+.hs-in{position:relative;z-index:3;max-width:1200px;margin:0 auto;padding:0 32px;height:100%;display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center;color:#fff;}
+.hs-l{padding-top:40px;}
+.hs-ey{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px);color:#fff;padding:6px 14px;border-radius:30px;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px;font-weight:600;}
+.hs h1{font-family:'DM Serif Display',serif;font-size:clamp(36px,5.5vw,64px);line-height:1.08;font-weight:400;letter-spacing:-1px;margin-bottom:20px;}
+.hs h1 em{font-style:italic;color:var(--gold);font-weight:400;}
+.hs p{font-size:clamp(16px,1.5vw,19px);line-height:1.55;margin-bottom:32px;max-width:540px;color:rgba(255,255,255,.92);}
+.hs-ctas{display:flex;gap:14px;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:8px;font-weight:600;font-size:15px;cursor:pointer;transition:all .2s;border:none;text-decoration:none;line-height:1.2;}
+.bb{background:var(--blue);color:#fff;}
+.bb:hover{background:var(--bd);transform:translateY(-1px);box-shadow:0 6px 20px rgba(43,95,168,.4);}
+.bo{background:var(--gold);color:var(--bx);}
+.bo:hover{background:var(--gold-d);transform:translateY(-1px);}
+.bw{background:#fff;color:var(--bd);}
+.bw:hover{background:var(--bp);transform:translateY(-1px);}
+.bob{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);}
+.bob:hover{border-color:#fff;background:rgba(255,255,255,.08);}
+.hs-r{position:relative;display:flex;align-items:center;justify-content:center;}
+.hr-ph{width:100%;aspect-ratio:4/5;background:rgba(255,255,255,.06);border:2px dashed rgba(255,255,255,.18);border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,.5);padding:24px;text-align:center;font-size:13px;}
+.hr-ph .ic{font-size:48px;margin-bottom:12px;opacity:.5;}
+.hr-ph .fn{font-family:monospace;font-size:12px;background:rgba(255,255,255,.08);padding:4px 10px;border-radius:4px;margin-top:8px;}
+.hr-ph .fb{font-size:11px;color:rgba(255,255,255,.35);margin-top:8px;font-style:italic;max-width:220px;}
+.hs-r img{max-width:100%;max-height:80vh;border-radius:16px;object-fit:cover;width:100%;aspect-ratio:4/5;}
+.hs-ctl{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:10px;}
+.hs-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.4);border:none;cursor:pointer;transition:all .2s;padding:0;}
+.hs-dot.on{background:#fff;width:28px;border-radius:5px;}
+.hst{position:absolute;top:32px;right:32px;z-index:10;background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);padding:14px 20px;border-radius:10px;color:#fff;display:flex;flex-direction:column;align-items:center;}
+.hst .n{font-family:'DM Serif Display',serif;font-size:24px;color:var(--gold);}
+.hst .l{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;opacity:.85;}
+
+/* MISSION BAR */
+.mb{background:var(--bx);color:#fff;padding:40px 32px;text-align:center;}
+.mb p{font-family:'DM Serif Display',serif;font-style:italic;font-size:clamp(18px,2.2vw,24px);max-width:900px;margin:0 auto;line-height:1.5;color:rgba(255,255,255,.95);}
+.mb p em{color:var(--gold);}
+
+/* SECTION BASE */
+.s{padding:90px 32px;max-width:1200px;margin:0 auto;}
+.s-dk{background:var(--bx);color:#fff;padding:90px 32px;}
+.s-dk-in{max-width:1200px;margin:0 auto;}
+.s-bl{background:var(--bp);}
+.ey{display:inline-block;background:var(--bp);color:var(--blue);padding:6px 14px;border-radius:30px;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:18px;}
+.s-dk .ey{background:rgba(255,255,255,.1);color:var(--gold);}
+h2.d{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,44px);line-height:1.15;font-weight:400;letter-spacing:-.5px;margin-bottom:24px;}
+.rule{width:48px;height:3px;background:var(--gold);margin-bottom:28px;}
+.prose p{margin-bottom:16px;color:var(--m);font-size:17px;}
+.s-dk .prose p{color:rgba(255,255,255,.9);}
+
+/* PILLARS */
+.pl{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;}
+.card{background:#fff;border:1px solid var(--br);border-radius:14px;padding:32px;transition:all .3s;}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 40px rgba(15,37,72,.1);border-color:var(--bm);}
+.cnum{font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold);font-size:32px;margin-bottom:12px;}
+.card h3{font-family:'DM Serif Display',serif;font-size:24px;margin-bottom:14px;color:var(--bx);font-weight:400;}
+.card p{color:var(--m);font-size:15px;margin-bottom:20px;line-height:1.6;}
+.cl{color:var(--blue);text-decoration:none;font-weight:600;font-size:14px;border-bottom:1px solid transparent;transition:border-color .2s;cursor:pointer;}
+.cl:hover{border-bottom-color:var(--blue);}
+
+/* SPOTLIGHT */
+.sp{margin-top:48px;background:linear-gradient(135deg,var(--bx) 0%,var(--bd) 100%);color:#fff;border-radius:16px;padding:48px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center;}
+.sp-ey{display:inline-block;color:var(--gold);font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:14px;}
+.sp h3{font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;margin-bottom:16px;line-height:1.25;}
+.sp p{color:rgba(255,255,255,.9);font-size:16px;margin-bottom:18px;line-height:1.6;}
+.sa{display:flex;flex-direction:column;padding-top:14px;border-top:1px solid rgba(255,255,255,.2);}
+.sa strong{color:var(--gold);font-size:14px;}
+.sa span{color:rgba(255,255,255,.7);font-size:12px;margin-top:2px;}
+.sp-ph{aspect-ratio:4/5;background:rgba(255,255,255,.06);border:2px dashed rgba(255,255,255,.2);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,.5);padding:20px;text-align:center;}
+.sp-ph .ic{font-size:40px;margin-bottom:10px;}
+.sp-ph .fn{font-family:monospace;font-size:11px;background:rgba(255,255,255,.08);padding:3px 8px;border-radius:4px;margin-top:6px;}
+.sp img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:12px;}
+
+/* 2-COL SECTION */
+.tc{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.tc.rev .tc-l{order:2;}
+.sb2{background:var(--blue);color:#fff;padding:28px 32px;border-radius:12px;margin:28px 0;text-align:center;}
+.sb2 .big{font-family:'DM Serif Display',serif;font-size:42px;display:block;margin-bottom:6px;color:var(--gold);}
+.sb2 p{color:rgba(255,255,255,.9);font-size:14px;line-height:1.5;}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;}
+.ps{position:relative;aspect-ratio:1;border-radius:16px;overflow:hidden;background:var(--bp);}
+.ps-img{position:absolute;inset:0;opacity:0;transition:opacity .6s;}
+.ps-img.on{opacity:1;}
+.ps-img img{width:100%;height:100%;object-fit:cover;}
+.ps-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--lt);background:var(--bp);}
+.ps-ph .ic{font-size:42px;margin-bottom:10px;}
+.ps-ph .fn{font-family:monospace;font-size:11px;background:var(--bl);color:var(--bd);padding:3px 8px;border-radius:4px;}
+.ps-dots{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:2;}
+.ps-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.6);border:none;cursor:pointer;padding:0;}
+.ps-dot.on{background:#fff;width:20px;border-radius:4px;}
+
+/* AWARD LIST */
+.al{display:flex;flex-direction:column;gap:14px;margin-top:20px;}
+.ai{display:flex;gap:16px;align-items:flex-start;padding:18px;background:var(--bp);border-radius:10px;border-left:3px solid var(--gold);}
+.aic{font-size:26px;}
+.ain h4{font-family:'DM Serif Display',serif;font-size:18px;color:var(--bx);margin-bottom:4px;font-weight:400;}
+.ain p{color:var(--m);font-size:14px;line-height:1.5;}
+
+/* EVENTS */
+.ev{display:flex;flex-direction:column;gap:18px;margin-top:32px;}
+.ev-i{background:#fff;border:1px solid var(--br);border-radius:12px;padding:28px 32px;display:grid;grid-template-columns:100px 1fr auto;gap:24px;align-items:center;transition:all .2s;}
+.ev-i:hover{border-color:var(--blue);box-shadow:0 8px 30px rgba(15,37,72,.08);}
+.ed{text-align:center;}
+.ed .mo{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--blue);font-weight:700;}
+.ed .dy{font-family:'DM Serif Display',serif;font-size:42px;color:var(--bx);line-height:1;margin-top:4px;}
+.ed .yr{font-size:12px;color:var(--lt);margin-top:4px;}
+.eb h3{font-family:'DM Serif Display',serif;font-size:22px;color:var(--bx);margin-bottom:6px;font-weight:400;}
+.eb p{color:var(--m);font-size:14px;line-height:1.5;}
+
+/* GALLERY */
+.gal-wrap{margin-top:40px;}
+.gal-lbl{font-family:'DM Serif Display',serif;font-size:22px;color:var(--bx);margin-bottom:16px;font-weight:400;}
+.gal-src{font-size:13px;color:var(--m);margin-bottom:16px;}
+.gal-src a{color:var(--blue);text-decoration:none;border-bottom:1px solid var(--bl);}
+.gal-src a:hover{border-color:var(--blue);}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:40px;}
+.gi{aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;cursor:pointer;background:var(--bp);}
+.gi img{width:100%;height:100%;object-fit:cover;transition:transform .4s;}
+.gi:hover img{transform:scale(1.06);}
+.gi-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--lt);}
+.gi-ph .ic{font-size:28px;margin-bottom:6px;}
+.gi-ph .fn{font-family:monospace;font-size:10px;background:var(--bl);color:var(--bd);padding:2px 6px;border-radius:3px;}
+.gi-ov{position:absolute;inset:0;background:rgba(15,37,72,.6);display:flex;align-items:center;justify-content:center;color:#fff;opacity:0;transition:opacity .2s;font-size:13px;font-weight:600;}
+.gi:hover .gi-ov{opacity:1;}
+
+/* MEMBERSHIP/DONATE INVITATION */
+.iv{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:48px;}
+.iv-c{background:#fff;border:1px solid var(--br);border-radius:16px;padding:40px;transition:all .3s;display:flex;flex-direction:column;}
+.iv-c:hover{border-color:var(--blue);box-shadow:0 10px 30px rgba(15,37,72,.08);}
+.ivh h3{font-family:'DM Serif Display',serif;font-size:26px;color:var(--bx);margin-bottom:10px;font-weight:400;}
+.ivh p{color:var(--m);font-size:15px;margin-bottom:24px;line-height:1.6;}
+.ivc{background:var(--bp);border-radius:10px;padding:24px;margin-bottom:24px;flex:1;}
+.ivc h4{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--bd);margin-bottom:14px;font-weight:700;}
+.ivc ul{list-style:none;padding:0;margin:0;}
+.ivc li{padding:8px 0 8px 24px;position:relative;color:var(--m);font-size:14px;line-height:1.5;}
+.ivc li::before{content:'✓';position:absolute;left:0;color:var(--blue);font-weight:700;}
+.fine{font-size:12px;color:var(--lt);margin-bottom:18px;font-style:italic;}
+.qr-wrap{display:flex;gap:18px;align-items:center;padding:18px;background:var(--bp);border-radius:10px;margin-bottom:24px;}
+.qr-img{width:110px;height:110px;background:#fff;border-radius:8px;padding:8px;border:1px solid var(--br);flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.qr-img img{max-width:100%;max-height:100%;}
+.qr-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--lt);font-size:10px;text-align:center;}
+.qr-tx p{font-size:13px;color:var(--m);line-height:1.5;margin:0;}
+.qr-tx strong{color:var(--bx);display:block;margin-bottom:4px;font-size:14px;}
+
+/* CASE STUDIES */
+.cs{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;}
+.scc{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:28px;transition:all .3s;}
+.scc:hover{background:rgba(255,255,255,.08);border-color:var(--gold);}
+.bdg{display:inline-block;background:var(--gold);color:var(--bx);padding:4px 12px;border-radius:20px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;margin-bottom:14px;}
+.scc h3{font-family:'DM Serif Display',serif;font-size:20px;margin-bottom:10px;font-weight:400;color:#fff;}
+.scc p{color:rgba(255,255,255,.85);font-size:14px;line-height:1.6;}
+
+/* PRESS */
+.pr{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;}
+.pi{background:#fff;border:1px solid var(--br);border-radius:12px;padding:20px;text-decoration:none;color:var(--t);display:flex;gap:14px;align-items:flex-start;transition:all .2s;}
+.pi:hover{border-color:var(--blue);box-shadow:0 6px 20px rgba(15,37,72,.06);transform:translateY(-2px);}
+.pio{font-size:22px;flex-shrink:0;}
+.pt{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:4px;color:var(--bx);}
+.ps2{font-size:12px;color:var(--lt);}
+
+/* CONTACT */
+.cx{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;margin-top:48px;}
+.cd{display:flex;gap:14px;align-items:flex-start;padding:18px;background:#fff;border:1px solid var(--br);border-radius:10px;margin-bottom:14px;}
+.co{font-size:22px;flex-shrink:0;}
+.cd strong{display:block;font-size:14px;color:var(--bx);margin-bottom:4px;}
+.cd p{color:var(--m);font-size:14px;line-height:1.5;}
+.cd a{color:var(--blue);text-decoration:none;font-weight:600;font-size:14px;}
+.cd a:hover{text-decoration:underline;}
+.cf{background:#fff;border:1px solid var(--br);border-radius:14px;padding:36px;}
+.fr{display:grid;gap:18px;}
+.fg label{font-size:12px;font-weight:600;color:var(--bd);display:block;margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase;}
+.fg input,.fg textarea,.fg select{width:100%;padding:12px 16px;border:1px solid var(--br);border-radius:8px;font-family:inherit;font-size:15px;transition:border-color .15s;background:#fff;color:var(--t);}
+.fg input:focus,.fg textarea:focus,.fg select:focus{outline:none;border-color:var(--blue);}
+.fg textarea{min-height:120px;resize:vertical;}
+.fn-note{font-size:12px;color:var(--lt);margin-top:4px;font-style:italic;}
+
+/* FOOTER */
+footer{background:var(--bx);color:rgba(255,255,255,.7);padding:64px 32px 32px;}
+.fi{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+.fb h4{font-family:'DM Serif Display',serif;font-size:22px;color:#fff;margin-bottom:14px;font-weight:400;}
+.fb p{font-size:14px;line-height:1.6;margin-bottom:18px;}
+.fc h5{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#fff;margin-bottom:16px;}
+.fc ul{list-style:none;padding:0;}
+.fc li{margin-bottom:8px;}
+.fc a{color:rgba(255,255,255,.7);text-decoration:none;font-size:14px;transition:color .15s;cursor:pointer;}
+.fc a:hover{color:var(--gold);}
+.fbot{max-width:1200px;margin:0 auto;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:center;font-size:13px;flex-wrap:wrap;gap:16px;}
+.fbot a{color:var(--gold);text-decoration:none;}
+.fbot a:hover{text-decoration:underline;}
+
+/* LIGHTBOX */
+.lb{display:none;position:fixed;inset:0;background:rgba(15,37,72,.95);z-index:2000;align-items:center;justify-content:center;padding:32px;}
+.lb.on{display:flex;}
+.lb-im{max-width:90vw;max-height:90vh;border-radius:8px;}
+.lb-cl{position:absolute;top:24px;right:24px;background:#fff;color:var(--bx);border:none;width:44px;height:44px;border-radius:50%;font-size:22px;cursor:pointer;line-height:1;}
+
+/* MOBILE */
+@media (max-width:900px){
+  .nl{display:none;}.ham{display:flex;}
+  .hs-in{grid-template-columns:1fr;padding-top:48px;}
+  .hs-r{display:none;}
+  .hst{top:16px;right:16px;padding:10px 14px;}
+  .s,.s-dk{padding:60px 24px;}
+  .pl,.cs,.pr,.iv{grid-template-columns:1fr;}
+  .sp{grid-template-columns:1fr;padding:32px;}
+  .sp-ph{max-width:280px;margin:0 auto;}
+  .tc{grid-template-columns:1fr;gap:40px;}
+  .tc.rev .tc-l{order:0;}
+  .gal{grid-template-columns:repeat(2,1fr);}
+  .cx{grid-template-columns:1fr;}
+  .fi{grid-template-columns:1fr 1fr;gap:32px;}
+  .ev-i{grid-template-columns:80px 1fr;padding:20px;}
+  .ev-i .ea{grid-column:1/-1;margin-top:4px;}
+  .fbot{flex-direction:column;text-align:center;}
+}
+@media (max-width:480px){
+  .ni{padding:0 20px;}
+  .hs h1{font-size:32px;}
+  .pl,.cs,.pr,.iv,.fi{grid-template-columns:1fr;}
+  .gal{grid-template-columns:repeat(2,1fr);gap:8px;}
+  .cf{padding:24px;}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<template id="default-logo">
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="24" r="22" fill="#0f2548"/>
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#c9a14a" stroke-width="1.5"/>
+  <text x="24" y="29" text-anchor="middle" font-family="DM Serif Display, serif" font-size="16" fill="#c9a14a" font-weight="400">200</text>
+</svg>
+</template>
+
+<script>
+(async function(){
+  const app=document.getElementById('app');
+  let cfg;
+  try{
+    const res=await fetch('config.json?t='+Date.now());
+    if(!res.ok) throw new Error('Failed to load config.json');
+    cfg=await res.json();
+  }catch(err){
+    app.innerHTML='<div style="padding:60px;text-align:center;font-family:sans-serif;"><h2>⚠️ Configuration missing</h2><p>Could not load config.json. Check that the file exists and is valid JSON.</p></div>';
+    return;
+  }
+
+  function safe(str){if(!str)return'';return String(str).replace(/<script/gi,'&lt;script');}
+  function logoHtml(){
+    if(cfg.brand.logo && cfg.brand.logo !== 'default'){
+      return `<img src="${safe(cfg.brand.logo)}" alt="${safe(cfg.brand.logoAlt||cfg.brand.name)}" onerror="this.style.display='none'">`;
+    }
+    return document.getElementById('default-logo').innerHTML;
+  }
+
+  const heroSlides=(cfg.hero.slides||[]).map((s,i)=>`
+    <div class="hs ${i===0?'on':''}" data-idx="${i}">
+      <div class="hs-bg" style="background-image:url('${safe(s.bgImage||'')}')"></div>
+      <div class="hs-in">
+        <div class="hs-l">
+          <span class="hs-ey">${safe(s.eyebrow||'')}</span>
+          <h1>${s.headline||''}</h1>
+          <p>${safe(s.subheadline||'')}</p>
+          <div class="hs-ctas">
+            ${s.primaryCtaLabel?`<a class="btn bo" href="${safe(s.primaryCtaHref||'#')}" ${s.primaryCtaHref&&s.primaryCtaHref.startsWith('http')?'target="_blank" rel="noopener"':''}>${safe(s.primaryCtaLabel)}</a>`:''}
+            ${s.secondaryCtaLabel?`<a class="btn bob" href="${safe(s.secondaryCtaHref||'#')}" ${s.secondaryCtaHref&&s.secondaryCtaHref.startsWith('http')?'target="_blank" rel="noopener"':''}>${safe(s.secondaryCtaLabel)}</a>`:''}
+          </div>
+        </div>
+        <div class="hs-r">
+          ${s.image?`<img src="${safe(s.image)}" alt="${safe(s.imageAlt||'')}" onerror="this.parentElement.innerHTML='<div class=&quot;hr-ph&quot;><div class=&quot;ic&quot;>🏛️</div><div class=&quot;fn&quot;>${safe(s.image)}</div><div class=&quot;fb&quot;>${safe(s.imageAlt||'')}</div></div>'">`:`<div class="hr-ph"><div class="ic">🏛️</div><div class="fn">${safe(s.image||'photo.jpg')}</div><div class="fb">${safe(s.imageAlt||'')}</div></div>`}
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  const heroDots=(cfg.hero.slides||[]).map((_,i)=>`<button class="hs-dot ${i===0?'on':''}" data-idx="${i}" aria-label="Slide ${i+1}"></button>`).join('');
+
+  const pillarsHtml=(cfg.pillars.items||[]).map(p=>`
+    <div class="card">
+      <div class="cnum">${safe(p.number||'')}</div>
+      <h3>${safe(p.title)}</h3>
+      <p>${safe(p.description)}</p>
+      ${p.linkLabel?`<a class="cl" href="${safe(p.linkHref||'#')}" ${p.linkHref&&p.linkHref.startsWith('http')?'target="_blank" rel="noopener"':''}>${safe(p.linkLabel)} →</a>`:''}
+    </div>
+  `).join('');
+
+  const spotlight=cfg.pillars.spotlight||{};
+  const spotlightHtml=spotlight.title?`
+    <div class="sp">
+      <div>
+        <span class="sp-ey">${safe(spotlight.eyebrow||'Spotlight')}</span>
+        <h3>${safe(spotlight.title)}</h3>
+        <p>${safe(spotlight.description)}</p>
+        <div class="sa">
+          <strong>${safe(spotlight.attribution||'')}</strong>
+          <span>${safe(spotlight.attributionDetail||'')}</span>
+        </div>
+      </div>
+      ${spotlight.image?`<img src="${safe(spotlight.image)}" alt="${safe(spotlight.imageAlt||'')}" onerror="this.outerHTML='<div class=&quot;sp-ph&quot;><div class=&quot;ic&quot;>🏅</div><div class=&quot;fn&quot;>${safe(spotlight.image)}</div></div>'">`:`<div class="sp-ph"><div class="ic">🏅</div><div class="fn">${safe(spotlight.image||'photo.jpg')}</div></div>`}
+    </div>
+  `:'';
+
+  const schol=cfg.scholarships||{};
+  const scholAwards=(schol.awards||[]).map(a=>`
+    <div class="ai">
+      <div class="aic">${safe(a.icon||'🎓')}</div>
+      <div class="ain"><h4>${safe(a.title)}</h4><p>${safe(a.description)}</p></div>
+    </div>
+  `).join('');
+  const scholButtons=(schol.buttons||[]).map(b=>`
+    <a class="btn ${b.style==='outline'?'bob':'bb'}" href="${safe(b.href)}" target="_blank" rel="noopener" style="${b.style==='outline'?'color:var(--bd);border-color:var(--bd);':''}">${safe(b.label)}</a>
+  `).join('');
+
+  const valor=cfg.valor||{};
+  const valorAwards=(valor.awards||[]).map(a=>`
+    <div class="ai">
+      <div class="aic">${safe(a.icon||'🏅')}</div>
+      <div class="ain"><h4>${safe(a.title)}</h4><p>${safe(a.description)}</p></div>
+    </div>
+  `).join('');
+
+  const events=cfg.events||{};
+  const eventsHtml=(events.items||[]).map(e=>`
+    <div class="ev-i">
+      <div class="ed"><div class="mo">${safe(e.month||'')}</div><div class="dy">${safe(e.day||'')}</div><div class="yr">${safe(e.year||'')}</div></div>
+      <div class="eb"><h3>${safe(e.title)}</h3><p>${safe(e.description)}</p></div>
+      <div class="ea">${e.ctaLabel?`<a class="btn bb" href="${safe(e.ctaHref||'#')}" target="_blank" rel="noopener">${safe(e.ctaLabel)}</a>`:''}</div>
+    </div>
+  `).join('');
+
+  const galleries=cfg.galleries||{};
+  const galleriesHtml=(galleries.collections||[]).map(g=>`
+    <div class="gal-wrap">
+      <div class="gal-lbl">${safe(g.title)}</div>
+      ${g.sourceUrl?`<div class="gal-src">📸 Photos courtesy of <a href="${safe(g.sourceUrl)}" target="_blank" rel="noopener">${safe(g.sourceLabel||'Tom Zapcic Photography')}</a></div>`:''}
+      <div class="gal">
+        ${(g.photos||[]).map(p=>`
+          <div class="gi">
+            <img src="${safe(p.src)}" alt="${safe(p.alt||'')}" onerror="this.parentElement.innerHTML='<div class=&quot;gi-ph&quot;><div class=&quot;ic&quot;>📸</div><div class=&quot;fn&quot;>${safe(p.src)}</div></div>'">
+            <div class="gi-ov"><span>View ↗</span></div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+
+  const mem=cfg.membership||{};
+  const donate=cfg.donate||{};
+  const invitationHtml=`
+    <div class="iv">
+      <div class="iv-c">
+        <div class="ivh">
+          <h3>${safe(mem.title||'Become a Member')}</h3>
+          <p>${safe(mem.description||'')}</p>
+        </div>
+        <div class="ivc">
+          <h4>${safe(mem.benefitsHeading||'Member Benefits')}</h4>
+          <ul>${(mem.benefits||[]).map(b=>`<li>${safe(b)}</li>`).join('')}</ul>
+        </div>
+        <p class="fine">${safe(mem.fine||'')}</p>
+        <a class="btn bb" href="${safe(mem.ctaHref||'#contact')}" ${mem.ctaHref&&mem.ctaHref.startsWith('http')?'target="_blank" rel="noopener"':''}>${safe(mem.ctaLabel||'Apply for Membership')}</a>
+      </div>
+      <div class="iv-c">
+        <div class="ivh">
+          <h3>${safe(donate.title||'Make a Donation')}</h3>
+          <p>${safe(donate.description||'')}</p>
+        </div>
+        <div class="ivc">
+          <h4>${safe(donate.benefitsHeading||'Your Gift Supports')}</h4>
+          <ul>${(donate.benefits||[]).map(b=>`<li>${safe(b)}</li>`).join('')}</ul>
+        </div>
+        ${donate.qrImage||donate.qrNote?`
+        <div class="qr-wrap">
+          <div class="qr-img">${donate.qrImage?`<img src="${safe(donate.qrImage)}" alt="PayPal QR code" onerror="this.parentElement.innerHTML='<div class=&quot;qr-ph&quot;>📱<br/>QR<br/>${safe(donate.qrImage)}</div>'">`:'<div class="qr-ph">📱<br/>QR</div>'}</div>
+          <div class="qr-tx"><strong>Scan to donate</strong><p>${safe(donate.qrNote||'Open your phone camera and point it at the QR code.')}</p></div>
+        </div>`:''}
+        <p class="fine">${safe(donate.fine||'')}</p>
+        <a class="btn bb" href="${safe(donate.ctaHref||'#')}" target="_blank" rel="noopener">${safe(donate.ctaLabel||'Donate via PayPal')}</a>
+      </div>
+    </div>
+  `;
+
+  const caseStudies=(cfg.caseStudies.items||[]).map(c=>`
+    <div class="scc">
+      <span class="bdg">${safe(c.badge||'')}</span>
+      <h3>${safe(c.title)}</h3>
+      <p>${safe(c.story)}</p>
+    </div>
+  `).join('');
+
+  const press=(cfg.press.items||[]).map(p=>`
+    <a class="pi" href="${safe(p.url||'#')}" ${p.url&&p.url!=='#'?'target="_blank" rel="noopener"':''}>
+      <div class="pio">${safe(p.icon||'📰')}</div>
+      <div><div class="pt">${safe(p.title)}</div><div class="ps2">${safe(p.outlet)}</div></div>
+    </a>
+  `).join('');
+
+  const contact=cfg.contact||{};
+  const formProvider=contact.formProvider||'demo';
+  const formAction=formProvider==='formspree'&&contact.formAction?`action="${safe(contact.formAction)}" method="POST"`:'';
+
+  const footer=cfg.footer||{};
+  const footerLinks=(footer.columns||[]).map(col=>`
+    <div class="fc">
+      <h5>${safe(col.heading||'')}</h5>
+      <ul>${(col.links||[]).map(l=>`<li><a href="${safe(l.href||'#')}" ${l.href&&l.href.startsWith('http')?'target="_blank" rel="noopener"':''}>${safe(l.label)}</a></li>`).join('')}</ul>
+    </div>
+  `).join('');
+
+  app.innerHTML=`
+    <nav>
+      <div class="ni">
+        <a class="logo" href="#top" aria-label="${safe(cfg.brand.name)} — Home">
+          ${logoHtml()}
+          <div class="logo-t">${safe(cfg.brand.name)}<small>${safe(cfg.brand.tagline||'')}</small></div>
+        </a>
+        <ul class="nl">
+          ${(cfg.nav.links||[]).map(l=>`<li><a href="${safe(l.href)}">${safe(l.label)}</a></li>`).join('')}
+          ${cfg.nav.ctaLabel?`<li><a class="ncta" href="${safe(cfg.nav.ctaHref||'#')}" target="_blank" rel="noopener">${safe(cfg.nav.ctaLabel)}</a></li>`:''}
+        </ul>
+        <button class="ham" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+      <div class="mob">
+        ${(cfg.nav.links||[]).map(l=>`<a href="${safe(l.href)}">${safe(l.label)}</a>`).join('')}
+        ${cfg.nav.ctaLabel?`<a class="mc" href="${safe(cfg.nav.ctaHref||'#')}" target="_blank" rel="noopener">${safe(cfg.nav.ctaLabel)}</a>`:''}
+      </div>
+    </nav>
+
+    <div id="top"></div>
+
+    <section class="hero">
+      ${heroSlides}
+      ${cfg.hero.stat?`<div class="hst"><span class="n">${safe(cfg.hero.stat.number)}</span><span class="l">${safe(cfg.hero.stat.label)}</span></div>`:''}
+      <div class="hs-ctl">${heroDots}</div>
+    </section>
+
+    ${cfg.missionBar&&cfg.missionBar.text?`<section class="mb"><p>${cfg.missionBar.text}</p></section>`:''}
+
+    <section class="s" id="mission">
+      <span class="ey">${safe(cfg.pillars.eyebrow||'Our Mission')}</span>
+      <h2 class="d">${safe(cfg.pillars.title||'')}</h2>
+      <div class="rule"></div>
+      <div class="prose">${(cfg.pillars.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+      <div class="pl">${pillarsHtml}</div>
+      ${spotlightHtml}
+    </section>
+
+    <section class="s s-bl" id="scholarships">
+      <div class="tc">
+        <div class="tc-l">
+          <span class="ey">${safe(schol.eyebrow||'Scholarships')}</span>
+          <h2 class="d">${safe(schol.title||'')}</h2>
+          <div class="rule"></div>
+          <div class="prose">${(schol.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+          ${schol.stat?`<div class="sb2"><span class="big">${safe(schol.stat.number)}</span><p>${safe(schol.stat.label)}</p></div>`:''}
+          <div class="al">${scholAwards}</div>
+          <div class="btn-row">${scholButtons}</div>
+        </div>
+        <div>
+          <div class="ps">
+            ${(schol.photos||[]).map((p,i)=>`
+              <div class="ps-img ${i===0?'on':''}" data-ps="scholar" data-idx="${i}">
+                ${p.src?`<img src="${safe(p.src)}" alt="${safe(p.alt||'')}" onerror="this.parentElement.innerHTML='<div class=&quot;ps-ph&quot;><div class=&quot;ic&quot;>🎓</div><div class=&quot;fn&quot;>${safe(p.src)}</div></div>'">`:`<div class="ps-ph"><div class="ic">🎓</div><div class="fn">photo.jpg</div></div>`}
+              </div>
+            `).join('')}
+            ${(schol.photos||[]).length>1?`<div class="ps-dots">${(schol.photos||[]).map((_,i)=>`<button class="ps-dot ${i===0?'on':''}" data-ps="scholar" data-idx="${i}" aria-label="Photo ${i+1}"></button>`).join('')}</div>`:''}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s" id="valor">
+      <div class="tc rev">
+        <div class="tc-l">
+          <span class="ey">${safe(valor.eyebrow||'Valor Awards')}</span>
+          <h2 class="d">${safe(valor.title||'')}</h2>
+          <div class="rule"></div>
+          <div class="prose">${(valor.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+          <div class="al">${valorAwards}</div>
+          ${valor.ctaLabel?`<a class="btn bb" href="${safe(valor.ctaHref||'#')}" target="_blank" rel="noopener" style="margin-top:24px;">${safe(valor.ctaLabel)}</a>`:''}
+        </div>
+        <div>
+          <div class="ps">
+            ${(valor.photos||[]).map((p,i)=>`
+              <div class="ps-img ${i===0?'on':''}" data-ps="valor" data-idx="${i}">
+                ${p.src?`<img src="${safe(p.src)}" alt="${safe(p.alt||'')}" onerror="this.parentElement.innerHTML='<div class=&quot;ps-ph&quot;><div class=&quot;ic&quot;>🏅</div><div class=&quot;fn&quot;>${safe(p.src)}</div></div>'">`:`<div class="ps-ph"><div class="ic">🏅</div><div class="fn">photo.jpg</div></div>`}
+              </div>
+            `).join('')}
+            ${(valor.photos||[]).length>1?`<div class="ps-dots">${(valor.photos||[]).map((_,i)=>`<button class="ps-dot ${i===0?'on':''}" data-ps="valor" data-idx="${i}" aria-label="Photo ${i+1}"></button>`).join('')}</div>`:''}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s s-bl" id="events">
+      <span class="ey">${safe(events.eyebrow||'Events')}</span>
+      <h2 class="d">${safe(events.title||'')}</h2>
+      <div class="rule"></div>
+      <p style="color:var(--m);max-width:700px;">${safe(events.description||'')}</p>
+      <div class="ev">${eventsHtml}</div>
+    </section>
+
+    ${(galleries.collections||[]).length?`
+    <section class="s" id="gallery">
+      <span class="ey">${safe(galleries.eyebrow||'Photo Galleries')}</span>
+      <h2 class="d">${safe(galleries.title||'')}</h2>
+      <div class="rule"></div>
+      ${galleries.description?`<p style="color:var(--m);max-width:700px;margin-bottom:24px;">${safe(galleries.description)}</p>`:''}
+      ${galleriesHtml}
+    </section>`:''}
+
+    <section class="s s-bl" id="join">
+      <span class="ey">${safe(cfg.join.eyebrow||'Get Involved')}</span>
+      <h2 class="d">${safe(cfg.join.title||'')}</h2>
+      <div class="rule"></div>
+      <p style="color:var(--m);max-width:700px;">${safe(cfg.join.description||'')}</p>
+      ${invitationHtml}
+    </section>
+
+    <section class="s-dk" id="stories">
+      <div class="s-dk-in">
+        <span class="ey">${safe(cfg.caseStudies.eyebrow||'Stories of Valor')}</span>
+        <h2 class="d" style="color:#fff;">${safe(cfg.caseStudies.title||'')}</h2>
+        <div class="rule"></div>
+        <div class="prose">${(cfg.caseStudies.paragraphs||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+        <div class="cs">${caseStudies}</div>
+      </div>
+    </section>
+
+    ${(cfg.press.items||[]).length?`
+    <section class="s" id="press">
+      <span class="ey">${safe(cfg.press.eyebrow||'Press & Media')}</span>
+      <h2 class="d">${safe(cfg.press.title||'')}</h2>
+      <div class="rule"></div>
+      <div class="pr">${press}</div>
+    </section>`:''}
+
+    <section class="s s-bl" id="contact">
+      <span class="ey">${safe(contact.eyebrow||'Contact')}</span>
+      <h2 class="d">${safe(contact.title||'')}</h2>
+      <div class="rule"></div>
+      <p style="color:var(--m);max-width:700px;">${safe(contact.description||'')}</p>
+      <div class="cx">
+        <div>
+          <div class="cd"><div class="co">📧</div><div><strong>Email</strong><p>${safe(contact.emailNote||'')}</p><a href="mailto:${safe(contact.email||'')}">${safe(contact.email||'')}</a></div></div>
+          <div class="cd"><div class="co">📞</div><div><strong>Phone</strong><p>${safe(contact.phoneNote||'')}</p><a href="tel:${safe(contact.phoneHref||'')}">${safe(contact.phone||'')}</a></div></div>
+          <div class="cd"><div class="co">📍</div><div><strong>Mailing Address</strong><p style="white-space:pre-line;">${safe(contact.address||'')}</p></div></div>
+          <div class="cd"><div class="co">💰</div><div><strong>Donations</strong><p>${safe(contact.donationNote||'Processed securely via PayPal')}</p><a class="btn bb" href="${safe((cfg.donate&&cfg.donate.ctaHref)||'#')}" target="_blank" rel="noopener" style="margin-top:10px;">Donate Now</a></div></div>
+        </div>
+        <div class="cf">
+          <form class="fr" ${formAction} ${formProvider==='demo'?'onsubmit="alert(\'Form set to demo mode — please configure Formspree to receive messages.\');return false;"':''}>
+            <div class="fg"><label>Your Name</label><input type="text" name="name" required></div>
+            <div class="fg"><label>Email</label><input type="email" name="email" required></div>
+            <div class="fg"><label>Subject</label>
+              <select name="subject">
+                <option>General inquiry</option>
+                <option>Membership</option>
+                <option>Sponsorship</option>
+                <option>Media / press</option>
+                <option>Scholarship question</option>
+                <option>Valor Award nomination</option>
+                <option>Event tickets</option>
+              </select>
+            </div>
+            <div class="fg"><label>Message</label><textarea name="message" required></textarea></div>
+            <button class="btn bb" type="submit">${safe(contact.submitLabel||'Send Message')}</button>
+            ${formProvider==='demo'?`<p class="fn-note">Form is in demo mode — configure Formspree in the admin panel to receive submissions.</p>`:''}
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="fi">
+        <div class="fb">
+          <h4>${safe(footer.brandName||cfg.brand.name)}</h4>
+          <p>${safe(footer.blurb||'')}</p>
+        </div>
+        ${footerLinks}
+      </div>
+      <div class="fbot">
+        <div>${safe(footer.copyright||'')}</div>
+        <div>Designed by <a href="${safe((footer.designerCredit&&footer.designerCredit.href)||'https://www.bychevelle.com')}" target="_blank" rel="noopener">${safe((footer.designerCredit&&footer.designerCredit.label)||'Chevelle')}</a></div>
+      </div>
+    </footer>
+  `;
+
+  // Hero slideshow
+  const slides=document.querySelectorAll('.hs');
+  const dots=document.querySelectorAll('.hs-dot');
+  let hi=0;
+  function heroGo(i){
+    slides.forEach(s=>s.classList.remove('on'));
+    dots.forEach(d=>d.classList.remove('on'));
+    if(slides[i])slides[i].classList.add('on');
+    if(dots[i])dots[i].classList.add('on');
+    hi=i;
+  }
+  dots.forEach((d,i)=>d.addEventListener('click',()=>heroGo(i)));
+  if(slides.length>1){setInterval(()=>heroGo((hi+1)%slides.length),6500);}
+
+  // Photo slideshow (scholar, valor)
+  ['scholar','valor'].forEach(key=>{
+    const pics=document.querySelectorAll(`.ps-img[data-ps="${key}"]`);
+    const pdots=document.querySelectorAll(`.ps-dot[data-ps="${key}"]`);
+    let pi=0;
+    function psGo(i){
+      pics.forEach(p=>p.classList.remove('on'));
+      pdots.forEach(d=>d.classList.remove('on'));
+      if(pics[i])pics[i].classList.add('on');
+      if(pdots[i])pdots[i].classList.add('on');
+      pi=i;
+    }
+    pdots.forEach((d,i)=>d.addEventListener('click',()=>psGo(i)));
+    if(pics.length>1){setInterval(()=>psGo((pi+1)%pics.length),5000);}
+  });
+
+  // Mobile menu
+  const ham=document.querySelector('.ham');
+  const mob=document.querySelector('.mob');
+  if(ham&&mob){
+    ham.addEventListener('click',()=>{
+      const open=mob.classList.toggle('open');
+      ham.setAttribute('aria-expanded',open?'true':'false');
+    });
+    mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mob.classList.remove('open');ham.setAttribute('aria-expanded','false');}));
+  }
+})();
+</script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>
