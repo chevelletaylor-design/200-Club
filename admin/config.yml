@@ -1,0 +1,358 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "site"
+        label: "🏛️  Edit Site Content"
+        file: "config.json"
+        fields:
+
+          # === BRAND ===
+          - label: "🏷️  Brand & Logo"
+            name: "brand"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Logo (leave as 'default' to use built-in, or upload custom)", name: "logo", widget: "image", required: false, hint: "Type 'default' in the text below this field to use the built-in 200 logo, or upload your own." }
+              - { label: "Logo alt text", name: "logoAlt", widget: "string" }
+              - { label: "Organization name (shown in header)", name: "name", widget: "string" }
+              - { label: "Tagline (small text under name)", name: "tagline", widget: "string" }
+
+          # === NAVIGATION ===
+          - label: "🧭  Navigation Menu"
+            name: "nav"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Menu links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link (#section or full URL)", name: "href", widget: "string" }
+              - { label: "Donate button label", name: "ctaLabel", widget: "string" }
+              - { label: "Donate button link (PayPal URL)", name: "ctaHref", widget: "string" }
+
+          # === HERO SLIDESHOW ===
+          - label: "🎬  Hero Slideshow (top of page)"
+            name: "hero"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Slides (3 recommended, auto-rotating every 6.5s)"
+                name: "slides"
+                widget: "list"
+                fields:
+                  - { label: "Eyebrow (small text above headline)", name: "eyebrow", widget: "string" }
+                  - { label: "Headline (use <em>word</em> to gold-accent a word)", name: "headline", widget: "string" }
+                  - { label: "Subheadline (1-2 sentences)", name: "subheadline", widget: "text" }
+                  - { label: "Primary button label", name: "primaryCtaLabel", widget: "string", required: false }
+                  - { label: "Primary button link", name: "primaryCtaHref", widget: "string", required: false }
+                  - { label: "Secondary button label", name: "secondaryCtaLabel", widget: "string", required: false }
+                  - { label: "Secondary button link", name: "secondaryCtaHref", widget: "string", required: false }
+                  - { label: "Background image", name: "bgImage", widget: "image", required: false }
+                  - { label: "Side image (portrait 4:5)", name: "image", widget: "image", required: false }
+                  - { label: "Side image alt text", name: "imageAlt", widget: "string", required: false }
+              - label: "Corner stat badge"
+                name: "stat"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Number (e.g. $3M+)", name: "number", widget: "string" }
+                  - { label: "Label (e.g. Scholarships Awarded)", name: "label", widget: "string" }
+
+          # === MISSION BAR ===
+          - label: "📣  Mission Bar (scrolling quote)"
+            name: "missionBar"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Quote text (use <em>word</em> to gold-accent words)", name: "text", widget: "text" }
+
+          # === PILLARS (Our Mission) ===
+          - label: "🎯  Our Mission / Three Pillars"
+            name: "pillars"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Intro paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph (HTML allowed)", name: "text", widget: "text" }
+              - label: "Three pillars (shown as cards)"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Number (01, 02, 03)", name: "number", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Link label", name: "linkLabel", widget: "string", required: false }
+                  - { label: "Link URL", name: "linkHref", widget: "string", required: false }
+              - label: "Spotlight card (large dark card below pillars)"
+                name: "spotlight"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description / story", name: "description", widget: "text" }
+                  - { label: "Attribution (person's name)", name: "attribution", widget: "string" }
+                  - { label: "Attribution detail (department, award)", name: "attributionDetail", widget: "string" }
+                  - { label: "Photo", name: "image", widget: "image", required: false }
+                  - { label: "Photo alt text", name: "imageAlt", widget: "string", required: false }
+
+          # === SCHOLARSHIPS ===
+          - label: "🎓  Scholarships Section"
+            name: "scholarships"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Paragraphs (HTML allowed — use <strong>word</strong> to bold)"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "text", widget: "text" }
+              - label: "Big stat box (e.g. $100K+ awarded)"
+                name: "stat"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Big number", name: "number", widget: "string" }
+                  - { label: "Description line", name: "label", widget: "string" }
+              - label: "Scholarship types (list)"
+                name: "awards"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+              - label: "Action buttons"
+                name: "buttons"
+                widget: "list"
+                fields:
+                  - { label: "Button label", name: "label", widget: "string" }
+                  - { label: "Link (JotForm URL)", name: "href", widget: "string" }
+                  - { label: "Style", name: "style", widget: "select", options: ["solid", "outline"], default: "solid" }
+              - label: "Photo carousel (rotates automatically)"
+                name: "photos"
+                widget: "list"
+                fields:
+                  - { label: "Photo", name: "src", widget: "image" }
+                  - { label: "Alt text", name: "alt", widget: "string", required: false }
+
+          # === VALOR ===
+          - label: "🏅  Valor Awards Section"
+            name: "valor"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "text", widget: "text" }
+              - label: "Award types"
+                name: "awards"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+              - { label: "CTA button label", name: "ctaLabel", widget: "string", required: false }
+              - { label: "CTA link (nomination form URL)", name: "ctaHref", widget: "string", required: false }
+              - label: "Photo carousel"
+                name: "photos"
+                widget: "list"
+                fields:
+                  - { label: "Photo", name: "src", widget: "image" }
+                  - { label: "Alt text", name: "alt", widget: "string", required: false }
+
+          # === EVENTS ===
+          - label: "📅  Events & Tickets"
+            name: "events"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Events list"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Month (3-letter abbreviation, e.g. Jun)", name: "month", widget: "string" }
+                  - { label: "Day (e.g. 05)", name: "day", widget: "string" }
+                  - { label: "Year", name: "year", widget: "string" }
+                  - { label: "Event title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Button label", name: "ctaLabel", widget: "string" }
+                  - { label: "Ticket link", name: "ctaHref", widget: "string" }
+
+          # === GALLERIES ===
+          - label: "📸  Photo Galleries"
+            name: "galleries"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Gallery collections (one per event/year)"
+                name: "collections"
+                widget: "list"
+                fields:
+                  - { label: "Gallery title (e.g. '200 Club Awards · 2025')", name: "title", widget: "string" }
+                  - { label: "Source URL (link to full SmugMug gallery)", name: "sourceUrl", widget: "string", required: false }
+                  - { label: "Source label (e.g. 'View full gallery on SmugMug')", name: "sourceLabel", widget: "string", required: false }
+                  - label: "Photos in this gallery"
+                    name: "photos"
+                    widget: "list"
+                    fields:
+                      - { label: "Photo", name: "src", widget: "image" }
+                      - { label: "Alt text", name: "alt", widget: "string", required: false }
+
+          # === JOIN / GET INVOLVED ===
+          - label: "🤝  Get Involved Section"
+            name: "join"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          # === MEMBERSHIP CARD ===
+          - label: "👥  Membership Card"
+            name: "membership"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Benefits heading", name: "benefitsHeading", widget: "string" }
+              - label: "Benefits list"
+                name: "benefits"
+                widget: "list"
+                field: { label: "Benefit", name: "benefit", widget: "string" }
+              - { label: "Fine print", name: "fine", widget: "string", required: false }
+              - { label: "Button label", name: "ctaLabel", widget: "string" }
+              - { label: "Button link (new Formspree form OR mailto link)", name: "ctaHref", widget: "string", hint: "Replace with the new membership form URL once created." }
+
+          # === DONATION CARD ===
+          - label: "💰  Donation Card"
+            name: "donate"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Benefits heading", name: "benefitsHeading", widget: "string" }
+              - label: "Benefits list"
+                name: "benefits"
+                widget: "list"
+                field: { label: "Benefit", name: "benefit", widget: "string" }
+              - { label: "PayPal QR code image", name: "qrImage", widget: "image", required: false }
+              - { label: "QR code note", name: "qrNote", widget: "string", required: false }
+              - { label: "Fine print", name: "fine", widget: "string", required: false }
+              - { label: "Button label", name: "ctaLabel", widget: "string" }
+              - { label: "Button link (PayPal URL)", name: "ctaHref", widget: "string" }
+
+          # === CASE STUDIES ===
+          - label: "🛡️  Stories of Valor (dark section)"
+            name: "caseStudies"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Intro paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "text", widget: "text" }
+              - label: "Story cards (3 recommended)"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Badge (e.g. 'Valor Award · Neptune Twp PD')", name: "badge", widget: "string" }
+                  - { label: "Title (person's name)", name: "title", widget: "string" }
+                  - { label: "Story", name: "story", widget: "text" }
+
+          # === PRESS ===
+          - label: "📰  Press & Media"
+            name: "press"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Press items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Article title", name: "title", widget: "string" }
+                  - { label: "Outlet / publication", name: "outlet", widget: "string" }
+                  - { label: "Article URL", name: "url", widget: "string" }
+
+          # === CONTACT ===
+          - label: "📬  Contact Section"
+            name: "contact"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Email address", name: "email", widget: "string" }
+              - { label: "Email note", name: "emailNote", widget: "string" }
+              - { label: "Phone number (display)", name: "phone", widget: "string" }
+              - { label: "Phone number (tel: link, digits only)", name: "phoneHref", widget: "string" }
+              - { label: "Phone note (hours, etc.)", name: "phoneNote", widget: "string" }
+              - { label: "Mailing address (use line breaks)", name: "address", widget: "text" }
+              - { label: "Donation card note", name: "donationNote", widget: "string" }
+              - { label: "Submit button label", name: "submitLabel", widget: "string" }
+              - { label: "Form provider", name: "formProvider", widget: "select", options: ["demo", "formspree"], default: "demo", hint: "Keep as 'demo' until Formspree is set up." }
+              - { label: "Formspree form URL (once set up)", name: "formAction", widget: "string", required: false }
+
+          # === FOOTER ===
+          - label: "📎  Footer"
+            name: "footer"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Brand name in footer", name: "brandName", widget: "string" }
+              - { label: "Footer blurb", name: "blurb", widget: "text" }
+              - label: "Footer link columns"
+                name: "columns"
+                widget: "list"
+                fields:
+                  - { label: "Column heading", name: "heading", widget: "string" }
+                  - label: "Links in this column"
+                    name: "links"
+                    widget: "list"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+                      - { label: "URL", name: "href", widget: "string" }
+              - { label: "Copyright line", name: "copyright", widget: "string" }
+              - label: "Designer credit"
+                name: "designerCredit"
+                widget: "object"
+                fields:
+                  - { label: "Credit label", name: "label", widget: "string" }
+                  - { label: "Credit URL", name: "href", widget: "string" }
