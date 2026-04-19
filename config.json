@@ -1,69 +1,139 @@
 {
-  "brand": {
-    "logo": "default",
-    "logoAlt": "The 200 Club of Monmouth County",
-    "name": "The 200 Club",
-    "tagline": "of Monmouth County"
+  "contact": {
+    "phoneNote": "Mon–Fri, 9am–5pm ET",
+    "donationNote": "Processed securely via PayPal",
+    "eyebrow": "Contact Us",
+    "phone": "(732) 555-0200",
+    "emailNote": "General inquiries and media",
+    "address": "The 200 Club of Monmouth County\nP.O. Box 200\nRed Bank, NJ 07701",
+    "formProvider": "demo",
+    "title": "Get in Touch",
+    "phoneHref": "+17325550200",
+    "formAction": "",
+    "submitLabel": "Send Message",
+    "email": "staylor@monmouth200club.com",
+    "description": "We'd love to hear from you — membership, sponsorship, media, or anything else."
+  },
+  "press": {
+    "eyebrow": "Press & Media",
+    "title": "The 200 Club in the News",
+    "items": [
+      {
+        "icon": "📰",
+        "title": "Eight Members of Law Enforcement Honored with Valor Awards for Exceptional Bravery",
+        "outlet": "Asbury Park Press",
+        "url": "#"
+      },
+      {
+        "icon": "📰",
+        "title": "200 Club Awards Over $100,000 in College Scholarships",
+        "outlet": "Atlantic Highlands Herald",
+        "url": "#"
+      },
+      {
+        "icon": "📰",
+        "title": "President Mary Pat Angelini Discusses 200 Club Scholarship Awards",
+        "outlet": "OnNJ",
+        "url": "#"
+      },
+      {
+        "icon": "📺",
+        "title": "Chasing News — 200 Club Valor Awards Coverage",
+        "outlet": "Channel 9 / Fox 5",
+        "url": "#"
+      },
+      {
+        "icon": "📰",
+        "title": "The 200 Club Of Monmouth County Honors Scholarship Winners",
+        "outlet": "The Patch",
+        "url": "#"
+      },
+      {
+        "icon": "📰",
+        "title": "Valor Awards Recognize Extraordinary Acts by Local First Responders",
+        "outlet": "Coast Star",
+        "url": "#"
+      }
+    ]
   },
   "nav": {
     "links": [
-      { "label": "Mission", "href": "#mission" },
-      { "label": "Scholarships", "href": "#scholarships" },
-      { "label": "Valor Awards", "href": "#valor" },
-      { "label": "Events", "href": "#events" },
-      { "label": "Gallery", "href": "#gallery" },
-      { "label": "Join", "href": "#join" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Mission",
+        "href": "#mission"
+      },
+      {
+        "label": "Scholarships",
+        "href": "#scholarships"
+      },
+      {
+        "label": "Valor Awards",
+        "href": "#valor"
+      },
+      {
+        "label": "Events",
+        "href": "#events"
+      },
+      {
+        "label": "Gallery",
+        "href": "#gallery"
+      },
+      {
+        "label": "Join",
+        "href": "#join"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ],
     "ctaLabel": "Donate",
     "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
   },
-  "hero": {
-    "slides": [
+  "valor": {
+    "eyebrow": "Valor Awards",
+    "title": "Recognizing Extraordinary Bravery",
+    "paragraphs": [
+      "Each year at our Annual Awards Luncheon, The 200 Club recognizes first responders who went above and beyond. Awards range from Certificates of Recognition to The Valor Award — our highest honor."
+    ],
+    "awards": [
       {
-        "eyebrow": "Honoring First Responders Since 1971",
-        "headline": "Standing Beside Those Who <em>Answer the Call</em>",
-        "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
-        "primaryCtaLabel": "Make a Donation",
-        "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
-        "secondaryCtaLabel": "Learn Our Mission",
-        "secondaryCtaHref": "#mission",
-        "bgImage": "assets/images/hero-1.jpg",
-        "image": "assets/images/hero-1.jpg",
-        "imageAlt": "Officer group photo"
+        "icon": "🥇",
+        "title": "The Valor Award",
+        "description": "Highest honor — extraordinary bravery that placed an officer's life at risk."
       },
       {
-        "eyebrow": "2025 Scholarships",
-        "headline": "Over <em>$100,000</em> Awarded in 2025",
-        "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
-        "primaryCtaLabel": "Apply Now",
-        "primaryCtaHref": "https://form.jotform.com/261056633582155",
-        "secondaryCtaLabel": "Ben Danskin Scholarship",
-        "secondaryCtaHref": "https://form.jotform.com/261056066290151",
-        "bgImage": "assets/images/hero-2.jpg",
-        "image": "assets/images/hero-2.jpg",
-        "imageAlt": "Scholarship ceremony"
+        "icon": "🏅",
+        "title": "Meritorious Service Award",
+        "description": "Exceptional performance of duty demonstrating outstanding skill and judgment."
       },
       {
-        "eyebrow": "Annual Valor Awards",
-        "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
-        "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
-        "primaryCtaLabel": "Submit a Nomination",
-        "primaryCtaHref": "https://form.jotform.com/261055906149156",
-        "secondaryCtaLabel": "Luncheon Tickets",
-        "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
-        "bgImage": "assets/images/hero-3.jpg",
-        "image": "assets/images/hero-3.jpg",
-        "imageAlt": "Valor Awards ceremony"
+        "icon": "📜",
+        "title": "Certificate of Recognition",
+        "description": "Acknowledges first responders for notable acts of service to the community."
       }
     ],
-    "stat": {
-      "number": "$3M+",
-      "label": "Scholarships Awarded"
-    }
+    "ctaLabel": "Submit a Nomination",
+    "ctaHref": "https://form.jotform.com/261055906149156",
+    "photos": [
+      {
+        "src": "assets/images/valor-medal.jpg",
+        "alt": "Valor Medal"
+      },
+      {
+        "src": "assets/images/luncheon-1.jpg",
+        "alt": "Awards Luncheon 2025"
+      }
+    ]
   },
   "missionBar": {
     "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> — not weeks."
+  },
+  "brand": {
+    "logo": "/assets/images/logo.jpg.gif",
+    "logoAlt": "The 200 Club of Monmouth County",
+    "name": "The 200 Club",
+    "tagline": "of Monmouth County"
   },
   "pillars": {
     "eyebrow": "Our Mission",
@@ -104,6 +174,126 @@
       "imageAlt": "Officer Russo"
     }
   },
+  "join": {
+    "eyebrow": "Get Involved",
+    "title": "Two Ways to Stand With First Responders",
+    "description": "Become a member to join a community that has backed Monmouth County first responders since 1971, or make a one-time donation to directly support our mission."
+  },
+  "donate": {
+    "ctaLabel": "Donate via PayPal",
+    "benefitsHeading": "Your Gift Supports",
+    "qrNote": "Scan with your phone camera to open PayPal directly.",
+    "title": "Make a Donation",
+    "fine": "Donations are separate from membership dues and go directly to our mission programs.",
+    "qrImage": "assets/images/paypal-qr.png",
+    "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
+    "benefits": [
+      "Immediate aid to families of fallen or injured first responders",
+      "Supports college scholarships for children of first responders",
+      "Funds Valor Awards and community programs",
+      "100% of donations go to mission programs"
+    ],
+    "description": "Your gift helps us deliver financial support to families in crisis and fund life-changing scholarships for first responders' children."
+  },
+  "galleries": {
+    "eyebrow": "Photo Galleries",
+    "title": "Moments From Our Events",
+    "description": "All photography generously provided by Tom Zapcic Photography. Click any gallery heading to view the full set on SmugMug.",
+    "collections": [
+      {
+        "title": "200 Club Awards · 2025",
+        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
+        "sourceLabel": "View full gallery on Tom Zapcic Photography",
+        "photos": [
+          {
+            "src": "assets/images/awards-2025-1.jpg",
+            "alt": "2025 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2025-2.jpg",
+            "alt": "2025 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2025-3.jpg",
+            "alt": "2025 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2025-4.jpg",
+            "alt": "2025 Awards Luncheon"
+          }
+        ]
+      },
+      {
+        "title": "Scholarships · 2025",
+        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
+        "sourceLabel": "View full gallery on Tom Zapcic Photography",
+        "photos": [
+          {
+            "src": "assets/images/scholar-2025-1.jpg",
+            "alt": "2025 Scholarship Social"
+          },
+          {
+            "src": "assets/images/scholar-2025-2.jpg",
+            "alt": "2025 Scholarship Social"
+          },
+          {
+            "src": "assets/images/scholar-2025-3.jpg",
+            "alt": "2025 Scholarship Social"
+          },
+          {
+            "src": "assets/images/scholar-2025-4.jpg",
+            "alt": "2025 Scholarship Social"
+          }
+        ]
+      },
+      {
+        "title": "Golf Outing · 2025",
+        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
+        "sourceLabel": "View full gallery on Tom Zapcic Photography",
+        "photos": [
+          {
+            "src": "assets/images/golf-2025-1.jpg",
+            "alt": "2025 Golf Outing"
+          },
+          {
+            "src": "assets/images/golf-2025-2.jpg",
+            "alt": "2025 Golf Outing"
+          },
+          {
+            "src": "assets/images/golf-2025-3.jpg",
+            "alt": "2025 Golf Outing"
+          },
+          {
+            "src": "assets/images/golf-2025-4.jpg",
+            "alt": "2025 Golf Outing"
+          }
+        ]
+      },
+      {
+        "title": "200 Club Awards · 2024",
+        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
+        "sourceLabel": "View full gallery on Tom Zapcic Photography",
+        "photos": [
+          {
+            "src": "assets/images/awards-2024-1.jpg",
+            "alt": "2024 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2024-2.jpg",
+            "alt": "2024 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2024-3.jpg",
+            "alt": "2024 Awards Luncheon"
+          },
+          {
+            "src": "assets/images/awards-2024-4.jpg",
+            "alt": "2024 Awards Luncheon"
+          }
+        ]
+      }
+    ]
+  },
   "scholarships": {
     "eyebrow": "Scholarships",
     "title": "Investing in the Next Generation",
@@ -140,39 +330,56 @@
       }
     ],
     "photos": [
-      { "src": "assets/images/scholarship-1.jpg", "alt": "Scholarship recipients 2025" },
-      { "src": "assets/images/scholarship-2.jpg", "alt": "Scholarship ceremony" },
-      { "src": "assets/images/scholarship-3.jpg", "alt": "Scholarship recipients group" }
+      {
+        "src": "assets/images/scholarship-1.jpg",
+        "alt": "Scholarship recipients 2025"
+      },
+      {
+        "src": "assets/images/scholarship-2.jpg",
+        "alt": "Scholarship ceremony"
+      },
+      {
+        "src": "assets/images/scholarship-3.jpg",
+        "alt": "Scholarship recipients group"
+      }
     ]
   },
-  "valor": {
-    "eyebrow": "Valor Awards",
-    "title": "Recognizing Extraordinary Bravery",
+  "membership": {
+    "title": "Become a Member",
+    "description": "Members are the backbone of The 200 Club. Your annual dues directly fund family assistance when tragedy strikes a first responder.",
+    "benefitsHeading": "Member Benefits",
+    "benefits": [
+      "Supports immediate aid to families of fallen or injured first responders",
+      "Enables scholarships for first responders' children",
+      "Invitation to all 200 Club events",
+      "Your dependents are eligible for annual scholarships"
+    ],
+    "fine": "Membership is subject to approval by the Executive Board. Must be referred by an existing member.",
+    "ctaLabel": "Request Membership Info",
+    "ctaHref": "mailto:staylor@monmouth200club.com?subject=Membership%20Inquiry"
+  },
+  "caseStudies": {
+    "eyebrow": "Stories of Valor",
+    "title": "Real People. Real Bravery.",
     "paragraphs": [
-      "Each year at our Annual Awards Luncheon, The 200 Club recognizes first responders who went above and beyond. Awards range from Certificates of Recognition to The Valor Award — our highest honor."
+      "These are a few of the first responders recognized by The 200 Club in recent years — and the moments that defined their service."
     ],
-    "awards": [
+    "items": [
       {
-        "icon": "🥇",
-        "title": "The Valor Award",
-        "description": "Highest honor — extraordinary bravery that placed an officer's life at risk."
+        "badge": "Valor Award · Neptune Twp PD",
+        "title": "Officer Dominique Russo",
+        "story": "Five-foot-one. A cocked .45 in clear sight. Officer Russo chased the suspect on foot, took him to the ground single-handedly, and got the gun off the street. \"I'm just doing what I signed up for.\""
       },
       {
-        "icon": "🏅",
-        "title": "Meritorious Service Award",
-        "description": "Exceptional performance of duty demonstrating outstanding skill and judgment."
+        "badge": "Valor Award · Marlboro PD",
+        "title": "Five Marlboro Officers",
+        "story": "A teenager pinned between two cars — one on fire. Officers used a patrol vehicle to pry the cars apart and pulled 17-year-old Rebecca Kniffin to safety. They were later reunited at the Valor Awards ceremony."
       },
       {
-        "icon": "📜",
-        "title": "Certificate of Recognition",
-        "description": "Acknowledges first responders for notable acts of service to the community."
+        "badge": "Valor Award · Manalapan Twp PD",
+        "title": "Officer Adam Sosnowski",
+        "story": "A suicidal man drew a weapon and pointed it directly at him. Officer Sosnowski disarmed him through quick action and training — choosing to save a life rather than take one."
       }
-    ],
-    "ctaLabel": "Submit a Nomination",
-    "ctaHref": "https://form.jotform.com/261055906149156",
-    "photos": [
-      { "src": "assets/images/valor-medal.jpg", "alt": "Valor Medal" },
-      { "src": "assets/images/luncheon-1.jpg", "alt": "Awards Luncheon 2025" }
     ]
   },
   "events": {
@@ -209,142 +416,49 @@
       }
     ]
   },
-  "galleries": {
-    "eyebrow": "Photo Galleries",
-    "title": "Moments From Our Events",
-    "description": "All photography generously provided by Tom Zapcic Photography. Click any gallery heading to view the full set on SmugMug.",
-    "collections": [
+  "hero": {
+    "slides": [
       {
-        "title": "200 Club Awards · 2025",
-        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
-        "sourceLabel": "View full gallery on Tom Zapcic Photography",
-        "photos": [
-          { "src": "assets/images/awards-2025-1.jpg", "alt": "2025 Awards Luncheon" },
-          { "src": "assets/images/awards-2025-2.jpg", "alt": "2025 Awards Luncheon" },
-          { "src": "assets/images/awards-2025-3.jpg", "alt": "2025 Awards Luncheon" },
-          { "src": "assets/images/awards-2025-4.jpg", "alt": "2025 Awards Luncheon" }
-        ]
+        "primaryCtaLabel": "Make a Donation",
+        "secondaryCtaHref": "#mission",
+        "eyebrow": "Honoring First Responders Since 1971",
+        "imageAlt": "Officer group photo",
+        "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
+        "headline": "Standing Beside Those Who <em>Answer the Call</em>",
+        "bgImage": "assets/images/hero-1.jpg",
+        "secondaryCtaLabel": "Learn Our Mission",
+        "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
+        "image": "/assets/images/assets-images-hero-1.jpg"
       },
       {
-        "title": "Scholarships · 2025",
-        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
-        "sourceLabel": "View full gallery on Tom Zapcic Photography",
-        "photos": [
-          { "src": "assets/images/scholar-2025-1.jpg", "alt": "2025 Scholarship Social" },
-          { "src": "assets/images/scholar-2025-2.jpg", "alt": "2025 Scholarship Social" },
-          { "src": "assets/images/scholar-2025-3.jpg", "alt": "2025 Scholarship Social" },
-          { "src": "assets/images/scholar-2025-4.jpg", "alt": "2025 Scholarship Social" }
-        ]
+        "primaryCtaLabel": "Apply Now",
+        "secondaryCtaHref": "https://form.jotform.com/261056066290151",
+        "eyebrow": "2025 Scholarships",
+        "imageAlt": "Scholarship ceremony",
+        "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
+        "headline": "Over <em>$100,000</em> Awarded in 2025",
+        "bgImage": "assets/images/hero-2.jpg",
+        "secondaryCtaLabel": "Ben Danskin Scholarship",
+        "primaryCtaHref": "https://form.jotform.com/261056633582155",
+        "image": "assets/images/hero-2.jpg"
       },
       {
-        "title": "Golf Outing · 2025",
-        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
-        "sourceLabel": "View full gallery on Tom Zapcic Photography",
-        "photos": [
-          { "src": "assets/images/golf-2025-1.jpg", "alt": "2025 Golf Outing" },
-          { "src": "assets/images/golf-2025-2.jpg", "alt": "2025 Golf Outing" },
-          { "src": "assets/images/golf-2025-3.jpg", "alt": "2025 Golf Outing" },
-          { "src": "assets/images/golf-2025-4.jpg", "alt": "2025 Golf Outing" }
-        ]
-      },
-      {
-        "title": "200 Club Awards · 2024",
-        "sourceUrl": "https://tomzapcicphotography.smugmug.com",
-        "sourceLabel": "View full gallery on Tom Zapcic Photography",
-        "photos": [
-          { "src": "assets/images/awards-2024-1.jpg", "alt": "2024 Awards Luncheon" },
-          { "src": "assets/images/awards-2024-2.jpg", "alt": "2024 Awards Luncheon" },
-          { "src": "assets/images/awards-2024-3.jpg", "alt": "2024 Awards Luncheon" },
-          { "src": "assets/images/awards-2024-4.jpg", "alt": "2024 Awards Luncheon" }
-        ]
+        "primaryCtaLabel": "Submit a Nomination",
+        "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
+        "eyebrow": "Annual Valor Awards",
+        "imageAlt": "Valor Awards ceremony",
+        "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
+        "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
+        "bgImage": "assets/images/hero-3.jpg",
+        "secondaryCtaLabel": "Luncheon Tickets",
+        "primaryCtaHref": "https://form.jotform.com/261055906149156",
+        "image": "assets/images/hero-3.jpg"
       }
-    ]
-  },
-  "join": {
-    "eyebrow": "Get Involved",
-    "title": "Two Ways to Stand With First Responders",
-    "description": "Become a member to join a community that has backed Monmouth County first responders since 1971, or make a one-time donation to directly support our mission."
-  },
-  "membership": {
-    "title": "Become a Member",
-    "description": "Members are the backbone of The 200 Club. Your annual dues directly fund family assistance when tragedy strikes a first responder.",
-    "benefitsHeading": "Member Benefits",
-    "benefits": [
-      "Supports immediate aid to families of fallen or injured first responders",
-      "Enables scholarships for first responders' children",
-      "Invitation to all 200 Club events",
-      "Your dependents are eligible for annual scholarships"
     ],
-    "fine": "Membership is subject to approval by the Executive Board. Must be referred by an existing member.",
-    "ctaLabel": "Request Membership Info",
-    "ctaHref": "mailto:staylor@monmouth200club.com?subject=Membership%20Inquiry"
-  },
-  "donate": {
-    "title": "Make a Donation",
-    "description": "Your gift helps us deliver financial support to families in crisis and fund life-changing scholarships for first responders' children.",
-    "benefitsHeading": "Your Gift Supports",
-    "benefits": [
-      "Immediate aid to families of fallen or injured first responders",
-      "Supports college scholarships for children of first responders",
-      "Funds Valor Awards and community programs",
-      "100% of donations go to mission programs"
-    ],
-    "qrImage": "assets/images/paypal-qr.png",
-    "qrNote": "Scan with your phone camera to open PayPal directly.",
-    "fine": "Donations are separate from membership dues and go directly to our mission programs.",
-    "ctaLabel": "Donate via PayPal",
-    "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
-  },
-  "caseStudies": {
-    "eyebrow": "Stories of Valor",
-    "title": "Real People. Real Bravery.",
-    "paragraphs": [
-      "These are a few of the first responders recognized by The 200 Club in recent years — and the moments that defined their service."
-    ],
-    "items": [
-      {
-        "badge": "Valor Award · Neptune Twp PD",
-        "title": "Officer Dominique Russo",
-        "story": "Five-foot-one. A cocked .45 in clear sight. Officer Russo chased the suspect on foot, took him to the ground single-handedly, and got the gun off the street. \"I'm just doing what I signed up for.\""
-      },
-      {
-        "badge": "Valor Award · Marlboro PD",
-        "title": "Five Marlboro Officers",
-        "story": "A teenager pinned between two cars — one on fire. Officers used a patrol vehicle to pry the cars apart and pulled 17-year-old Rebecca Kniffin to safety. They were later reunited at the Valor Awards ceremony."
-      },
-      {
-        "badge": "Valor Award · Manalapan Twp PD",
-        "title": "Officer Adam Sosnowski",
-        "story": "A suicidal man drew a weapon and pointed it directly at him. Officer Sosnowski disarmed him through quick action and training — choosing to save a life rather than take one."
-      }
-    ]
-  },
-  "press": {
-    "eyebrow": "Press & Media",
-    "title": "The 200 Club in the News",
-    "items": [
-      { "icon": "📰", "title": "Eight Members of Law Enforcement Honored with Valor Awards for Exceptional Bravery", "outlet": "Asbury Park Press", "url": "#" },
-      { "icon": "📰", "title": "200 Club Awards Over $100,000 in College Scholarships", "outlet": "Atlantic Highlands Herald", "url": "#" },
-      { "icon": "📰", "title": "President Mary Pat Angelini Discusses 200 Club Scholarship Awards", "outlet": "OnNJ", "url": "#" },
-      { "icon": "📺", "title": "Chasing News — 200 Club Valor Awards Coverage", "outlet": "Channel 9 / Fox 5", "url": "#" },
-      { "icon": "📰", "title": "The 200 Club Of Monmouth County Honors Scholarship Winners", "outlet": "The Patch", "url": "#" },
-      { "icon": "📰", "title": "Valor Awards Recognize Extraordinary Acts by Local First Responders", "outlet": "Coast Star", "url": "#" }
-    ]
-  },
-  "contact": {
-    "eyebrow": "Contact Us",
-    "title": "Get in Touch",
-    "description": "We'd love to hear from you — membership, sponsorship, media, or anything else.",
-    "email": "staylor@monmouth200club.com",
-    "emailNote": "General inquiries and media",
-    "phone": "(732) 555-0200",
-    "phoneHref": "+17325550200",
-    "phoneNote": "Mon–Fri, 9am–5pm ET",
-    "address": "The 200 Club of Monmouth County\nP.O. Box 200\nRed Bank, NJ 07701",
-    "donationNote": "Processed securely via PayPal",
-    "submitLabel": "Send Message",
-    "formProvider": "demo",
-    "formAction": ""
+    "stat": {
+      "number": "$3M+",
+      "label": "Scholarships Awarded"
+    }
   },
   "footer": {
     "brandName": "The 200 Club of Monmouth County",
@@ -353,26 +467,56 @@
       {
         "heading": "Our Work",
         "links": [
-          { "label": "Our Mission", "href": "#mission" },
-          { "label": "Scholarships", "href": "#scholarships" },
-          { "label": "Valor Awards", "href": "#valor" },
-          { "label": "Events", "href": "#events" }
+          {
+            "label": "Our Mission",
+            "href": "#mission"
+          },
+          {
+            "label": "Scholarships",
+            "href": "#scholarships"
+          },
+          {
+            "label": "Valor Awards",
+            "href": "#valor"
+          },
+          {
+            "label": "Events",
+            "href": "#events"
+          }
         ]
       },
       {
         "heading": "Get Involved",
         "links": [
-          { "label": "Become a Member", "href": "#join" },
-          { "label": "Donate via PayPal", "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU" },
-          { "label": "Event Tickets", "href": "#events" },
-          { "label": "Contact Us", "href": "#contact" }
+          {
+            "label": "Become a Member",
+            "href": "#join"
+          },
+          {
+            "label": "Donate via PayPal",
+            "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+          },
+          {
+            "label": "Event Tickets",
+            "href": "#events"
+          },
+          {
+            "label": "Contact Us",
+            "href": "#contact"
+          }
         ]
       },
       {
         "heading": "Connect",
         "links": [
-          { "label": "Email", "href": "mailto:staylor@monmouth200club.com" },
-          { "label": "Photo Galleries", "href": "https://tomzapcicphotography.smugmug.com" }
+          {
+            "label": "Email",
+            "href": "mailto:staylor@monmouth200club.com"
+          },
+          {
+            "label": "Photo Galleries",
+            "href": "https://tomzapcicphotography.smugmug.com"
+          }
         ]
       }
     ],
