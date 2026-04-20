@@ -437,7 +437,7 @@
         "imageAlt": "Scholarship ceremony",
         "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
         "headline": "Over <em>$100,000</em> Awarded in 2025",
-        "bgImage": "assets/images/hero-2.jpg",
+        "bgImage": "/assets/images/assets-images-hero-2.jpg",
         "secondaryCtaLabel": "Ben Danskin Scholarship",
         "primaryCtaHref": "https://form.jotform.com/261056633582155",
         "image": "assets/images/hero-2.jpg"
