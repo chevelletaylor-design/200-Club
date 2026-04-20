@@ -449,7 +449,7 @@
         "imageAlt": "Valor Awards ceremony",
         "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
         "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
-        "bgImage": "assets/images/hero-3.jpg",
+        "bgImage": "/assets/images/assets-images-hero-3.jpg",
         "secondaryCtaLabel": "Luncheon Tickets",
         "primaryCtaHref": "https://form.jotform.com/261055906149156",
         "image": "assets/images/hero-3.jpg"
