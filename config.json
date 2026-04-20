@@ -428,7 +428,7 @@
         "bgImage": "/assets/images/assets-images-hero-1.jpg",
         "secondaryCtaLabel": "Learn Our Mission",
         "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
-        "image": "/assets/images/assets-images-hero-1.jpg"
+        "image": ""
       },
       {
         "primaryCtaLabel": "Apply Now",
