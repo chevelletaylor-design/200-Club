@@ -425,7 +425,7 @@
         "imageAlt": "Officer group photo",
         "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
         "headline": "Standing Beside Those Who <em>Answer the Call</em>",
-        "bgImage": "assets/images/hero-1.jpg",
+        "bgImage": "/assets/images/assets-images-hero-1.jpg",
         "secondaryCtaLabel": "Learn Our Mission",
         "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
         "image": "/assets/images/assets-images-hero-1.jpg"
