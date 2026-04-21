@@ -335,55 +335,55 @@
           "title": "2023 Valor Awards Luncheon",
           "year": "2023",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2023-valor.jpg"
+          "coverImage": "/assets/images/assets-images-hero-3.jpg"
         },
         {
           "title": "2022 Golf Outing",
           "year": "2022",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7219.jpg.webp"
+          "coverImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7239.jpg.webp"
         },
         {
           "title": "2022 Scholarship Awards",
           "year": "2022",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-scholar.jpg"
+          "coverImage": "/assets/images/assets-images-hero-2.jpg"
         },
         {
           "title": "2022 Valor Awards Luncheon",
           "year": "2022",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-valor.jpg"
+          "coverImage": "/assets/images/assets-images-leadership-2-copy.jpg"
         },
         {
           "title": "2021 Golf Outing",
           "year": "2021",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-golf.jpg"
+          "coverImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7245.jpg.webp"
         },
         {
           "title": "2021 Scholarship Awards",
           "year": "2021",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-scholar.jpg"
+          "coverImage": "/assets/images/_b1a0425.jpg"
         },
         {
           "title": "2021 Valor Awards Luncheon",
           "year": "2021",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-valor.jpg"
+          "coverImage": "/assets/images/9b1a0803.jpg"
         },
         {
           "title": "2020 Virtual Scholarship Awards Ceremony",
           "year": "2020",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2020-scholar.jpg"
+          "coverImage": "/assets/images/assets-images-leadership-2-copy.jpg"
         },
         {
           "title": "2019 Golf Outing",
           "year": "2019",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2019-golf.jpg"
+          "coverImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7245.jpg.webp"
         },
         {
           "title": "2019 Valor Awards Luncheon",
@@ -506,7 +506,7 @@
       "eyebrow": "Get Involved",
       "title": "Stand With First Responders",
       "subheadline": "Become a member, make a donation, or reach out to learn more about supporting the families of those who serve.",
-      "bgImage": "assets/images/join-hero-bg.jpg",
+      "bgImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7245.jpg.webp",
       "bgImageAlt": "Community supporting first responders"
     },
     "intro": {
