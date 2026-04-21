@@ -287,8 +287,8 @@ h2.d{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,44px);line-he
 .pr-i:hover{border-color:var(--navy);border-left-color:var(--gold);background:var(--blue-bg);transform:translateY(-1px);}
 .pr-tx{display:flex;flex-direction:column;gap:6px;}
 .pr-tx .pt{font-family:'DM Serif Display',serif;font-size:15px;font-weight:400;line-height:1.35;color:var(--navy-x);}
-.pr-tx .pm{font-size:11px;color:var(--m);letter-spacing:.3px;}
-.pr-tx .pm .po{font-weight:600;color:var(--gold-d);text-transform:uppercase;letter-spacing:.8px;}
+.pr-tx .pr-meta{font-size:11px;color:var(--m);letter-spacing:.3px;}
+.pr-tx .pr-meta .po{font-weight:600;color:var(--gold-d);text-transform:uppercase;letter-spacing:.8px;}
 
 /* === MEDIA SUB-NAV (sticky, scrolls with page) === */
 .subnav{position:sticky;top:80px;z-index:500;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--br);}
@@ -525,7 +525,7 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
     const items=(cat.items||[]).map(i=>{
       const isExt = i.url && i.url!=='#';
       return '<a class="pr-i" href="'+safe(i.url||'#')+'"'+(isExt?' target="_blank" rel="noopener"':'')+'>'
-        + '<div class="pr-tx"><div class="pt">'+safe(i.title)+'</div><div class="pm"><span class="po">'+safe(i.outlet||'')+'</span>'+(i.date?' \u2022 '+safe(i.date):'')+'</div></div>'
+        + '<div class="pr-tx"><div class="pt">'+safe(i.title)+'</div><div class="pr-meta"><span class="po">'+safe(i.outlet||'')+'</span>'+(i.date?' \u2022 '+safe(i.date):'')+'</div></div>'
         + '</a>';
     }).join('');
     return '<div class="pr-cat"><h3>'+safe(cat.heading||'')+'</h3><div class="pr-list">'+items+'</div></div>';
