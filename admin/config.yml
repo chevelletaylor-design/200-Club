@@ -256,6 +256,18 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
 
+              - label: "Hero Photo Ribbon (rotating strip under page header)"
+                name: "heroRibbon"
+                widget: "object"
+                hint: "A wide photo strip below the hero text. Rotates automatically every 4s."
+                fields:
+                  - label: "Photos (landscape, 3-6 recommended)"
+                    name: "photos"
+                    widget: "list"
+                    fields:
+                      - { label: "Photo (landscape)", name: "src", widget: "image" }
+                      - { label: "Alt text", name: "alt", widget: "string", required: false }
+
               - label: "Scholarships Section"
                 name: "scholarships"
                 widget: "object"
@@ -353,6 +365,8 @@ collections:
                   - { label: "Eyebrow", name: "eyebrow", widget: "string" }
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
+                  - { label: "Hero photo (portrait 4:5 or landscape)", name: "image", widget: "image", required: false }
+                  - { label: "Photo alt text", name: "imageAlt", widget: "string", required: false }
 
               - label: "Events Section"
                 name: "events"
