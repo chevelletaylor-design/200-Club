@@ -1,558 +1,21 @@
 {
-  "nav": {
-    "links": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "About",
-        "href": "about.html"
-      },
-      {
-        "label": "Programs",
-        "href": "programs.html"
-      },
-      {
-        "label": "Media",
-        "href": "media.html"
-      },
-      {
-        "label": "Join",
-        "href": "join.html"
-      }
-    ],
-    "ctaLabel": "Donate",
-    "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
-  },
-  "media": {
-    "hero": {
-      "eyebrow": "Events & Media",
-      "title": "Events, Press, and Moments From Our Mission",
-      "subheadline": "Join us at an upcoming event, browse our photo galleries, or catch up on recent press coverage."
-    },
-    "events": {
-      "eyebrow": "Upcoming Events",
-      "title": "Join Us This Year",
-      "description": "From our Annual Awards Luncheon to golf outings and scholarship socials — every event supports our mission.",
-      "items": [
-        {
-          "month": "Jun",
-          "day": "05",
-          "year": "2026",
-          "title": "54th Annual Awards Luncheon & Valor Awards",
-          "description": "Our signature event honoring Monmouth County first responders for extraordinary bravery. Open to members and the public.",
-          "ctaLabel": "Get Tickets",
-          "ctaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon"
-        },
-        {
-          "month": "Aug",
-          "day": "06",
-          "year": "2026",
-          "title": "15th Annual Scholarship Social",
-          "description": "Celebrating our scholarship recipients and the families of first responders who make it all possible.",
-          "ctaLabel": "Get Tickets",
-          "ctaHref": "https://www.zeffy.com/en-US/ticketing/15th-annual-scholarship-social"
-        },
-        {
-          "month": "Oct",
-          "day": "19",
-          "year": "2026",
-          "title": "43rd Annual Golf Outing",
-          "description": "Our longstanding golf outing at Deal Golf & Country Club — a day on the course in support of first responders and their families.",
-          "ctaLabel": "Get Tickets",
-          "ctaHref": "https://events.ticketleap.com/tickets/the-200-club-of-monmouth-county/43nd-annual-golf-outing"
-        }
-      ]
-    },
-    "press": {
-      "eyebrow": "Press & Media",
-      "title": "The 200 Club in the News",
-      "description": "Coverage of our work, awards, and the first responders we honor.",
-      "categories": [
-        {
-          "heading": "Recent Press Releases",
-          "items": [
-            {
-              "title": "Letter to the Editor in Patch of Monmouth County Honoring 911 First Responders",
-              "outlet": "Patch",
-              "url": "#"
-            },
-            {
-              "title": "President Mary Pat Angelini Discusses 200 Club Scholarship Awards",
-              "outlet": "OnNJ",
-              "url": "#"
-            },
-            {
-              "title": "Eight Members of Law Enforcement Honored by 200 Club of Monmouth County with Valor Awards for Exceptional Bravery",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club Assists Long Branch Police Officer with $5,000 Check",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County State Police Recruit",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County 2020 Valor Awards",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County Virtual Scholarship Award Ceremony August 2020",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County Swearing In June 2020",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "200 Club of Monmouth County Receives Grant from Investors Foundation",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County to Host \"Meet the Chiefs Social\" in Holmdel",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "Scholarship Social 2019",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "Valor Awards 2019",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "New Jersey State Trooper Dies After More Than Three Decades of Suffering from his Line of Duty Injuries",
-              "outlet": "200 Club",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County Awards $109,000 in College Scholarships",
-              "outlet": "200 Club",
-              "url": "#"
-            }
-          ]
-        },
-        {
-          "heading": "In The News",
-          "items": [
-            {
-              "title": "The 200 Club of Monmouth County Honors Scholarship Winners",
-              "outlet": "The Patch",
-              "date": "August 24, 2021",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club of Monmouth County Awards $87,750 in 2021 College Scholarships to Children of Local First Responders",
-              "outlet": "Atlantic Highlands Herald",
-              "date": "August 12, 2021",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club Of Monmouth County Assists Long Branch Police Officer Olski",
-              "outlet": "app.com",
-              "date": "April 9, 2021",
-              "url": "#"
-            },
-            {
-              "title": "The 200 Club Of Monmouth County Supports Long Branch Police Officer Preparing for Kidney Transplant with $5,000 Check",
-              "outlet": "Atlantic Highlands Herald",
-              "date": "April 9, 2021",
-              "url": "#"
-            },
-            {
-              "title": "Sister a Match for Long Branch Police Officer Who Needs Kidney",
-              "outlet": "The Patch",
-              "date": "April 8, 2021",
-              "url": "#"
-            },
-            {
-              "title": "Marlboro NJ Car Crash Teenager Reunites with Officers",
-              "outlet": "CBS 2",
-              "date": "November 6, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Rebecca Kniffin, 17, of Freehold Meets Officers Who Saved Her Life in June Accident",
-              "outlet": "app.com",
-              "date": "November 9, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Long Branch Officer Receives Valor Award from 200 Club of Monmouth County",
-              "outlet": "app.com",
-              "date": "October 27, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Long Branch Officer Korn Receives Valor Award from 200 Club of Monmouth County (Video)",
-              "outlet": "app.com",
-              "date": "October 27, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Manalapan Police Officer Honored for Stopping Gunman in 2019",
-              "outlet": "The Patch",
-              "date": "November 2, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Seven Hero Cops Honored",
-              "outlet": "The Asbury Park Press",
-              "date": "September 30, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Seven Monmouth County Officers Receive The Valor Award for Extraordinary Bravery and Service",
-              "outlet": "AHHerald",
-              "date": "September 30, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Seven Monmouth County Officers Receive The Valor Award",
-              "outlet": "94.3 The Point",
-              "date": "September 28, 2020",
-              "url": "#"
-            },
-            {
-              "title": "Seven Monmouth County Officers Receive The Valor Award",
-              "outlet": "WOBM-FM",
-              "date": "September 28, 2020",
-              "url": "#"
-            },
-            {
-              "title": "200 Club Awards $91,750 in College Scholarships to Children of Local First Responders",
-              "outlet": "AHHerald",
-              "url": "#"
-            },
-            {
-              "title": "200 Club Awards $91,750 in College Scholarships to Children of Local First Responders",
-              "outlet": "The Monmouth Journal",
-              "url": "#"
-            },
-            {
-              "title": "Honecker Named President of 200 Club; Fair Haven's Lucarelli Sworn-In As Vice President",
-              "outlet": "The Monmouth Journal",
-              "url": "#"
-            }
-          ]
-        },
-        {
-          "heading": "Radio & Broadcast",
-          "items": [
-            {
-              "title": "101.5 FM Radio — Blog by Bill Spadea with Interview of Kim Guadagno",
-              "outlet": "101.5 FM",
-              "date": "June 2019",
-              "url": "#"
-            },
-            {
-              "title": "News 12 New Jersey Coverage",
-              "outlet": "News 12",
-              "date": "June 7, 2019",
-              "url": "#"
-            },
-            {
-              "title": "Chasing News",
-              "outlet": "Channel 9 / Fox 5 / Channel 29",
-              "date": "June 7, 2019",
-              "url": "#"
-            },
-            {
-              "title": "Townsquare Media Coverage",
-              "outlet": "92.7 WOBM, 105.7 The Hawk, 94.3 The Point, Beach Radio 1160 & 1310",
-              "date": "June 7, 2019",
-              "url": "#"
-            },
-            {
-              "title": "Tommy G Radio — Interview with Treasurer Ben Lucarelli",
-              "outlet": "Tommy G Radio",
-              "date": "May 5, 2019",
-              "url": "#"
-            },
-            {
-              "title": "Tommy G Radio — Interview with President Kim Guadagno",
-              "outlet": "Tommy G Radio",
-              "date": "February 11, 2019",
-              "url": "#"
-            },
-            {
-              "title": "Joe Piscopo Radio Show — Interview with Kim Guadagno",
-              "outlet": "Joe Piscopo Radio",
-              "date": "December 17, 2018",
-              "url": "#"
-            },
-            {
-              "title": "92.3 The Point FM Radio",
-              "outlet": "92.3 The Point",
-              "date": "November 27, 2018",
-              "url": "#"
-            },
-            {
-              "title": "News 12 New Jersey",
-              "outlet": "News 12",
-              "date": "November 22, 2018",
-              "url": "#"
-            },
-            {
-              "title": "News 12 New Jersey",
-              "outlet": "News 12",
-              "date": "August 18, 2018",
-              "url": "#"
-            }
-          ]
-        }
-      ]
-    },
-    "galleries": {
-      "eyebrow": "Photo Galleries",
-      "title": "Moments From Our Events",
-      "description": "All event photography generously provided by Tom Zapcic Photography.",
-      "sourceUrl": "https://tomzapcicphotography.smugmug.com",
-      "sourceLabel": "View all galleries on Tom Zapcic Photography",
-      "collections": [
-        {
-          "title": "2024 Valor Awards Luncheon",
-          "year": "2024",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2024-valor.jpg"
-        },
-        {
-          "title": "2023 Valor Awards Luncheon",
-          "year": "2023",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2023-valor.jpg"
-        },
-        {
-          "title": "2022 Golf Outing",
-          "year": "2022",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-golf.jpg"
-        },
-        {
-          "title": "2022 Scholarship Awards",
-          "year": "2022",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-scholar.jpg"
-        },
-        {
-          "title": "2022 Valor Awards Luncheon",
-          "year": "2022",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-valor.jpg"
-        },
-        {
-          "title": "2021 Golf Outing",
-          "year": "2021",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-golf.jpg"
-        },
-        {
-          "title": "2021 Scholarship Awards",
-          "year": "2021",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-scholar.jpg"
-        },
-        {
-          "title": "2021 Valor Awards Luncheon",
-          "year": "2021",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2021-valor.jpg"
-        },
-        {
-          "title": "2020 Virtual Scholarship Awards Ceremony",
-          "year": "2020",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2020-scholar.jpg"
-        },
-        {
-          "title": "2019 Golf Outing",
-          "year": "2019",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2019-golf.jpg"
-        },
-        {
-          "title": "2019 Valor Awards Luncheon",
-          "year": "2019",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2019-valor.jpg"
-        },
-        {
-          "title": "2019 Scholarship Social",
-          "year": "2019",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2019-scholar.jpg"
-        },
-        {
-          "title": "2018 Scholarship Awards",
-          "year": "2018",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2018-scholar.jpg"
-        },
-        {
-          "title": "2018 Valor Awards Luncheon",
-          "year": "2018",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2018-valor.jpg"
-        },
-        {
-          "title": "2016 Valor Awards Luncheon",
-          "year": "2016",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2016-valor.jpg"
-        },
-        {
-          "title": "2015 Scholarship Awards",
-          "year": "2015",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2015-scholar.jpg"
-        },
-        {
-          "title": "2014 Scholarship Awards",
-          "year": "2014",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2014-scholar.jpg"
-        },
-        {
-          "title": "2014 Valor Awards Dinner",
-          "year": "2014",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2014-valor.jpg"
-        },
-        {
-          "title": "2013 Valor Awards Dinner",
-          "year": "2013",
-          "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2013-valor.jpg"
-        }
-      ]
-    },
-    "videos": {
-      "eyebrow": "Video Gallery",
-      "title": "Watch Our Story",
-      "description": "Highlights from our Valor Awards, scholarship ceremonies, and the stories of the first responders we honor.",
-      "items": [
-        {
-          "title": "200 Club Feature",
-          "videoId": "QeS4BeOmxN4",
-          "url": "https://youtu.be/QeS4BeOmxN4?si=3mkZan3Er9XkXGwA"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "SNh6CTNTkm4",
-          "url": "https://youtu.be/SNh6CTNTkm4?si=_LQS9z5AU-_qh8hf"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "2iULN3vQL1A",
-          "url": "https://youtu.be/2iULN3vQL1A?si=vSuo7tAcuBB9OdN6"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "_vM7y-T1ARw",
-          "url": "https://youtu.be/_vM7y-T1ARw?si=dQrR-80KTNu20tQc"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "FeS0-L1CdTs",
-          "url": "https://youtu.be/FeS0-L1CdTs?si=82t40kzNCnNVTDO9"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "uQL3H6NQezc",
-          "url": "https://youtu.be/uQL3H6NQezc?si=I9G-uc7N-yoK8VaA"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "-7E5D1tlHpU",
-          "url": "https://youtu.be/-7E5D1tlHpU?si=InnWlPbrmDCe56Yv"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "UhKWGpFRtmE",
-          "url": "https://youtu.be/UhKWGpFRtmE?si=4UQUqZkvog8KGUWZ"
-        },
-        {
-          "title": "200 Club Feature",
-          "videoId": "HKJDLgccUgs",
-          "url": "https://youtu.be/HKJDLgccUgs?si=tPqg_ADRaS7s72Zm"
-        }
-      ]
-    }
-  },
   "brand": {
-    "logo": "/assets/images/logo.jpg.gif",
+    "logo": "assets/images/logo.png",
     "logoAlt": "The 200 Club of Monmouth County",
     "name": "The 200 Club",
     "tagline": "of Monmouth County",
     "motto": "We Remember"
   },
-  "join": {
-    "hero": {
-      "eyebrow": "Get Involved",
-      "title": "Stand With First Responders",
-      "subheadline": "Become a member, make a donation, or reach out to learn more about supporting the families of those who serve."
-    },
-    "intro": {
-      "description": "Two ways to stand with first responders: become a member to join a community that has backed Monmouth County first responders since 1971, or make a one-time donation to directly support our mission."
-    },
-    "membership": {
-      "title": "Become a Member",
-      "description": "Members are the backbone of The 200 Club. Your annual dues directly fund family assistance when tragedy strikes a first responder.",
-      "benefitsHeading": "Member Benefits",
-      "benefits": [
-        "Supports immediate aid to families of fallen or injured first responders",
-        "Enables scholarships for first responders' children",
-        "Invitation to all 200 Club events",
-        "Your dependents are eligible for annual scholarships"
-      ],
-      "fine": "Membership is subject to approval by the Executive Board. Must be referred by an existing member.",
-      "ctaLabel": "Request Membership Info",
-      "ctaHref": "mailto:staylor@monmouth200club.com?subject=Membership%20Inquiry"
-    },
-    "donate": {
-      "ctaLabel": "Donate via PayPal",
-      "benefitsHeading": "Your Gift Supports",
-      "qrNote": "Scan with your phone camera to open PayPal directly.",
-      "title": "Make a Donation",
-      "fine": "Donations are separate from membership dues and go directly to our mission programs.",
-      "qrImage": "assets/images/paypal-qr.png",
-      "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
-      "benefits": [
-        "Immediate aid to families of fallen or injured first responders",
-        "College scholarships for children of first responders",
-        "Valor Awards and community programs",
-        "100% of donations go to mission programs"
-      ],
-      "description": "Your gift helps us deliver financial support to families in crisis and fund life-changing scholarships for first responders' children."
-    },
-    "contact": {
-      "phoneNote": "Mon–Fri, 9am–5pm ET",
-      "donationNote": "Processed securely via PayPal",
-      "eyebrow": "Contact",
-      "phone": "(732) 555-0200",
-      "emailNote": "General inquiries and media",
-      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
-      "formProvider": "demo",
-      "title": "Get in Touch",
-      "phoneHref": "+17325550200",
-      "formAction": "",
-      "submitLabel": "Send Message",
-      "email": "staylor@monmouth200club.com",
-      "description": "We'd love to hear from you — membership, sponsorship, media, or anything else."
-    }
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "About", "href": "about.html" },
+      { "label": "Programs", "href": "programs.html" },
+      { "label": "Media", "href": "media.html" },
+      { "label": "Join", "href": "join.html" }
+    ],
+    "ctaLabel": "Donate",
+    "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
   },
   "social": {
     "facebook": "https://www.facebook.com/Monmouth200Club/",
@@ -560,6 +23,101 @@
     "instagram": "https://www.instagram.com/200clubofmonmouth/",
     "youtube": "https://www.youtube.com/channel/UCPAxG1yNOF9477tsYiqFp1A"
   },
+
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "eyebrow": "Honoring First Responders Since 1971",
+          "headline": "Standing Beside Those Who <em>Answer the Call</em>",
+          "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
+          "primaryCtaLabel": "Make a Donation",
+          "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
+          "secondaryCtaLabel": "Learn Our Mission",
+          "secondaryCtaHref": "about.html",
+          "bgImage": "assets/images/hero-1.jpg",
+          "imageAlt": "First responders ceremony"
+        },
+        {
+          "eyebrow": "2025 Scholarships",
+          "headline": "Over <em>$100,000</em> Awarded in 2025",
+          "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
+          "primaryCtaLabel": "Apply Now",
+          "primaryCtaHref": "https://form.jotform.com/261056633582155",
+          "secondaryCtaLabel": "Ben Danskin Scholarship",
+          "secondaryCtaHref": "https://form.jotform.com/261056066290151",
+          "bgImage": "assets/images/hero-2.jpg",
+          "imageAlt": "Scholarship ceremony"
+        },
+        {
+          "eyebrow": "Annual Valor Awards",
+          "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
+          "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
+          "primaryCtaLabel": "Submit a Nomination",
+          "primaryCtaHref": "https://form.jotform.com/261055906149156",
+          "secondaryCtaLabel": "Luncheon Tickets",
+          "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
+          "bgImage": "assets/images/hero-3.jpg",
+          "imageAlt": "Valor Awards ceremony"
+        }
+      ]
+    },
+    "missionBar": {
+      "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> — not weeks."
+    },
+    "pillars": {
+      "eyebrow": "Our Mission",
+      "title": "Three Pillars. One Commitment.",
+      "paragraphs": [
+        "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining."
+      ],
+      "items": [
+        {
+          "number": "01",
+          "title": "Family Assistance",
+          "description": "When a Monmouth County first responder is killed or seriously injured in the line of duty, we respond within hours with financial support for their family — no paperwork, no red tape.",
+          "linkLabel": "Learn more",
+          "linkHref": "about.html"
+        },
+        {
+          "number": "02",
+          "title": "College Scholarships",
+          "description": "Each year we award scholarships to children of Monmouth County first responders. Over $3 million awarded to date — and over $100,000 in 2025 alone.",
+          "linkLabel": "Scholarship info",
+          "linkHref": "programs.html#scholarships"
+        },
+        {
+          "number": "03",
+          "title": "Valor Awards",
+          "description": "We honor first responders who go above and beyond — from Certificates of Recognition to our highest honor, the Valor Award.",
+          "linkLabel": "Awards info",
+          "linkHref": "programs.html#valor"
+        }
+      ]
+    },
+    "featuredStory": {
+      "eyebrow": "Valor Award Recipient",
+      "title": "\"I'm just doing what I signed up for.\"",
+      "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
+      "attribution": "Officer Dominique Russo",
+      "attributionDetail": "Neptune Township Police Department · Valor Award Recipient",
+      "image": "assets/images/officer-russo.jpg",
+      "imageAlt": "Officer Dominique Russo",
+      "ctaLabel": "Read her story",
+      "ctaHref": "programs.html#story-russo"
+    },
+    "presidentMessage": {
+      "eyebrow": "A Message From Our President",
+      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
+      "attribution": "Mary Pat Angelini",
+      "attributionDetail": "President, The 200 Club of Monmouth County",
+      "image": "assets/images/mary-pat-angelini.jpg",
+      "imageAlt": "Mary Pat Angelini, President",
+      "ctaLabel": "Become a Member",
+      "ctaHref": "join.html"
+    }
+  },
+
   "about": {
     "hero": {
       "eyebrow": "About Us",
@@ -575,123 +133,71 @@
         "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
       ]
     },
+    "gallery": {
+      "eyebrow": "Our Leadership",
+      "title": "The People Behind The 200 Club",
+      "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
+      "photos": [
+        { "src": "assets/images/leadership-1.jpg", "alt": "200 Club Board of Trustees group photo", "caption": "Our Board of Trustees" },
+        { "src": "assets/images/leadership-2.jpg", "alt": "Executive Officers of the 200 Club", "caption": "Executive Officers" },
+        { "src": "assets/images/leadership-3.jpg", "alt": "Officers being sworn in at 200 Club ceremony", "caption": "Officers sworn in at the Annual Meeting" }
+      ]
+    },
     "board": {
       "eyebrow": "Leadership",
       "title": "Our Board & Trustees",
       "officers": {
         "heading": "Executive Officers",
         "members": [
-          {
-            "name": "Mary Pat Angelini",
-            "title": "President"
-          },
-          {
-            "name": "Edward Kirschenbaum, Sr.",
-            "title": "Vice President"
-          },
-          {
-            "name": "John Kaye",
-            "title": "Secretary"
-          },
-          {
-            "name": "Dominick Mazza",
-            "title": "Treasurer"
-          }
+          { "name": "Mary Pat Angelini", "title": "President" },
+          { "name": "Edward Kirschenbaum, Sr.", "title": "Vice President" },
+          { "name": "John Kaye", "title": "Secretary" },
+          { "name": "Dominick Mazza", "title": "Treasurer" }
         ]
       },
       "trustees": {
         "heading": "Board of Trustees",
         "members": [
-          {
-            "name": "Thomas A. Arnone"
-          },
-          {
-            "name": "Edward M. Brock, Jr."
-          },
-          {
-            "name": "Edward G. Donovan"
-          },
-          {
-            "name": "Josh Elkes"
-          },
-          {
-            "name": "M. Claire French"
-          },
-          {
-            "name": "Robert Gagliano"
-          },
-          {
-            "name": "Robert A. Honecker, Jr."
-          },
-          {
-            "name": "R. Reginald Hyde, II"
-          },
-          {
-            "name": "Benjamin J. Lucarelli"
-          },
-          {
-            "name": "Kevin P. Orender"
-          },
-          {
-            "name": "Jim Petillo"
-          },
-          {
-            "name": "Robert Swannack"
-          }
+          { "name": "Thomas A. Arnone" },
+          { "name": "Edward M. Brock, Jr." },
+          { "name": "Edward G. Donovan" },
+          { "name": "Josh Elkes" },
+          { "name": "M. Claire French" },
+          { "name": "Robert Gagliano" },
+          { "name": "Robert A. Honecker, Jr." },
+          { "name": "R. Reginald Hyde, II" },
+          { "name": "Benjamin J. Lucarelli" },
+          { "name": "Kevin P. Orender" },
+          { "name": "Jim Petillo" },
+          { "name": "Robert Swannack" }
         ]
       },
       "emeritus": {
         "heading": "Trustees Emeritus",
         "members": [
-          {
-            "name": "William C. Barham"
-          },
-          {
-            "name": "Richard Daesener"
-          },
-          {
-            "name": "Kim Guadagno"
-          },
-          {
-            "name": "Gregory Metzger"
-          },
-          {
-            "name": "Jack McCormack"
-          },
-          {
-            "name": "Joseph L. Thompson, Jr."
-          }
+          { "name": "William C. Barham" },
+          { "name": "Richard Daesener" },
+          { "name": "Kim Guadagno" },
+          { "name": "Gregory Metzger" },
+          { "name": "Jack McCormack" },
+          { "name": "Joseph L. Thompson, Jr." }
         ]
       },
       "advisory": {
         "heading": "Advisory Committee",
         "members": [
-          {
-            "name": "Alyssa T.G. Anderson, MFA, PhD"
-          },
-          {
-            "name": "Joseph C. Curto"
-          },
-          {
-            "name": "Charles Smentkowski"
-          }
+          { "name": "Alyssa T.G. Anderson, MFA, PhD" },
+          { "name": "Joseph C. Curto" },
+          { "name": "Charles Smentkowski" }
         ]
       },
       "exOfficio": {
         "heading": "Trustees Ex Officio",
         "members": [
-          {
-            "name": "Monmouth County PBA Conference Chair"
-          },
-          {
-            "name": "Monmouth County Prosecutor"
-          },
-          {
-            "name": "Monmouth County Sheriff"
-          },
-          {
-            "name": "President of Monmouth County Police Chiefs' Association"
-          }
+          { "name": "Monmouth County PBA Conference Chair" },
+          { "name": "Monmouth County Prosecutor" },
+          { "name": "Monmouth County Sheriff" },
+          { "name": "President of Monmouth County Police Chiefs' Association" }
         ]
       }
     },
@@ -700,12 +206,13 @@
       "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
       "attribution": "Mary Pat Angelini",
       "attributionDetail": "President, The 200 Club of Monmouth County",
-      "image": "/assets/images/assets-images-mary-pat-angelini.jpg",
+      "image": "assets/images/mary-pat-angelini.jpg",
       "imageAlt": "Mary Pat Angelini, President",
       "ctaLabel": "Become a Member",
       "ctaHref": "join.html"
     }
   },
+
   "programs": {
     "hero": {
       "eyebrow": "Our Programs",
@@ -734,30 +241,13 @@
         }
       ],
       "buttons": [
-        {
-          "label": "Apply for the Annual Scholarship",
-          "href": "https://form.jotform.com/261056633582155",
-          "style": "solid"
-        },
-        {
-          "label": "Ben Danskin Scholarship",
-          "href": "https://form.jotform.com/261056066290151",
-          "style": "outline"
-        }
+        { "label": "Apply for the Annual Scholarship", "href": "https://form.jotform.com/261056633582155", "style": "solid" },
+        { "label": "Ben Danskin Scholarship", "href": "https://form.jotform.com/261056066290151", "style": "outline" }
       ],
       "photos": [
-        {
-          "src": "assets/images/scholarship-1.jpg",
-          "alt": "Scholarship recipients 2025"
-        },
-        {
-          "src": "assets/images/scholarship-2.jpg",
-          "alt": "Scholarship ceremony"
-        },
-        {
-          "src": "assets/images/scholarship-3.jpg",
-          "alt": "Scholarship recipients group"
-        }
+        { "src": "assets/images/scholarship-1.jpg", "alt": "Scholarship recipients 2025" },
+        { "src": "assets/images/scholarship-2.jpg", "alt": "Scholarship ceremony" },
+        { "src": "assets/images/scholarship-3.jpg", "alt": "Scholarship recipients group" }
       ]
     },
     "valor": {
@@ -783,14 +273,8 @@
       "ctaLabel": "Submit a Nomination",
       "ctaHref": "https://form.jotform.com/261055906149156",
       "photos": [
-        {
-          "src": "assets/images/valor-medal.jpg",
-          "alt": "Valor Medal"
-        },
-        {
-          "src": "assets/images/luncheon-1.jpg",
-          "alt": "Awards Luncheon 2025"
-        }
+        { "src": "assets/images/valor-medal.jpg", "alt": "Valor Medal" },
+        { "src": "assets/images/luncheon-1.jpg", "alt": "Awards Luncheon 2025" }
       ]
     },
     "spotlights": {
@@ -865,6 +349,206 @@
       ]
     }
   },
+
+  "media": {
+    "hero": {
+      "eyebrow": "Events & Media",
+      "title": "Events, Press, and Moments From Our Mission",
+      "subheadline": "Join us at an upcoming event, browse our photo galleries, or catch up on recent press coverage."
+    },
+    "events": {
+      "eyebrow": "Upcoming Events",
+      "title": "Join Us This Year",
+      "description": "From our Annual Awards Luncheon to golf outings and scholarship socials — every event supports our mission.",
+      "items": [
+        {
+          "month": "Jun", "day": "05", "year": "2026",
+          "title": "54th Annual Awards Luncheon & Valor Awards",
+          "description": "Our signature event honoring Monmouth County first responders for extraordinary bravery. Open to members and the public.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon"
+        },
+        {
+          "month": "Aug", "day": "06", "year": "2026",
+          "title": "15th Annual Scholarship Social",
+          "description": "Celebrating our scholarship recipients and the families of first responders who make it all possible.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://www.zeffy.com/en-US/ticketing/15th-annual-scholarship-social"
+        },
+        {
+          "month": "Oct", "day": "19", "year": "2026",
+          "title": "43rd Annual Golf Outing",
+          "description": "Our longstanding golf outing at Deal Golf & Country Club — a day on the course in support of first responders and their families.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://events.ticketleap.com/tickets/the-200-club-of-monmouth-county/43nd-annual-golf-outing"
+        }
+      ]
+    },
+    "press": {
+      "eyebrow": "Press & Media",
+      "title": "The 200 Club in the News",
+      "description": "Coverage of our work, awards, and the first responders we honor.",
+      "categories": [
+        {
+          "heading": "Recent Press Releases",
+          "items": [
+            { "title": "Letter to the Editor in Patch of Monmouth County Honoring 911 First Responders", "outlet": "Patch", "url": "#" },
+            { "title": "President Mary Pat Angelini Discusses 200 Club Scholarship Awards", "outlet": "OnNJ", "url": "#" },
+            { "title": "Eight Members of Law Enforcement Honored by 200 Club of Monmouth County with Valor Awards for Exceptional Bravery", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club Assists Long Branch Police Officer with $5,000 Check", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County State Police Recruit", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County 2020 Valor Awards", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County Virtual Scholarship Award Ceremony August 2020", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County Swearing In June 2020", "outlet": "200 Club", "url": "#" },
+            { "title": "200 Club of Monmouth County Receives Grant from Investors Foundation", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County to Host \"Meet the Chiefs Social\" in Holmdel", "outlet": "200 Club", "url": "#" },
+            { "title": "Scholarship Social 2019", "outlet": "200 Club", "url": "#" },
+            { "title": "Valor Awards 2019", "outlet": "200 Club", "url": "#" },
+            { "title": "New Jersey State Trooper Dies After More Than Three Decades of Suffering from his Line of Duty Injuries", "outlet": "200 Club", "url": "#" },
+            { "title": "The 200 Club of Monmouth County Awards $109,000 in College Scholarships", "outlet": "200 Club", "url": "#" }
+          ]
+        },
+        {
+          "heading": "In The News",
+          "items": [
+            { "title": "The 200 Club of Monmouth County Honors Scholarship Winners", "outlet": "The Patch", "date": "August 24, 2021", "url": "#" },
+            { "title": "The 200 Club of Monmouth County Awards $87,750 in 2021 College Scholarships to Children of Local First Responders", "outlet": "Atlantic Highlands Herald", "date": "August 12, 2021", "url": "#" },
+            { "title": "The 200 Club Of Monmouth County Assists Long Branch Police Officer Olski", "outlet": "app.com", "date": "April 9, 2021", "url": "#" },
+            { "title": "The 200 Club Of Monmouth County Supports Long Branch Police Officer Preparing for Kidney Transplant with $5,000 Check", "outlet": "Atlantic Highlands Herald", "date": "April 9, 2021", "url": "#" },
+            { "title": "Sister a Match for Long Branch Police Officer Who Needs Kidney", "outlet": "The Patch", "date": "April 8, 2021", "url": "#" },
+            { "title": "Marlboro NJ Car Crash Teenager Reunites with Officers", "outlet": "CBS 2", "date": "November 6, 2020", "url": "#" },
+            { "title": "Rebecca Kniffin, 17, of Freehold Meets Officers Who Saved Her Life in June Accident", "outlet": "app.com", "date": "November 9, 2020", "url": "#" },
+            { "title": "Long Branch Officer Receives Valor Award from 200 Club of Monmouth County", "outlet": "app.com", "date": "October 27, 2020", "url": "#" },
+            { "title": "Long Branch Officer Korn Receives Valor Award from 200 Club of Monmouth County (Video)", "outlet": "app.com", "date": "October 27, 2020", "url": "#" },
+            { "title": "Manalapan Police Officer Honored for Stopping Gunman in 2019", "outlet": "The Patch", "date": "November 2, 2020", "url": "#" },
+            { "title": "Seven Hero Cops Honored", "outlet": "The Asbury Park Press", "date": "September 30, 2020", "url": "#" },
+            { "title": "Seven Monmouth County Officers Receive The Valor Award for Extraordinary Bravery and Service", "outlet": "AHHerald", "date": "September 30, 2020", "url": "#" },
+            { "title": "Seven Monmouth County Officers Receive The Valor Award", "outlet": "94.3 The Point", "date": "September 28, 2020", "url": "#" },
+            { "title": "Seven Monmouth County Officers Receive The Valor Award", "outlet": "WOBM-FM", "date": "September 28, 2020", "url": "#" },
+            { "title": "200 Club Awards $91,750 in College Scholarships to Children of Local First Responders", "outlet": "AHHerald", "url": "#" },
+            { "title": "200 Club Awards $91,750 in College Scholarships to Children of Local First Responders", "outlet": "The Monmouth Journal", "url": "#" },
+            { "title": "Honecker Named President of 200 Club; Fair Haven's Lucarelli Sworn-In As Vice President", "outlet": "The Monmouth Journal", "url": "#" }
+          ]
+        },
+        {
+          "heading": "Radio & Broadcast",
+          "items": [
+            { "title": "101.5 FM Radio — Blog by Bill Spadea with Interview of Kim Guadagno", "outlet": "101.5 FM", "date": "June 2019", "url": "#" },
+            { "title": "News 12 New Jersey Coverage", "outlet": "News 12", "date": "June 7, 2019", "url": "#" },
+            { "title": "Chasing News", "outlet": "Channel 9 / Fox 5 / Channel 29", "date": "June 7, 2019", "url": "#" },
+            { "title": "Townsquare Media Coverage", "outlet": "92.7 WOBM, 105.7 The Hawk, 94.3 The Point, Beach Radio 1160 & 1310", "date": "June 7, 2019", "url": "#" },
+            { "title": "Tommy G Radio — Interview with Treasurer Ben Lucarelli", "outlet": "Tommy G Radio", "date": "May 5, 2019", "url": "#" },
+            { "title": "Tommy G Radio — Interview with President Kim Guadagno", "outlet": "Tommy G Radio", "date": "February 11, 2019", "url": "#" },
+            { "title": "Joe Piscopo Radio Show — Interview with Kim Guadagno", "outlet": "Joe Piscopo Radio", "date": "December 17, 2018", "url": "#" },
+            { "title": "92.3 The Point FM Radio", "outlet": "92.3 The Point", "date": "November 27, 2018", "url": "#" },
+            { "title": "News 12 New Jersey", "outlet": "News 12", "date": "November 22, 2018", "url": "#" },
+            { "title": "News 12 New Jersey", "outlet": "News 12", "date": "August 18, 2018", "url": "#" }
+          ]
+        }
+      ]
+    },
+    "galleries": {
+      "eyebrow": "Photo Galleries",
+      "title": "Moments From Our Events",
+      "description": "All event photography generously provided by Tom Zapcic Photography.",
+      "sourceUrl": "https://tomzapcicphotography.smugmug.com",
+      "sourceLabel": "View all galleries on Tom Zapcic Photography",
+      "collections": [
+        { "title": "2024 Valor Awards Luncheon", "year": "2024", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2024-valor.jpg" },
+        { "title": "2023 Valor Awards Luncheon", "year": "2023", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2023-valor.jpg" },
+        { "title": "2022 Golf Outing", "year": "2022", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2022-golf.jpg" },
+        { "title": "2022 Scholarship Awards", "year": "2022", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2022-scholar.jpg" },
+        { "title": "2022 Valor Awards Luncheon", "year": "2022", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2022-valor.jpg" },
+        { "title": "2021 Golf Outing", "year": "2021", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2021-golf.jpg" },
+        { "title": "2021 Scholarship Awards", "year": "2021", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2021-scholar.jpg" },
+        { "title": "2021 Valor Awards Luncheon", "year": "2021", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2021-valor.jpg" },
+        { "title": "2020 Virtual Scholarship Awards Ceremony", "year": "2020", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2020-scholar.jpg" },
+        { "title": "2019 Golf Outing", "year": "2019", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2019-golf.jpg" },
+        { "title": "2019 Valor Awards Luncheon", "year": "2019", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2019-valor.jpg" },
+        { "title": "2019 Scholarship Social", "year": "2019", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2019-scholar.jpg" },
+        { "title": "2018 Scholarship Awards", "year": "2018", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2018-scholar.jpg" },
+        { "title": "2018 Valor Awards Luncheon", "year": "2018", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2018-valor.jpg" },
+        { "title": "2016 Valor Awards Luncheon", "year": "2016", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2016-valor.jpg" },
+        { "title": "2015 Scholarship Awards", "year": "2015", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2015-scholar.jpg" },
+        { "title": "2014 Scholarship Awards", "year": "2014", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2014-scholar.jpg" },
+        { "title": "2014 Valor Awards Dinner", "year": "2014", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2014-valor.jpg" },
+        { "title": "2013 Valor Awards Dinner", "year": "2013", "url": "https://tomzapcicphotography.smugmug.com", "coverImage": "assets/images/gal-2013-valor.jpg" }
+      ]
+    },
+    "videos": {
+      "eyebrow": "Video Gallery",
+      "title": "Watch Our Story",
+      "description": "Highlights from our Valor Awards, scholarship ceremonies, and the stories of the first responders we honor.",
+      "items": [
+        { "title": "200 Club Feature", "videoId": "QeS4BeOmxN4", "url": "https://youtu.be/QeS4BeOmxN4?si=3mkZan3Er9XkXGwA" },
+        { "title": "200 Club Feature", "videoId": "SNh6CTNTkm4", "url": "https://youtu.be/SNh6CTNTkm4?si=_LQS9z5AU-_qh8hf" },
+        { "title": "200 Club Feature", "videoId": "2iULN3vQL1A", "url": "https://youtu.be/2iULN3vQL1A?si=vSuo7tAcuBB9OdN6" },
+        { "title": "200 Club Feature", "videoId": "_vM7y-T1ARw", "url": "https://youtu.be/_vM7y-T1ARw?si=dQrR-80KTNu20tQc" },
+        { "title": "200 Club Feature", "videoId": "FeS0-L1CdTs", "url": "https://youtu.be/FeS0-L1CdTs?si=82t40kzNCnNVTDO9" },
+        { "title": "200 Club Feature", "videoId": "uQL3H6NQezc", "url": "https://youtu.be/uQL3H6NQezc?si=I9G-uc7N-yoK8VaA" },
+        { "title": "200 Club Feature", "videoId": "-7E5D1tlHpU", "url": "https://youtu.be/-7E5D1tlHpU?si=InnWlPbrmDCe56Yv" },
+        { "title": "200 Club Feature", "videoId": "UhKWGpFRtmE", "url": "https://youtu.be/UhKWGpFRtmE?si=4UQUqZkvog8KGUWZ" },
+        { "title": "200 Club Feature", "videoId": "HKJDLgccUgs", "url": "https://youtu.be/HKJDLgccUgs?si=tPqg_ADRaS7s72Zm" }
+      ]
+    }
+  },
+
+  "join": {
+    "hero": {
+      "eyebrow": "Get Involved",
+      "title": "Stand With First Responders",
+      "subheadline": "Become a member, make a donation, or reach out to learn more about supporting the families of those who serve."
+    },
+    "intro": {
+      "description": "Two ways to stand with first responders: become a member to join a community that has backed Monmouth County first responders since 1971, or make a one-time donation to directly support our mission."
+    },
+    "membership": {
+      "title": "Become a Member",
+      "description": "Members are the backbone of The 200 Club. Your annual dues directly fund family assistance when tragedy strikes a first responder.",
+      "benefitsHeading": "Member Benefits",
+      "benefits": [
+        "Supports immediate aid to families of fallen or injured first responders",
+        "Enables scholarships for first responders' children",
+        "Invitation to all 200 Club events",
+        "Your dependents are eligible for annual scholarships"
+      ],
+      "fine": "Membership is subject to approval by the Executive Board. Must be referred by an existing member.",
+      "ctaLabel": "Request Membership Info",
+      "ctaHref": "mailto:staylor@monmouth200club.com?subject=Membership%20Inquiry"
+    },
+    "donate": {
+      "title": "Make a Donation",
+      "description": "Your gift helps us deliver financial support to families in crisis and fund life-changing scholarships for first responders' children.",
+      "benefitsHeading": "Your Gift Supports",
+      "benefits": [
+        "Immediate aid to families of fallen or injured first responders",
+        "College scholarships for children of first responders",
+        "Valor Awards and community programs",
+        "100% of donations go to mission programs"
+      ],
+      "qrImage": "assets/images/paypal-qr.png",
+      "qrNote": "Scan with your phone camera to open PayPal directly.",
+      "fine": "Donations are separate from membership dues and go directly to our mission programs.",
+      "ctaLabel": "Donate via PayPal",
+      "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you — membership, sponsorship, media, or anything else.",
+      "email": "staylor@monmouth200club.com",
+      "emailNote": "General inquiries and media",
+      "phone": "(732) 555-0200",
+      "phoneHref": "+17325550200",
+      "phoneNote": "Mon–Fri, 9am–5pm ET",
+      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
+      "donationNote": "Processed securely via PayPal",
+      "submitLabel": "Send Message",
+      "formProvider": "demo",
+      "formAction": ""
+    }
+  },
+
   "footer": {
     "brandName": "The 200 Club of Monmouth County",
     "blurb": "Since 1971, standing beside Monmouth County's first responders and their families.",
@@ -872,60 +556,27 @@
       {
         "heading": "The Club",
         "links": [
-          {
-            "label": "About Us",
-            "href": "about.html"
-          },
-          {
-            "label": "Board & Trustees",
-            "href": "about.html#board"
-          },
-          {
-            "label": "Our Programs",
-            "href": "programs.html"
-          },
-          {
-            "label": "Events & Media",
-            "href": "media.html"
-          }
+          { "label": "About Us", "href": "about.html" },
+          { "label": "Board & Trustees", "href": "about.html#board" },
+          { "label": "Our Programs", "href": "programs.html" },
+          { "label": "Events & Media", "href": "media.html" }
         ]
       },
       {
         "heading": "Get Involved",
         "links": [
-          {
-            "label": "Become a Member",
-            "href": "join.html"
-          },
-          {
-            "label": "Donate via PayPal",
-            "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
-          },
-          {
-            "label": "Apply for a Scholarship",
-            "href": "https://form.jotform.com/261056633582155"
-          },
-          {
-            "label": "Submit a Valor Nomination",
-            "href": "https://form.jotform.com/261055906149156"
-          }
+          { "label": "Become a Member", "href": "join.html" },
+          { "label": "Donate via PayPal", "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU" },
+          { "label": "Apply for a Scholarship", "href": "https://form.jotform.com/261056633582155" },
+          { "label": "Submit a Valor Nomination", "href": "https://form.jotform.com/261055906149156" }
         ]
       },
       {
         "heading": "Connect",
         "links": [
-          {
-            "label": "Email",
-            "href": "mailto:staylor@monmouth200club.com"
-          },
-          {
-            "label": "Photo Galleries",
-            "href": "https://tomzapcicphotography.smugmug.com"
-          },
-          {
-            "label": "Press Releases",
-            "href": "media.html#press"
-          }
+          { "label": "Email", "href": "mailto:staylor@monmouth200club.com" },
+          { "label": "Photo Galleries", "href": "https://tomzapcicphotography.smugmug.com" },
+          { "label": "Press Releases", "href": "media.html#press" }
         ]
       }
     ],
@@ -933,99 +584,6 @@
     "designerCredit": {
       "label": "Chevelle",
       "href": "https://www.bychevelle.com"
-    }
-  },
-  "home": {
-    "hero": {
-      "slides": [
-        {
-          "primaryCtaLabel": "Make a Donation",
-          "secondaryCtaHref": "about.html",
-          "eyebrow": "Honoring First Responders Since 1971",
-          "imageAlt": "First responders ceremony",
-          "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
-          "headline": "Standing Beside Those Who <em>Answer the Call</em>",
-          "bgImage": "/assets/images/assets-images-hero-1.jpg",
-          "secondaryCtaLabel": "Learn Our Mission",
-          "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
-        },
-        {
-          "primaryCtaLabel": "Apply Now",
-          "secondaryCtaHref": "https://form.jotform.com/261056066290151",
-          "eyebrow": "2025 Scholarships",
-          "imageAlt": "Scholarship ceremony",
-          "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
-          "headline": "Over <em>$100,000</em> Awarded in 2025",
-          "bgImage": "/assets/images/assets-images-hero-2.jpg",
-          "secondaryCtaLabel": "Ben Danskin Scholarship",
-          "primaryCtaHref": "https://form.jotform.com/261056633582155"
-        },
-        {
-          "primaryCtaLabel": "Submit a Nomination",
-          "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
-          "eyebrow": "Annual Valor Awards",
-          "imageAlt": "Valor Awards ceremony",
-          "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
-          "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
-          "bgImage": "/assets/images/assets-images-hero-3.jpg",
-          "secondaryCtaLabel": "Luncheon Tickets",
-          "primaryCtaHref": "https://form.jotform.com/261055906149156"
-        }
-      ]
-    },
-    "missionBar": {
-      "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> — not weeks."
-    },
-    "pillars": {
-      "eyebrow": "Our Mission",
-      "title": "Three Pillars. One Commitment.",
-      "paragraphs": [
-        "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining."
-      ],
-      "items": [
-        {
-          "number": "01",
-          "title": "Family Assistance",
-          "description": "When a Monmouth County first responder is killed or seriously injured in the line of duty, we respond within hours with financial support for their family — no paperwork, no red tape.",
-          "linkLabel": "Learn more",
-          "linkHref": "about.html"
-        },
-        {
-          "number": "02",
-          "title": "College Scholarships",
-          "description": "Each year we award scholarships to children of Monmouth County first responders. Over $3 million awarded to date — and over $100,000 in 2025 alone.",
-          "linkLabel": "Scholarship info",
-          "linkHref": "programs.html#scholarships"
-        },
-        {
-          "number": "03",
-          "title": "Valor Awards",
-          "description": "We honor first responders who go above and beyond — from Certificates of Recognition to our highest honor, the Valor Award.",
-          "linkLabel": "Awards info",
-          "linkHref": "programs.html#valor"
-        }
-      ]
-    },
-    "featuredStory": {
-      "ctaLabel": "Read her story",
-      "eyebrow": "Valor Award Recipient",
-      "imageAlt": "Officer Dominique Russo",
-      "attributionDetail": "Neptune Township Police Department · Valor Award Recipient",
-      "title": "\"I'm just doing what I signed up for.\"",
-      "image": "/assets/images/assets-images-officer-russo.jpg",
-      "ctaHref": "programs.html#story-russo",
-      "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
-      "attribution": "Officer Dominique Russo"
-    },
-    "presidentMessage": {
-      "eyebrow": "A Message From Our President",
-      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
-      "attribution": "Mary Pat Angelini",
-      "attributionDetail": "President, The 200 Club of Monmouth County",
-      "image": "/assets/images/assets-images-mary-pat-angelini.jpg",
-      "imageAlt": "Mary Pat Angelini, President",
-      "ctaLabel": "Become a Member",
-      "ctaHref": "join.html"
     }
   }
 }
