@@ -77,18 +77,17 @@ nav{background:#fff;border-bottom:1px solid var(--br);position:sticky;top:0;z-in
 .ph h1 em{font-style:italic;color:var(--blue-l);font-weight:400;}
 .ph p{font-size:clamp(16px,1.4vw,19px);color:rgba(255,255,255,.88);max-width:680px;line-height:1.55;}
 
-/* === HERO PHOTO RIBBON (below page header, full-bleed rotating strip) === */
-.ph-rib{position:relative;width:100%;height:clamp(180px,28vw,320px);background:var(--navy-x);overflow:hidden;}
-.ph-rib-slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;}
-.ph-rib-slide.on{opacity:1;}
-.ph-rib-slide img{width:100%;height:100%;object-fit:cover;}
-.ph-rib-slide::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(10,24,48,.35) 100%);pointer-events:none;}
-.ph-rib-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,.45);gap:6px;background:linear-gradient(135deg,var(--navy-d),var(--navy));}
-.ph-rib-ph .ic{font-size:36px;opacity:.6;}
-.ph-rib-ph .fn{font-family:monospace;font-size:11px;background:rgba(255,255,255,.1);padding:3px 8px;border-radius:3px;color:rgba(255,255,255,.75);}
-.ph-rib-dots{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:5;}
-.ph-rib-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.55);border:none;cursor:pointer;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.3);}
-.ph-rib-dot.on{background:#fff;width:22px;border-radius:4px;}
+/* === HERO WITH BACKGROUND PHOTO (Programs page) === */
+.ph-bgphoto{position:relative;overflow:hidden;padding:140px 32px 120px;color:#fff;isolation:isolate;}
+.ph-bgphoto-img{position:absolute;inset:0;z-index:-2;}
+.ph-bgphoto-img img{width:100%;height:100%;object-fit:cover;}
+.ph-bgphoto-img-ph{width:100%;height:100%;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-d) 60%,var(--navy-x) 100%);}
+/* Blue tint + readability overlay, plus fade-to-blue-bg at bottom */
+.ph-bgphoto::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,24,48,.78) 0%,rgba(28,61,111,.72) 45%,rgba(28,61,111,.55) 75%,var(--blue-bg) 100%);pointer-events:none;}
+.ph-bgphoto .ph-in{max-width:1200px;margin:0 auto;position:relative;z-index:1;}
+.ph-bgphoto h1{font-family:'DM Serif Display',serif;font-size:clamp(34px,5vw,56px);line-height:1.1;font-weight:400;letter-spacing:-1px;margin-bottom:18px;max-width:900px;}
+.ph-bgphoto h1 em{font-style:italic;color:var(--blue-l);font-weight:400;}
+.ph-bgphoto p{font-size:clamp(16px,1.4vw,19px);color:rgba(255,255,255,.92);max-width:680px;line-height:1.55;}
 
 /* === HOMEPAGE HERO SLIDESHOW === */
 .hero{position:relative;height:86vh;min-height:560px;max-height:820px;overflow:hidden;background:var(--navy-x);}
@@ -282,14 +281,13 @@ h2.d{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,44px);line-he
 /* === PRESS === */
 .pr-cat{margin-top:40px;}
 .pr-cat h3{font-family:'DM Serif Display',serif;font-size:20px;color:var(--navy-x);margin-bottom:14px;font-weight:400;padding-bottom:8px;border-bottom:2px solid var(--gold);display:inline-block;}
-.pr-list{display:flex;flex-direction:column;gap:6px;}
-.pr-i{background:#fff;border:1px solid var(--br);border-radius:6px;padding:10px 14px;text-decoration:none;color:inherit;transition:all .15s;display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;}
-.pr-i:hover{border-color:var(--navy);background:var(--blue-bg);}
-.pr-tx .pt{font-size:13px;font-weight:600;line-height:1.35;color:var(--navy-x);margin-bottom:2px;}
-.pr-tx .pm{font-size:11px;color:var(--m);}
-.pr-tx .pm .po{font-weight:600;color:var(--navy);}
-.pr-arr{color:var(--lt);font-size:15px;transition:color .2s,transform .2s;flex-shrink:0;}
-.pr-i:hover .pr-arr{color:var(--navy);transform:translateX(2px);}
+.pr-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:start;}
+.pr-i{background:#fff;border:1px solid var(--br);border-left:3px solid var(--blue-l);border-radius:0 6px 6px 0;padding:14px 16px;text-decoration:none;color:inherit;transition:all .15s;display:flex;flex-direction:column;gap:8px;}
+.pr-i:hover{border-color:var(--navy);border-left-color:var(--gold);background:var(--blue-bg);transform:translateY(-1px);}
+.pr-tx{display:flex;flex-direction:column;gap:6px;}
+.pr-tx .pt{font-family:'DM Serif Display',serif;font-size:15px;font-weight:400;line-height:1.35;color:var(--navy-x);}
+.pr-tx .pr-meta{font-size:11px;color:var(--m);letter-spacing:.3px;}
+.pr-tx .pr-meta .po{font-weight:600;color:var(--gold-d);text-transform:uppercase;letter-spacing:.8px;}
 
 /* === MEDIA SUB-NAV (sticky, scrolls with page) === */
 .subnav{position:sticky;top:80px;z-index:500;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--br);}
@@ -403,8 +401,7 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
   .fi{grid-template-columns:1fr 1fr;gap:32px;}
   .ev-i{grid-template-columns:80px 1fr;padding:20px;}
   .ev-i .ea{grid-column:1/-1;margin-top:4px;}
-  .pr-i{grid-template-columns:1fr;}
-  .pr-arr{display:none;}
+  .pr-list{grid-template-columns:1fr;gap:10px;}
   .ph-media{padding:60px 24px;}
   .ph-media-in{grid-template-columns:1fr;gap:32px;}
   .ph-media-img{max-width:320px;margin:0 auto;aspect-ratio:3/2;}
@@ -505,21 +502,15 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
 
   const pr=cfg.programs||{};
   const hero=pr.hero||{};
-  const ribbon=pr.heroRibbon||{};
   const sch=pr.scholarships||{};
   const val=pr.valor||{};
   const spot=pr.spotlights||{};
 
-  // Hero photo ribbon
-  const ribbonPhotos=ribbon.photos||[];
-  const ribbonSlides=ribbonPhotos.map((p,i)=>{
-    const img = p.src
-      ? '<img src="'+safe(p.src)+'" alt="'+safe(p.alt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;ph-rib-ph&quot;><div class=&quot;ic&quot;>\u{1F4F7}</div><div class=&quot;fn&quot;>'+safe(p.src)+'</div></div>\'">'
-      : '<div class="ph-rib-ph"><div class="ic">\u{1F4F7}</div><div class="fn">ribbon-'+(i+1)+'.jpg</div></div>';
-    return '<div class="ph-rib-slide '+(i===0?'on':'')+'" data-rib="'+i+'">'+img+'</div>';
-  }).join('');
-  const ribbonDots=ribbonPhotos.length>1 ? '<div class="ph-rib-dots">'+ribbonPhotos.map((_,i)=>'<button class="ph-rib-dot '+(i===0?'on':'')+'" data-rib="'+i+'" aria-label="Ribbon photo '+(i+1)+'"></button>').join('')+'</div>' : '';
-  const ribbonHtml=ribbonPhotos.length ? '<div class="ph-rib">'+ribbonSlides+ribbonDots+'</div>' : '';
+  // Hero background photo (single image behind the header)
+  const bgSrc = hero.bgImage || (pr.heroRibbon && pr.heroRibbon.photos && pr.heroRibbon.photos[0] && pr.heroRibbon.photos[0].src);
+  const heroBgHtml = bgSrc
+    ? '<div class="ph-bgphoto-img"><img src="'+safe(bgSrc)+'" alt="'+safe(hero.bgImageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;ph-bgphoto-img-ph&quot;></div>\'"></div>'
+    : '<div class="ph-bgphoto-img"><div class="ph-bgphoto-img-ph"></div></div>';
 
   const schAwards=(sch.awards||[]).map((a,i)=>'<div class="ai"><div class="ai-num">0'+(i+1)+'</div><div class="ain"><h4>'+safe(a.title)+'</h4><p>'+safe(a.description)+'</p></div></div>').join('');
   const schButtons=(sch.buttons||[]).map(b=>'<a class="btn '+(b.style==='outline'?'bou':'bb')+'" href="'+safe(b.href)+'" target="_blank" rel="noopener">'+safe(b.label)+'</a>').join('');
@@ -558,12 +549,13 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
 
   app.innerHTML=
     navHtml('programs.html')
-    + '<section class="ph"><div class="ph-in">'
+    + '<section class="ph-bgphoto">'
+    + heroBgHtml
+    + '<div class="ph-in">'
     + (hero.eyebrow?'<span class="ph-ey">'+safe(hero.eyebrow)+'</span>':'')
     + '<h1>'+safe(hero.title||'')+'</h1>'
     + '<p>'+safe(hero.subheadline||'')+'</p>'
     + '</div></section>'
-    + ribbonHtml
     + '<section class="s s-bl" id="scholarships"><div class="tc"><div class="tc-l">'
     + '<span class="ey">'+safe(sch.eyebrow||'Scholarships')+'</span>'
     + '<h2 class="d">'+safe(sch.title||'')+'</h2>'
@@ -589,14 +581,6 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
     + '<div class="ss">'+stories+'</div>'
     + '</section>'
     + footerHtml();
-
-  // Hero ribbon rotation
-  const ribSlides=document.querySelectorAll('.ph-rib-slide');
-  const ribDots=document.querySelectorAll('.ph-rib-dot');
-  let ri=0;
-  function ribGo(i){ribSlides.forEach(s=>s.classList.remove('on'));ribDots.forEach(d=>d.classList.remove('on'));if(ribSlides[i])ribSlides[i].classList.add('on');if(ribDots[i])ribDots[i].classList.add('on');ri=i;}
-  ribDots.forEach((d,i)=>d.addEventListener('click',()=>ribGo(i)));
-  if(ribSlides.length>1){setInterval(()=>ribGo((ri+1)%ribSlides.length),4000);}
 
   // Mobile carousel rotation (only active on mobile)
   ['scholar','valor'].forEach(key=>{
