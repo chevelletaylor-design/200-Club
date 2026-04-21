@@ -159,6 +159,22 @@ collections:
                     widget: "list"
                     field: { label: "Paragraph", name: "text", widget: "text" }
 
+              - label: "Our Leadership (3 group photos)"
+                name: "gallery"
+                widget: "object"
+                fields:
+                  - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+                  - { label: "Section title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - label: "Photos (landscape, 3:2 ratio)"
+                    name: "photos"
+                    widget: "list"
+                    hint: "Recommended: 3 landscape group photos — board portrait, officers, or ceremony shots."
+                    fields:
+                      - { label: "Photo (landscape 3:2)", name: "src", widget: "image" }
+                      - { label: "Alt text (for accessibility)", name: "alt", widget: "string" }
+                      - { label: "Caption (shown under photo)", name: "caption", widget: "string" }
+
               - label: "Board & Trustees"
                 name: "board"
                 widget: "object"
