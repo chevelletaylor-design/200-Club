@@ -255,18 +255,12 @@ collections:
                   - { label: "Eyebrow", name: "eyebrow", widget: "string" }
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
-
-              - label: "Hero Photo Ribbon (rotating strip under page header)"
-                name: "heroRibbon"
-                widget: "object"
-                hint: "A wide photo strip below the hero text. Rotates automatically every 4s."
-                fields:
-                  - label: "Photos (landscape, 3-6 recommended)"
-                    name: "photos"
-                    widget: "list"
-                    fields:
-                      - { label: "Photo (landscape)", name: "src", widget: "image" }
-                      - { label: "Alt text", name: "alt", widget: "string", required: false }
+                  - label: "Background photo (sits behind the header, blue overlay)"
+                    name: "bgImage"
+                    widget: "image"
+                    required: false
+                    hint: "Pick a wide, impactful landscape photo. A blue overlay and fade-to-blue-bottom will be applied automatically so text stays readable."
+                  - { label: "Background photo alt text", name: "bgImageAlt", widget: "string", required: false }
 
               - label: "Scholarships Section"
                 name: "scholarships"
