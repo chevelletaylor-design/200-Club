@@ -493,7 +493,7 @@
     }
   },
   "brand": {
-    "logo": "assets/images/logo.png",
+    "logo": "/assets/images/logo.jpg.gif",
     "logoAlt": "The 200 Club of Monmouth County",
     "name": "The 200 Club",
     "tagline": "of Monmouth County",
