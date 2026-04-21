@@ -282,14 +282,13 @@ h2.d{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,44px);line-he
 /* === PRESS === */
 .pr-cat{margin-top:40px;}
 .pr-cat h3{font-family:'DM Serif Display',serif;font-size:20px;color:var(--navy-x);margin-bottom:14px;font-weight:400;padding-bottom:8px;border-bottom:2px solid var(--gold);display:inline-block;}
-.pr-list{display:flex;flex-direction:column;gap:6px;}
-.pr-i{background:#fff;border:1px solid var(--br);border-radius:6px;padding:10px 14px;text-decoration:none;color:inherit;transition:all .15s;display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;}
-.pr-i:hover{border-color:var(--navy);background:var(--blue-bg);}
-.pr-tx .pt{font-size:13px;font-weight:600;line-height:1.35;color:var(--navy-x);margin-bottom:2px;}
-.pr-tx .pm{font-size:11px;color:var(--m);}
-.pr-tx .pm .po{font-weight:600;color:var(--navy);}
-.pr-arr{color:var(--lt);font-size:15px;transition:color .2s,transform .2s;flex-shrink:0;}
-.pr-i:hover .pr-arr{color:var(--navy);transform:translateX(2px);}
+.pr-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.pr-i{background:#fff;border:1px solid var(--br);border-left:3px solid var(--blue-l);border-radius:6px;padding:16px 18px;text-decoration:none;color:inherit;transition:all .15s;display:block;min-height:88px;}
+.pr-i:hover{border-color:var(--navy);border-left-color:var(--gold);background:var(--blue-bg);transform:translateY(-1px);}
+.pr-tx{display:block;}
+.pr-tx .pt{font-family:'DM Serif Display',serif;font-size:15px;font-weight:400;line-height:1.35;color:var(--navy-x);margin-bottom:6px;}
+.pr-tx .pm{font-size:11px;color:var(--m);letter-spacing:.3px;}
+.pr-tx .pm .po{font-weight:600;color:var(--gold-d);text-transform:uppercase;letter-spacing:.8px;}
 
 /* === MEDIA SUB-NAV (sticky, scrolls with page) === */
 .subnav{position:sticky;top:80px;z-index:500;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--br);}
@@ -403,8 +402,7 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
   .fi{grid-template-columns:1fr 1fr;gap:32px;}
   .ev-i{grid-template-columns:80px 1fr;padding:20px;}
   .ev-i .ea{grid-column:1/-1;margin-top:4px;}
-  .pr-i{grid-template-columns:1fr;}
-  .pr-arr{display:none;}
+  .pr-list{grid-template-columns:1fr;gap:10px;}
   .ph-media{padding:60px 24px;}
   .ph-media-in{grid-template-columns:1fr;gap:32px;}
   .ph-media-img{max-width:320px;margin:0 auto;aspect-ratio:3/2;}
@@ -528,7 +526,7 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
       const isExt = i.url && i.url!=='#';
       return '<a class="pr-i" href="'+safe(i.url||'#')+'"'+(isExt?' target="_blank" rel="noopener"':'')+'>'
         + '<div class="pr-tx"><div class="pt">'+safe(i.title)+'</div><div class="pm"><span class="po">'+safe(i.outlet||'')+'</span>'+(i.date?' \u2022 '+safe(i.date):'')+'</div></div>'
-        + '<div class="pr-arr">\u2192</div></a>';
+        + '</a>';
     }).join('');
     return '<div class="pr-cat"><h3>'+safe(cat.heading||'')+'</h3><div class="pr-list">'+items+'</div></div>';
   }).join('');
