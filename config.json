@@ -967,7 +967,7 @@
           "imageAlt": "First responders ceremony",
           "subheadline": "For over seven decades, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
           "headline": "Standing Beside Those Who <em>Answer the Call</em>",
-          "bgImage": "assets/images/hero-1.jpg",
+          "bgImage": "/assets/images/assets-images-hero-1.jpg",
           "secondaryCtaLabel": "Learn Our Mission",
           "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
         },
@@ -978,7 +978,7 @@
           "imageAlt": "Scholarship ceremony",
           "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
           "headline": "Over <em>$100,000</em> Awarded in 2025",
-          "bgImage": "assets/images/hero-2.jpg",
+          "bgImage": "/assets/images/assets-images-hero-2.jpg",
           "secondaryCtaLabel": "Ben Danskin Scholarship",
           "primaryCtaHref": "https://form.jotform.com/261056633582155"
         },
@@ -989,7 +989,7 @@
           "imageAlt": "Valor Awards ceremony",
           "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
           "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
-          "bgImage": "assets/images/hero-3.jpg",
+          "bgImage": "/assets/images/assets-images-hero-3.jpg",
           "secondaryCtaLabel": "Luncheon Tickets",
           "primaryCtaHref": "https://form.jotform.com/261055906149156"
         }
@@ -1034,7 +1034,7 @@
       "imageAlt": "Officer Dominique Russo",
       "attributionDetail": "Neptune Township Police Department · Valor Award Recipient",
       "title": "\"I'm just doing what I signed up for.\"",
-      "image": "assets/images/officer-russo.jpg",
+      "image": "/assets/images/assets-images-officer-russo.jpg",
       "ctaHref": "programs.html#story-russo",
       "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
       "attribution": "Officer Dominique Russo"
@@ -1044,7 +1044,7 @@
       "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
       "attribution": "Mary Pat Angelini",
       "attributionDetail": "President, The 200 Club of Monmouth County",
-      "image": "assets/images/mary-pat-angelini.jpg",
+      "image": "/assets/images/assets-images-mary-pat-angelini.jpg",
       "imageAlt": "Mary Pat Angelini, President",
       "ctaLabel": "Become a Member",
       "ctaHref": "join.html"
