@@ -1012,7 +1012,7 @@
       "imageAlt": "Officer Dominique Russo",
       "attributionDetail": "Neptune Township Police Department · Valor Award Recipient",
       "title": "\"I'm just doing what I signed up for.\"",
-      "image": "assets/images/officer-russo.jpg",
+      "image": "/assets/images/assets-images-officer-russo.jpg",
       "ctaHref": "programs.html#story-russo",
       "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
       "attribution": "Officer Dominique Russo"
@@ -1022,7 +1022,7 @@
       "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
       "attribution": "Mary Pat Angelini",
       "attributionDetail": "President, The 200 Club of Monmouth County",
-      "image": "assets/images/mary-pat-angelini.jpg",
+      "image": "/assets/images/assets-images-mary-pat-angelini.jpg",
       "imageAlt": "Mary Pat Angelini, President",
       "ctaLabel": "Become a Member",
       "ctaHref": "join.html"
