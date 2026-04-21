@@ -30,7 +30,7 @@
       "eyebrow": "Events & Media",
       "title": "Events, Press, and Moments From Our Mission",
       "subheadline": "Join us at an upcoming event, browse our photo galleries, or catch up on recent press coverage.",
-      "bgImage": "assets/images/media-hero-bg.jpg",
+      "bgImage": "/assets/images/200-club-40th-annual-golf-outing-2023-1856.jpg.webp",
       "bgImageAlt": "Awards Luncheon moment"
     },
     "events": {
@@ -329,7 +329,7 @@
           "title": "2024 Valor Awards Luncheon",
           "year": "2024",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2024-valor.jpg"
+          "coverImage": "/assets/images/9b1a0803.jpg"
         },
         {
           "title": "2023 Valor Awards Luncheon",
@@ -341,7 +341,7 @@
           "title": "2022 Golf Outing",
           "year": "2022",
           "url": "https://tomzapcicphotography.smugmug.com",
-          "coverImage": "assets/images/gal-2022-golf.jpg"
+          "coverImage": "/assets/images/200-club-40th-annual-golf-outing-2023-7219.jpg.webp"
         },
         {
           "title": "2022 Scholarship Awards",
