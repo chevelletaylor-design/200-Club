@@ -739,23 +739,23 @@
     "heroRibbon": {
       "photos": [
         {
-          "src": "assets/images/ribbon-1.jpg",
+          "src": "/assets/images/9b1a0706.jpg",
           "alt": "Scholarship recipients"
         },
         {
-          "src": "assets/images/ribbon-2.jpg",
+          "src": "/assets/images/_b1a0504.jpg",
           "alt": "Valor Awards ceremony"
         },
         {
-          "src": "assets/images/ribbon-3.jpg",
+          "src": "/assets/images/_b1a0636.jpg",
           "alt": "Awards Luncheon"
         },
         {
-          "src": "assets/images/ribbon-4.jpg",
+          "src": "/assets/images/9b1a0706.jpg",
           "alt": "Scholarship Social"
         },
         {
-          "src": "assets/images/ribbon-5.jpg",
+          "src": "/assets/images/_b1a0425.jpg",
           "alt": "Valor Award recipient"
         }
       ]
