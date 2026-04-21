@@ -282,11 +282,11 @@ h2.d{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,44px);line-he
 /* === PRESS === */
 .pr-cat{margin-top:40px;}
 .pr-cat h3{font-family:'DM Serif Display',serif;font-size:20px;color:var(--navy-x);margin-bottom:14px;font-weight:400;padding-bottom:8px;border-bottom:2px solid var(--gold);display:inline-block;}
-.pr-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
-.pr-i{background:#fff;border:1px solid var(--br);border-left:3px solid var(--blue-l);border-radius:6px;padding:16px 18px;text-decoration:none;color:inherit;transition:all .15s;display:block;min-height:88px;}
+.pr-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:start;}
+.pr-i{background:#fff;border:1px solid var(--br);border-left:3px solid var(--blue-l);border-radius:0 6px 6px 0;padding:14px 16px;text-decoration:none;color:inherit;transition:all .15s;display:flex;flex-direction:column;gap:8px;}
 .pr-i:hover{border-color:var(--navy);border-left-color:var(--gold);background:var(--blue-bg);transform:translateY(-1px);}
-.pr-tx{display:block;}
-.pr-tx .pt{font-family:'DM Serif Display',serif;font-size:15px;font-weight:400;line-height:1.35;color:var(--navy-x);margin-bottom:6px;}
+.pr-tx{display:flex;flex-direction:column;gap:6px;}
+.pr-tx .pt{font-family:'DM Serif Display',serif;font-size:15px;font-weight:400;line-height:1.35;color:var(--navy-x);}
 .pr-tx .pm{font-size:11px;color:var(--m);letter-spacing:.3px;}
 .pr-tx .pm .po{font-weight:600;color:var(--gold-d);text-transform:uppercase;letter-spacing:.8px;}
 
