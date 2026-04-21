@@ -147,6 +147,12 @@ collections:
                   - { label: "Eyebrow", name: "eyebrow", widget: "string" }
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
+                  - label: "Background photo (sits behind the header, blue overlay)"
+                    name: "bgImage"
+                    widget: "image"
+                    required: false
+                    hint: "Landscape photo. A blue overlay is applied so white text stays readable."
+                  - { label: "Background photo alt text", name: "bgImageAlt", widget: "string", required: false }
 
               - label: "Our Story"
                 name: "story"
@@ -158,6 +164,8 @@ collections:
                     name: "paragraphs"
                     widget: "list"
                     field: { label: "Paragraph", name: "text", widget: "text" }
+                  - { label: "Story photo (landscape, shown below paragraphs)", name: "photo", widget: "image", required: false }
+                  - { label: "Story photo alt text", name: "photoAlt", widget: "string", required: false }
 
               - label: "Our Leadership (3 group photos)"
                 name: "gallery"
@@ -359,8 +367,8 @@ collections:
                   - { label: "Eyebrow", name: "eyebrow", widget: "string" }
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
-                  - { label: "Hero photo (portrait 4:5 or landscape)", name: "image", widget: "image", required: false }
-                  - { label: "Photo alt text", name: "imageAlt", widget: "string", required: false }
+                  - { label: "Background photo (landscape, behind header)", name: "bgImage", widget: "image", required: false }
+                  - { label: "Background photo alt text", name: "bgImageAlt", widget: "string", required: false }
 
               - label: "Events Section"
                 name: "events"
@@ -448,6 +456,8 @@ collections:
                   - { label: "Eyebrow", name: "eyebrow", widget: "string" }
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Subheadline", name: "subheadline", widget: "text" }
+                  - { label: "Background photo (landscape, behind header)", name: "bgImage", widget: "image", required: false }
+                  - { label: "Background photo alt text", name: "bgImageAlt", widget: "string", required: false }
 
               - label: "Intro text above membership/donate cards"
                 name: "intro"
