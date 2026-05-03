@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The 200 Club of Monmouth County</title>
-<meta name="description" content="The 200 Club of Monmouth County supports first responders and their families through scholarships, Valor Awards, and immediate aid.">
+<title>Photo Galleries | The 200 Club of Monmouth County</title>
+<meta name="description" content="Photo galleries from our Valor Awards Luncheons, Scholarship Socials, Golf Outings, and other 200 Club of Monmouth County events.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -713,96 +713,199 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
 
   // === PAGE-SPECIFIC RENDER ===
 
-  const home=cfg.home||{};
-  // Hero slides
-  const heroSlides=(home.hero.slides||[]).map((s,i)=>{
-    const bg=s.bgImage||'';
-    const bgHtml=bg
-      ? '<div class="hs-bg" style="background-image:url(\''+safe(bg)+'\')"></div>'
-      : '<div class="hs-ph-full"><div class="ic">\u{1F3DB}\uFE0F</div><div class="fn">'+safe('hero-'+(i+1)+'.jpg')+'</div><div class="fb">'+safe(s.imageAlt||'Upload a landscape hero photo via admin')+'</div></div>';
-    return '<div class="hs '+(i===0?'on':'')+'" data-idx="'+i+'">'
-      + bgHtml
-      + '<div class="hs-in">'
-      + (s.eyebrow?'<span class="hs-ey">'+safe(s.eyebrow)+'</span>':'')
-      + '<h1>'+(s.headline||'')+'</h1>'
-      + '<p>'+safe(s.subheadline||'')+'</p>'
-      + '<div class="hs-ctas">'
-      + (s.primaryCtaLabel?'<a class="btn bg" href="'+safe(s.primaryCtaHref||'#')+'"'+(s.primaryCtaHref&&s.primaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.primaryCtaLabel)+'</a>':'')
-      + (s.secondaryCtaLabel?'<a class="btn bob" href="'+safe(s.secondaryCtaHref||'#')+'"'+(s.secondaryCtaHref&&s.secondaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.secondaryCtaLabel)+'</a>':'')
-      + '</div></div></div>';
-  }).join('');
-  const heroDots=(home.hero.slides||[]).map((_,i)=>'<button class="hs-dot '+(i===0?'on':'')+'" data-idx="'+i+'" aria-label="Slide '+(i+1)+'"></button>').join('');
-  const pillarsHtml=(home.pillars.items||[]).map(p=>
-    '<div class="card"><div class="cnum">'+safe(p.number||'')+'</div><h3>'+safe(p.title)+'</h3><p>'+safe(p.description)+'</p>'
-    + (p.linkLabel?'<a class="cl" href="'+safe(p.linkHref||'#')+'">'+safe(p.linkLabel)+' \u2192</a>':'')
-    + '</div>'
-  ).join('');
-  const fs=home.featuredStory||{};
-  const fsImg = fs.image
-    ? '<img src="'+safe(fs.image)+'" alt="'+safe(fs.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;fs-img-ph&quot;><div class=&quot;ic&quot;>\u{1F46E}</div><div class=&quot;fn&quot;>'+safe(fs.image)+'</div><div class=&quot;fb&quot;>Portrait photo \u2014 4:5 ratio</div></div>\'">'
-    : '<div class="fs-img-ph"><div class="ic">\u{1F46E}</div><div class="fn">officer-russo.jpg</div><div class="fb">Portrait photo \u2014 4:5 ratio</div></div>';
-  const featuredHtml=fs.title?
-    '<div class="fs"><div class="fs-img">'+fsImg+'</div>'
-    + '<div class="fs-tx">'
-    + '<span class="fs-ey">'+safe(fs.eyebrow||'')+'</span>'
-    + '<h3>'+safe(fs.title)+'</h3>'
-    + '<p>'+safe(fs.description||'')+'</p>'
-    + '<div class="fs-att"><strong>'+safe(fs.attribution||'')+'</strong><span>'+safe(fs.attributionDetail||'')+'</span></div>'
-    + (fs.ctaLabel?'<a class="btn bg" style="align-self:flex-start;position:relative;z-index:2" href="'+safe(fs.ctaHref||'#')+'">'+safe(fs.ctaLabel)+'</a>':'')
-    + '</div></div>':'';
-  const pm=home.presidentMessage||{};
-  const pmImg = pm.image
-    ? '<img src="'+safe(pm.image)+'" alt="'+safe(pm.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;pm-img-ph&quot;><div class=&quot;ic&quot;>\u{1F464}</div><div class=&quot;fn&quot;>'+safe(pm.image)+'</div></div>\'">'
-    : '<div class="pm-img-ph"><div class="ic">\u{1F464}</div><div class="fn">mary-pat-angelini.jpg</div></div>';
+  const gl=cfg.galleries||{};
+  const hero=gl.hero||{};
+  const intro=gl.intro||{};
+  const credit=gl.credit||{};
+  const albums=gl.albums||[];
+
+  // Collect distinct years for filter pills
+  const years=[...new Set(albums.map(a=>String(a.year||'')))].filter(Boolean).sort((a,b)=>parseInt(b)-parseInt(a));
+
+  function albumCardHtml(a){
+    const img = a.coverImage ? '<img src="'+safe(a.coverImage)+'" alt="'+safe(a.title||'')+'" loading="lazy" onerror="this.parentElement.innerHTML=\'<div class=&quot;gal-c-ph&quot;><div class=&quot;ic&quot;>\u{1F4F7}</div></div>\'">' : '<div class="gal-c-ph"><div class="ic">\u{1F4F7}</div></div>';
+    const photoCount = (a.photos&&a.photos.length)||0;
+    const hasPhotos = photoCount>0;
+    const isExt = !hasPhotos && a.externalUrl;
+    const meta = hasPhotos ? (photoCount + ' photo' + (photoCount===1?'':'s'))
+                : isExt    ? '<span class="gal-c-ext-lnk">View on photographer\u2019s site</span><span class="gal-c-ext-arrow"> \u2197</span>'
+                : 'Coming soon';
+    const dataAttrs = hasPhotos ? 'data-album="'+safe(a.id)+'"' : (isExt ? 'data-ext="'+safe(a.externalUrl)+'"' : 'data-empty="1"');
+    return '<button class="gal-c'+(isExt?' is-ext':'')+'" '+dataAttrs+' data-year="'+safe(a.year||'')+'" type="button">'
+      + '<div class="gal-c-img">'+img+(isExt?'<div class="gal-c-ext">\u2197</div>':'')+'</div>'
+      + '<div class="gal-c-hd"><div class="gal-c-yr">'+safe(a.year||'')+'</div><div class="gal-c-t">'+safe(a.title||'')+'</div><div class="gal-c-meta">'+meta+'</div></div>'
+      + '</button>';
+  }
+
+  const pillsHtml = '<div class="yr-pills"><button class="yr-p active" data-year="all" type="button">All</button>'
+    + years.map(y=>'<button class="yr-p" data-year="'+safe(y)+'" type="button">'+safe(y)+'</button>').join('')
+    + '</div>';
+
+  const cardsHtml = albums.map(albumCardHtml).join('');
 
   app.innerHTML=
-    navHtml('index.html')
-    + '<div id="top"></div>'
-    + '<section class="hero">'+heroSlides+'<div class="hs-ctl">'+heroDots+'</div></section>'
-    + (home.missionBar&&home.missionBar.text?'<section class="mb"><p>'+home.missionBar.text+'</p></section>':'')
-    + '<section class="s" id="mission">'
-    + '<span class="ey">'+safe(home.pillars.eyebrow||'Our Mission')+'</span>'
-    + '<h2 class="d">'+safe(home.pillars.title||'')+'</h2>'
-    + '<div class="rule"></div>'
-    + '<div class="prose">'+(home.pillars.paragraphs||[]).map(p=>'<p>'+p+'</p>').join('')+'</div>'
-    + '<div class="pl">'+pillarsHtml+'</div>'
-    + featuredHtml
+    navHtml('galleries.html')
+    + pageHero(hero, 'galleries')
+    + '<section class="s" id="galleries">'
+    + pillsHtml
+    + '<div class="gal-grid">'+cardsHtml+'</div>'
     + '</section>'
-    + (pm.quote?'<section class="pm"><div class="pm-in"><div class="pm-img">'+pmImg+'</div><div class="pm-tx"><span class="ey">'+safe(pm.eyebrow||'')+'</span><blockquote>\u201C'+safe(pm.quote)+'\u201D</blockquote><div class="pm-att"><strong>'+safe(pm.attribution||'')+'</strong><span>'+safe(pm.attributionDetail||'')+'</span></div>'+(pm.ctaLabel?'<a class="btn bb" style="align-self:flex-start" href="'+safe(pm.ctaHref||'#')+'">'+safe(pm.ctaLabel)+'</a>':'')+'</div></div></section>':'')
-    + (function(){
-        const social=cfg.social||{};
-        const fb=social.facebook,ig=social.instagram;
-        if(!fb && !ig) return '';
-        const f=home.follow||{};
-        const fbLink=fb?'<a href="'+safe(fb)+'" target="_blank" rel="noopener" aria-label="Facebook">'+socialIcon('facebook')+'</a>':'';
-        const igLink=ig?'<a href="'+safe(ig)+'" target="_blank" rel="noopener" aria-label="Instagram">'+socialIcon('instagram')+'</a>':'';
-        return '<section class="follow"><div class="follow-in">'
-          + '<span class="ey">'+safe(f.eyebrow||'Stay Connected')+'</span>'
-          + '<h3>'+(f.headline||'Follow us on <em>social</em>')+'</h3>'
-          + '<p>'+safe(f.description||'Stay up to date on events, recognitions, and stories from across Monmouth County.')+'</p>'
-          + '<div class="follow-soc">'+fbLink+igLink+'</div>'
-          + '</div></section>';
-      })()
+    // Modal scaffold (hidden by default)
+    + '<div class="gm" id="galModal" aria-hidden="true">'
+    +   '<div class="gm-hdr">'
+    +     '<div class="gm-hdr-l">'
+    +       '<div class="gm-yr" id="gmYr"></div>'
+    +       '<div class="gm-t" id="gmT"></div>'
+    +     '</div>'
+    +     '<div class="gm-hdr-r">'
+    +       '<select class="gm-sel" id="gmSel" aria-label="Jump to album"></select>'
+    +       '<button class="gm-x" id="gmX" aria-label="Close gallery" type="button">\u00D7</button>'
+    +     '</div>'
+    +   '</div>'
+    +   '<div class="gm-body" id="gmBody"></div>'
+    + '</div>'
+    // Lightbox scaffold
+    + '<div class="lb" id="lb" aria-hidden="true">'
+    +   '<button class="lb-x" id="lbX" aria-label="Close" type="button">\u00D7</button>'
+    +   '<button class="lb-prev" id="lbPrev" aria-label="Previous" type="button">\u2039</button>'
+    +   '<button class="lb-next" id="lbNext" aria-label="Next" type="button">\u203A</button>'
+    +   '<div class="lb-stage" id="lbStage"></div>'
+    +   '<div class="lb-cap" id="lbCap"></div>'
+    + '</div>'
     + footerHtml();
 
-  // Hero slideshow — smooth crossfade (new slide fades in over the old one)
-  const slides=document.querySelectorAll('.hs');
-  const dots=document.querySelectorAll('.hs-dot');
-  let hi=0;
-  function heroGo(i){
-    if(i===hi)return;
-    const next = slides[i];
-    const prev = slides[hi];
-    if(next){
-      next.classList.add('on');
-      if(dots[i]){ dots.forEach(d=>d.classList.remove('on')); dots[i].classList.add('on'); }
-      // After the crossfade finishes, drop the old slide's "on" so it stops painting
-      setTimeout(()=>{ if(prev && prev!==next) prev.classList.remove('on'); }, 1300);
-      hi=i;
-    }
+  // ===== Year filter =====
+  const grid = document.querySelector('.gal-grid');
+  document.querySelectorAll('.yr-p').forEach(b=>{
+    b.addEventListener('click',()=>{
+      document.querySelectorAll('.yr-p').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      const y = b.getAttribute('data-year');
+      grid.querySelectorAll('.gal-c').forEach(c=>{
+        c.style.display = (y==='all' || c.getAttribute('data-year')===y) ? '' : 'none';
+      });
+    });
+  });
+
+  // ===== Album modal =====
+  const modal = document.getElementById('galModal');
+  const gmYr = document.getElementById('gmYr');
+  const gmT  = document.getElementById('gmT');
+  const gmBody = document.getElementById('gmBody');
+  const gmSel = document.getElementById('gmSel');
+  const gmX = document.getElementById('gmX');
+
+  // Build album dropdown (only includes albums with photos)
+  const playable = albums.filter(a=>(a.photos||[]).length>0);
+  gmSel.innerHTML = playable.map(a=>'<option value="'+safe(a.id)+'">'+safe(a.year||'')+' \u2014 '+safe(a.title||'')+'</option>').join('');
+
+  function openAlbum(id){
+    const a = albums.find(x=>x.id===id);
+    if(!a||!(a.photos&&a.photos.length))return;
+    gmYr.textContent = a.year||'';
+    gmT.textContent  = a.title||'';
+    gmSel.value = id;
+    // Build masonry photos
+    gmBody.innerHTML = '<div class="gm-masonry">' + a.photos.map((p,i)=>{
+      const src = (typeof p==='string')?p:p.src;
+      const alt = (typeof p==='object'&&p.alt)?p.alt:(a.title||'');
+      const cap = (typeof p==='object'&&p.caption)?p.caption:'';
+      return '<button class="gm-ph" data-album="'+safe(a.id)+'" data-idx="'+i+'" type="button">'
+        + '<img src="'+safe(src)+'" alt="'+safe(alt)+'" loading="lazy">'
+        + (cap?'<div class="gm-ph-cap">'+safe(cap)+'</div>':'')
+        + '</button>';
+    }).join('') + '</div>';
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    // Bind photo clicks
+    gmBody.querySelectorAll('.gm-ph').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        openLightbox(a.id, parseInt(btn.getAttribute('data-idx'),10));
+      });
+    });
+    // Scroll modal to top
+    modal.scrollTop = 0;
   }
-  dots.forEach((d,i)=>d.addEventListener('click',()=>heroGo(i)));
-  if(slides.length>1){setInterval(()=>heroGo((hi+1)%slides.length),7000);}
+
+  function closeAlbum(){
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+    gmBody.innerHTML='';
+  }
+
+  document.querySelectorAll('.gal-c').forEach(c=>{
+    c.addEventListener('click',()=>{
+      const ext = c.getAttribute('data-ext');
+      const album = c.getAttribute('data-album');
+      if(album){
+        openAlbum(album);
+      } else if(ext){
+        window.open(ext,'_blank','noopener');
+      }
+    });
+  });
+
+  gmX.addEventListener('click', closeAlbum);
+  modal.addEventListener('click', e=>{ if(e.target===modal) closeAlbum(); });
+  gmSel.addEventListener('change', e=>openAlbum(e.target.value));
+
+  // ===== Lightbox =====
+  const lb = document.getElementById('lb');
+  const lbStage = document.getElementById('lbStage');
+  const lbCap = document.getElementById('lbCap');
+  const lbX = document.getElementById('lbX');
+  const lbPrev = document.getElementById('lbPrev');
+  const lbNext = document.getElementById('lbNext');
+  let lbAlbum = null;
+  let lbIdx = 0;
+
+  function openLightbox(albumId, idx){
+    const a = albums.find(x=>x.id===albumId);
+    if(!a||!a.photos)return;
+    lbAlbum = a;
+    lbIdx = idx;
+    renderLightbox();
+    lb.classList.add('open');
+    lb.setAttribute('aria-hidden','false');
+  }
+  function closeLightbox(){
+    lb.classList.remove('open');
+    lb.setAttribute('aria-hidden','true');
+    lbStage.innerHTML='';
+    lbCap.textContent='';
+  }
+  function renderLightbox(){
+    if(!lbAlbum)return;
+    const ph = lbAlbum.photos[lbIdx];
+    const src = (typeof ph==='string')?ph:ph.src;
+    const alt = (typeof ph==='object'&&ph.alt)?ph.alt:(lbAlbum.title||'');
+    const cap = (typeof ph==='object'&&ph.caption)?ph.caption:'';
+    lbStage.innerHTML = '<img src="'+safe(src)+'" alt="'+safe(alt)+'">';
+    lbCap.textContent = cap ? cap + ' \u2022 ' + (lbIdx+1) + ' / ' + lbAlbum.photos.length
+                              : (lbIdx+1) + ' / ' + lbAlbum.photos.length;
+  }
+  function navLb(delta){
+    if(!lbAlbum)return;
+    lbIdx = (lbIdx + delta + lbAlbum.photos.length) % lbAlbum.photos.length;
+    renderLightbox();
+  }
+  lbX.addEventListener('click', closeLightbox);
+  lbPrev.addEventListener('click', ()=>navLb(-1));
+  lbNext.addEventListener('click', ()=>navLb(1));
+  lb.addEventListener('click', e=>{ if(e.target===lb) closeLightbox(); });
+
+  // Keyboard
+  document.addEventListener('keydown', e=>{
+    if(lb.classList.contains('open')){
+      if(e.key==='Escape')closeLightbox();
+      else if(e.key==='ArrowLeft')navLb(-1);
+      else if(e.key==='ArrowRight')navLb(1);
+    } else if(modal.classList.contains('open')){
+      if(e.key==='Escape')closeAlbum();
+    }
+  });
 
 
   bindMobileMenu();

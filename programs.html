@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The 200 Club of Monmouth County</title>
-<meta name="description" content="The 200 Club of Monmouth County supports first responders and their families through scholarships, Valor Awards, and immediate aid.">
+<title>Scholarships & Valor Awards | The 200 Club of Monmouth County</title>
+<meta name="description" content="Scholarships for children of first responders, Valor Awards for extraordinary bravery, and the stories behind them.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -713,96 +713,94 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
 
   // === PAGE-SPECIFIC RENDER ===
 
-  const home=cfg.home||{};
-  // Hero slides
-  const heroSlides=(home.hero.slides||[]).map((s,i)=>{
-    const bg=s.bgImage||'';
-    const bgHtml=bg
-      ? '<div class="hs-bg" style="background-image:url(\''+safe(bg)+'\')"></div>'
-      : '<div class="hs-ph-full"><div class="ic">\u{1F3DB}\uFE0F</div><div class="fn">'+safe('hero-'+(i+1)+'.jpg')+'</div><div class="fb">'+safe(s.imageAlt||'Upload a landscape hero photo via admin')+'</div></div>';
-    return '<div class="hs '+(i===0?'on':'')+'" data-idx="'+i+'">'
-      + bgHtml
-      + '<div class="hs-in">'
-      + (s.eyebrow?'<span class="hs-ey">'+safe(s.eyebrow)+'</span>':'')
-      + '<h1>'+(s.headline||'')+'</h1>'
-      + '<p>'+safe(s.subheadline||'')+'</p>'
-      + '<div class="hs-ctas">'
-      + (s.primaryCtaLabel?'<a class="btn bg" href="'+safe(s.primaryCtaHref||'#')+'"'+(s.primaryCtaHref&&s.primaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.primaryCtaLabel)+'</a>':'')
-      + (s.secondaryCtaLabel?'<a class="btn bob" href="'+safe(s.secondaryCtaHref||'#')+'"'+(s.secondaryCtaHref&&s.secondaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.secondaryCtaLabel)+'</a>':'')
-      + '</div></div></div>';
+  const pr=cfg.programs||{};
+  const hero=pr.hero||{};
+  const sch=pr.scholarships||{};
+  const val=pr.valor||{};
+  const spot=pr.spotlights||{};
+
+  const programsSubnav=[
+    {id:'scholarships',label:'Scholarships'},
+    {id:'valor',label:'Valor Awards'},
+    {id:'spotlight',label:'Spotlight 200'}
+  ];
+
+  const schAwards=(sch.awards||[]).map((a,i)=>'<div class="ai"><div class="ai-num">0'+(i+1)+'</div><div class="ain"><h4>'+safe(a.title)+'</h4><p>'+safe(a.description)+'</p></div></div>').join('');
+  const schButtons=(sch.buttons||[]).map(b=>'<a class="btn '+(b.style==='outline'?'bou':'bb')+'" href="'+safe(b.href)+'" target="_blank" rel="noopener">'+safe(b.label)+'</a>').join('');
+
+  function photoStack(photos,key,icon){
+    const stackItems=photos.map((p,i)=>{
+      const img = p.src
+        ? '<img src="'+safe(p.src)+'" alt="'+safe(p.alt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;pstack-ph&quot;><div class=&quot;ic&quot;>'+icon+'</div><div class=&quot;fn&quot;>'+safe(p.src)+'</div></div>\'">'
+        : '<div class="pstack-ph"><div class="ic">'+icon+'</div><div class="fn">photo-'+(i+1)+'.jpg</div></div>';
+      return '<div class="pstack-i">'+img+'</div>';
+    }).join('');
+    const carouselItems=photos.map((p,i)=>{
+      const img = p.src
+        ? '<img src="'+safe(p.src)+'" alt="'+safe(p.alt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;ps-ph&quot;><div class=&quot;ic&quot;>'+icon+'</div><div class=&quot;fn&quot;>'+safe(p.src)+'</div></div>\'">'
+        : '<div class="ps-ph"><div class="ic">'+icon+'</div><div class="fn">photo-'+(i+1)+'.jpg</div></div>';
+      return '<div class="ps-img '+(i===0?'on':'')+'" data-ps="'+key+'" data-idx="'+i+'">'+img+'</div>';
+    }).join('');
+    const carouselDots=photos.length>1 ? '<div class="ps-dots">'+photos.map((_,i)=>'<button class="ps-dot '+(i===0?'on':'')+'" data-ps="'+key+'" data-idx="'+i+'" aria-label="Photo '+(i+1)+'"></button>').join('')+'</div>' : '';
+    return '<div class="pstack pstack-desktop-only">'+stackItems+'</div>'
+      + '<div class="ps ps-mobile-only">'+carouselItems+carouselDots+'</div>';
+  }
+
+  const valAwards=(val.awards||[]).map((a,i)=>'<div class="ai"><div class="ai-num">0'+(i+1)+'</div><div class="ain"><h4>'+safe(a.title)+'</h4><p>'+safe(a.description)+'</p></div></div>').join('');
+
+  const stories=(spot.stories||[]).map(s=>{
+    const img = s.image ? '<img src="'+safe(s.image)+'" alt="'+safe(s.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;ss-img-ph&quot;><div class=&quot;ic&quot;>\u{1F465}</div><div class=&quot;fn&quot;>'+safe(s.image)+'</div></div>\'">' : '<div class="ss-img-ph"><div class="ic">\u{1F465}</div><div class="fn">'+safe(s.slug||'photo')+'.jpg</div></div>';
+    const paras=(s.paragraphs||[]).map(p=>'<p>'+safe(p)+'</p>').join('');
+    return '<article class="ss-i" id="story-'+safe(s.slug||'')+'">'
+      + '<div class="ss-hd"><div class="ss-img">'+img+'</div><div class="ss-hx">'
+      + (s.badge?'<span class="ss-bd">'+safe(s.badge)+'</span>':'')
+      + '<h3>'+safe(s.title||'')+'</h3>'
+      + (s.subtitle?'<p class="ss-sub">'+safe(s.subtitle)+'</p>':'')
+      + '</div></div>'
+      + '<div class="ss-bd-tx">'+paras+'</div></article>';
   }).join('');
-  const heroDots=(home.hero.slides||[]).map((_,i)=>'<button class="hs-dot '+(i===0?'on':'')+'" data-idx="'+i+'" aria-label="Slide '+(i+1)+'"></button>').join('');
-  const pillarsHtml=(home.pillars.items||[]).map(p=>
-    '<div class="card"><div class="cnum">'+safe(p.number||'')+'</div><h3>'+safe(p.title)+'</h3><p>'+safe(p.description)+'</p>'
-    + (p.linkLabel?'<a class="cl" href="'+safe(p.linkHref||'#')+'">'+safe(p.linkLabel)+' \u2192</a>':'')
-    + '</div>'
-  ).join('');
-  const fs=home.featuredStory||{};
-  const fsImg = fs.image
-    ? '<img src="'+safe(fs.image)+'" alt="'+safe(fs.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;fs-img-ph&quot;><div class=&quot;ic&quot;>\u{1F46E}</div><div class=&quot;fn&quot;>'+safe(fs.image)+'</div><div class=&quot;fb&quot;>Portrait photo \u2014 4:5 ratio</div></div>\'">'
-    : '<div class="fs-img-ph"><div class="ic">\u{1F46E}</div><div class="fn">officer-russo.jpg</div><div class="fb">Portrait photo \u2014 4:5 ratio</div></div>';
-  const featuredHtml=fs.title?
-    '<div class="fs"><div class="fs-img">'+fsImg+'</div>'
-    + '<div class="fs-tx">'
-    + '<span class="fs-ey">'+safe(fs.eyebrow||'')+'</span>'
-    + '<h3>'+safe(fs.title)+'</h3>'
-    + '<p>'+safe(fs.description||'')+'</p>'
-    + '<div class="fs-att"><strong>'+safe(fs.attribution||'')+'</strong><span>'+safe(fs.attributionDetail||'')+'</span></div>'
-    + (fs.ctaLabel?'<a class="btn bg" style="align-self:flex-start;position:relative;z-index:2" href="'+safe(fs.ctaHref||'#')+'">'+safe(fs.ctaLabel)+'</a>':'')
-    + '</div></div>':'';
-  const pm=home.presidentMessage||{};
-  const pmImg = pm.image
-    ? '<img src="'+safe(pm.image)+'" alt="'+safe(pm.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;pm-img-ph&quot;><div class=&quot;ic&quot;>\u{1F464}</div><div class=&quot;fn&quot;>'+safe(pm.image)+'</div></div>\'">'
-    : '<div class="pm-img-ph"><div class="ic">\u{1F464}</div><div class="fn">mary-pat-angelini.jpg</div></div>';
 
   app.innerHTML=
-    navHtml('index.html')
-    + '<div id="top"></div>'
-    + '<section class="hero">'+heroSlides+'<div class="hs-ctl">'+heroDots+'</div></section>'
-    + (home.missionBar&&home.missionBar.text?'<section class="mb"><p>'+home.missionBar.text+'</p></section>':'')
-    + '<section class="s" id="mission">'
-    + '<span class="ey">'+safe(home.pillars.eyebrow||'Our Mission')+'</span>'
-    + '<h2 class="d">'+safe(home.pillars.title||'')+'</h2>'
+    navHtml('programs.html')
+    + pageHero(hero, 'programs')
+    + subnavHtml(programsSubnav)
+    + '<section class="s s-bl" id="scholarships"><div class="tc"><div class="tc-l">'
+    + '<span class="ey">'+safe(sch.eyebrow||'Scholarships')+'</span>'
+    + '<h2 class="d">'+safe(sch.title||'')+'</h2>'
     + '<div class="rule"></div>'
-    + '<div class="prose">'+(home.pillars.paragraphs||[]).map(p=>'<p>'+p+'</p>').join('')+'</div>'
-    + '<div class="pl">'+pillarsHtml+'</div>'
-    + featuredHtml
+    + '<div class="prose">'+(sch.paragraphs||[]).map(p=>'<p>'+p+'</p>').join('')+'</div>'
+    + (sch.stat?'<div class="sb2"><span class="big">'+safe(sch.stat.number)+'</span><p>'+safe(sch.stat.label)+'</p></div>':'')
+    + '<div class="al">'+schAwards+'</div>'
+    + '<div class="btn-row">'+schButtons+'</div>'
+    + '</div><div>'+photoStack(sch.photos||[],'scholar','\u{1F393}')+'</div></div></section>'
+    + '<section class="s" id="valor"><div class="tc rev"><div class="tc-l">'
+    + '<span class="ey">'+safe(val.eyebrow||'Valor Awards')+'</span>'
+    + '<h2 class="d">'+safe(val.title||'')+'</h2>'
+    + '<div class="rule"></div>'
+    + '<div class="prose">'+(val.paragraphs||[]).map(p=>'<p>'+p+'</p>').join('')+'</div>'
+    + '<div class="al">'+valAwards+'</div>'
+    + (val.ctaLabel?'<a class="btn bb" href="'+safe(val.ctaHref||'#')+'" target="_blank" rel="noopener" style="margin-top:24px;">'+safe(val.ctaLabel)+'</a>':'')
+    + '</div><div>'+photoStack(val.photos||[],'valor','\u{1F396}')+'</div></div></section>'
+    + '<section class="s s-bl" id="spotlight">'
+    + '<span class="ey">'+safe(spot.eyebrow||'Spotlight 200')+'</span>'
+    + '<h2 class="d">'+safe(spot.title||'')+'</h2>'
+    + '<div class="rule"></div>'
+    + (spot.description?'<p style="color:var(--m);max-width:700px;margin-bottom:16px;">'+safe(spot.description)+'</p>':'')
+    + '<div class="ss">'+stories+'</div>'
     + '</section>'
-    + (pm.quote?'<section class="pm"><div class="pm-in"><div class="pm-img">'+pmImg+'</div><div class="pm-tx"><span class="ey">'+safe(pm.eyebrow||'')+'</span><blockquote>\u201C'+safe(pm.quote)+'\u201D</blockquote><div class="pm-att"><strong>'+safe(pm.attribution||'')+'</strong><span>'+safe(pm.attributionDetail||'')+'</span></div>'+(pm.ctaLabel?'<a class="btn bb" style="align-self:flex-start" href="'+safe(pm.ctaHref||'#')+'">'+safe(pm.ctaLabel)+'</a>':'')+'</div></div></section>':'')
-    + (function(){
-        const social=cfg.social||{};
-        const fb=social.facebook,ig=social.instagram;
-        if(!fb && !ig) return '';
-        const f=home.follow||{};
-        const fbLink=fb?'<a href="'+safe(fb)+'" target="_blank" rel="noopener" aria-label="Facebook">'+socialIcon('facebook')+'</a>':'';
-        const igLink=ig?'<a href="'+safe(ig)+'" target="_blank" rel="noopener" aria-label="Instagram">'+socialIcon('instagram')+'</a>':'';
-        return '<section class="follow"><div class="follow-in">'
-          + '<span class="ey">'+safe(f.eyebrow||'Stay Connected')+'</span>'
-          + '<h3>'+(f.headline||'Follow us on <em>social</em>')+'</h3>'
-          + '<p>'+safe(f.description||'Stay up to date on events, recognitions, and stories from across Monmouth County.')+'</p>'
-          + '<div class="follow-soc">'+fbLink+igLink+'</div>'
-          + '</div></section>';
-      })()
     + footerHtml();
 
-  // Hero slideshow — smooth crossfade (new slide fades in over the old one)
-  const slides=document.querySelectorAll('.hs');
-  const dots=document.querySelectorAll('.hs-dot');
-  let hi=0;
-  function heroGo(i){
-    if(i===hi)return;
-    const next = slides[i];
-    const prev = slides[hi];
-    if(next){
-      next.classList.add('on');
-      if(dots[i]){ dots.forEach(d=>d.classList.remove('on')); dots[i].classList.add('on'); }
-      // After the crossfade finishes, drop the old slide's "on" so it stops painting
-      setTimeout(()=>{ if(prev && prev!==next) prev.classList.remove('on'); }, 1300);
-      hi=i;
-    }
-  }
-  dots.forEach((d,i)=>d.addEventListener('click',()=>heroGo(i)));
-  if(slides.length>1){setInterval(()=>heroGo((hi+1)%slides.length),7000);}
+  bindSubnav(programsSubnav.map(s=>s.id));
+
+  // Mobile carousel rotation (only active on mobile)
+  ['scholar','valor'].forEach(key=>{
+    const pics=document.querySelectorAll('.ps-img[data-ps="'+key+'"]');
+    const pdots=document.querySelectorAll('.ps-dot[data-ps="'+key+'"]');
+    let pi=0;
+    function psGo(i){pics.forEach(p=>p.classList.remove('on'));pdots.forEach(d=>d.classList.remove('on'));if(pics[i])pics[i].classList.add('on');if(pdots[i])pdots[i].classList.add('on');pi=i;}
+    pdots.forEach((d,i)=>d.addEventListener('click',()=>psGo(i)));
+    if(pics.length>1){setInterval(()=>psGo((pi+1)%pics.length),5000);}
+  });
 
 
   bindMobileMenu();

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The 200 Club of Monmouth County</title>
-<meta name="description" content="The 200 Club of Monmouth County supports first responders and their families through scholarships, Valor Awards, and immediate aid.">
+<title>Join & Donate | The 200 Club of Monmouth County</title>
+<meta name="description" content="Become a member or make a donation. Every gift supports Monmouth County first responders and their families.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -713,96 +713,68 @@ footer{background:var(--navy-x);color:rgba(255,255,255,.7);padding:72px 32px 32p
 
   // === PAGE-SPECIFIC RENDER ===
 
-  const home=cfg.home||{};
-  // Hero slides
-  const heroSlides=(home.hero.slides||[]).map((s,i)=>{
-    const bg=s.bgImage||'';
-    const bgHtml=bg
-      ? '<div class="hs-bg" style="background-image:url(\''+safe(bg)+'\')"></div>'
-      : '<div class="hs-ph-full"><div class="ic">\u{1F3DB}\uFE0F</div><div class="fn">'+safe('hero-'+(i+1)+'.jpg')+'</div><div class="fb">'+safe(s.imageAlt||'Upload a landscape hero photo via admin')+'</div></div>';
-    return '<div class="hs '+(i===0?'on':'')+'" data-idx="'+i+'">'
-      + bgHtml
-      + '<div class="hs-in">'
-      + (s.eyebrow?'<span class="hs-ey">'+safe(s.eyebrow)+'</span>':'')
-      + '<h1>'+(s.headline||'')+'</h1>'
-      + '<p>'+safe(s.subheadline||'')+'</p>'
-      + '<div class="hs-ctas">'
-      + (s.primaryCtaLabel?'<a class="btn bg" href="'+safe(s.primaryCtaHref||'#')+'"'+(s.primaryCtaHref&&s.primaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.primaryCtaLabel)+'</a>':'')
-      + (s.secondaryCtaLabel?'<a class="btn bob" href="'+safe(s.secondaryCtaHref||'#')+'"'+(s.secondaryCtaHref&&s.secondaryCtaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(s.secondaryCtaLabel)+'</a>':'')
-      + '</div></div></div>';
-  }).join('');
-  const heroDots=(home.hero.slides||[]).map((_,i)=>'<button class="hs-dot '+(i===0?'on':'')+'" data-idx="'+i+'" aria-label="Slide '+(i+1)+'"></button>').join('');
-  const pillarsHtml=(home.pillars.items||[]).map(p=>
-    '<div class="card"><div class="cnum">'+safe(p.number||'')+'</div><h3>'+safe(p.title)+'</h3><p>'+safe(p.description)+'</p>'
-    + (p.linkLabel?'<a class="cl" href="'+safe(p.linkHref||'#')+'">'+safe(p.linkLabel)+' \u2192</a>':'')
-    + '</div>'
-  ).join('');
-  const fs=home.featuredStory||{};
-  const fsImg = fs.image
-    ? '<img src="'+safe(fs.image)+'" alt="'+safe(fs.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;fs-img-ph&quot;><div class=&quot;ic&quot;>\u{1F46E}</div><div class=&quot;fn&quot;>'+safe(fs.image)+'</div><div class=&quot;fb&quot;>Portrait photo \u2014 4:5 ratio</div></div>\'">'
-    : '<div class="fs-img-ph"><div class="ic">\u{1F46E}</div><div class="fn">officer-russo.jpg</div><div class="fb">Portrait photo \u2014 4:5 ratio</div></div>';
-  const featuredHtml=fs.title?
-    '<div class="fs"><div class="fs-img">'+fsImg+'</div>'
-    + '<div class="fs-tx">'
-    + '<span class="fs-ey">'+safe(fs.eyebrow||'')+'</span>'
-    + '<h3>'+safe(fs.title)+'</h3>'
-    + '<p>'+safe(fs.description||'')+'</p>'
-    + '<div class="fs-att"><strong>'+safe(fs.attribution||'')+'</strong><span>'+safe(fs.attributionDetail||'')+'</span></div>'
-    + (fs.ctaLabel?'<a class="btn bg" style="align-self:flex-start;position:relative;z-index:2" href="'+safe(fs.ctaHref||'#')+'">'+safe(fs.ctaLabel)+'</a>':'')
-    + '</div></div>':'';
-  const pm=home.presidentMessage||{};
-  const pmImg = pm.image
-    ? '<img src="'+safe(pm.image)+'" alt="'+safe(pm.imageAlt||'')+'" onerror="this.parentElement.innerHTML=\'<div class=&quot;pm-img-ph&quot;><div class=&quot;ic&quot;>\u{1F464}</div><div class=&quot;fn&quot;>'+safe(pm.image)+'</div></div>\'">'
-    : '<div class="pm-img-ph"><div class="ic">\u{1F464}</div><div class="fn">mary-pat-angelini.jpg</div></div>';
+  const jn=cfg.join||{};
+  const hero=jn.hero||{};
+  const intro=jn.intro||{};
+  const mem=jn.membership||{};
+  const don=jn.donate||{};
+  const contact=jn.contact||{};
+
+  const formProvider=contact.formProvider||'demo';
+  const formAction=(formProvider==='formspree'&&contact.formAction)?'action="'+safe(contact.formAction)+'" method="POST"':'';
+
+  const memBenefits=(mem.benefits||[]).map(b=>'<li>'+safe(b)+'</li>').join('');
+  const donBenefits=(don.benefits||[]).map(b=>'<li>'+safe(b)+'</li>').join('');
+
+  const joinSubnav=[
+    {id:'ways',label:'Join / Donate'},
+    {id:'contact',label:'Contact'}
+  ];
 
   app.innerHTML=
-    navHtml('index.html')
-    + '<div id="top"></div>'
-    + '<section class="hero">'+heroSlides+'<div class="hs-ctl">'+heroDots+'</div></section>'
-    + (home.missionBar&&home.missionBar.text?'<section class="mb"><p>'+home.missionBar.text+'</p></section>':'')
-    + '<section class="s" id="mission">'
-    + '<span class="ey">'+safe(home.pillars.eyebrow||'Our Mission')+'</span>'
-    + '<h2 class="d">'+safe(home.pillars.title||'')+'</h2>'
-    + '<div class="rule"></div>'
-    + '<div class="prose">'+(home.pillars.paragraphs||[]).map(p=>'<p>'+p+'</p>').join('')+'</div>'
-    + '<div class="pl">'+pillarsHtml+'</div>'
-    + featuredHtml
+    navHtml('join.html')
+    + pageHero(hero, 'join')
+    + subnavHtml(joinSubnav)
+    + '<section class="s" id="ways">'
+    + (intro.description?'<p style="color:var(--m);max-width:780px;font-size:18px;line-height:1.65;">'+safe(intro.description)+'</p>':'')
+    + '<div class="iv">'
+    + '<div class="iv-c">'
+    + '<div class="ivh"><h3>'+safe(mem.title||'Become a Member')+'</h3><p>'+safe(mem.description||'')+'</p></div>'
+    + '<div class="ivc"><h4>'+safe(mem.benefitsHeading||'Member Benefits')+'</h4><ul>'+memBenefits+'</ul></div>'
+    + (mem.fine?'<p class="fine">'+safe(mem.fine)+'</p>':'')
+    + '<a class="btn bb" href="'+safe(mem.ctaHref||'#')+'"'+(mem.ctaHref&&mem.ctaHref.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+safe(mem.ctaLabel||'Apply')+'</a>'
+    + '</div>'
+    + '<div class="iv-c">'
+    + '<div class="ivh"><h3>'+safe(don.title||'Make a Donation')+'</h3><p>'+safe(don.description||'')+'</p></div>'
+    + '<div class="ivc"><h4>'+safe(don.benefitsHeading||'Your Gift Supports')+'</h4><ul>'+donBenefits+'</ul></div>'
+    + (don.fine?'<p class="fine">'+safe(don.fine)+'</p>':'')
+    + '<a class="btn bg" href="'+safe(don.ctaHref||'#')+'" target="_blank" rel="noopener">'+safe(don.ctaLabel||'Donate via PayPal')+'</a>'
+    + '</div>'
+    + '</div>'
     + '</section>'
-    + (pm.quote?'<section class="pm"><div class="pm-in"><div class="pm-img">'+pmImg+'</div><div class="pm-tx"><span class="ey">'+safe(pm.eyebrow||'')+'</span><blockquote>\u201C'+safe(pm.quote)+'\u201D</blockquote><div class="pm-att"><strong>'+safe(pm.attribution||'')+'</strong><span>'+safe(pm.attributionDetail||'')+'</span></div>'+(pm.ctaLabel?'<a class="btn bb" style="align-self:flex-start" href="'+safe(pm.ctaHref||'#')+'">'+safe(pm.ctaLabel)+'</a>':'')+'</div></div></section>':'')
-    + (function(){
-        const social=cfg.social||{};
-        const fb=social.facebook,ig=social.instagram;
-        if(!fb && !ig) return '';
-        const f=home.follow||{};
-        const fbLink=fb?'<a href="'+safe(fb)+'" target="_blank" rel="noopener" aria-label="Facebook">'+socialIcon('facebook')+'</a>':'';
-        const igLink=ig?'<a href="'+safe(ig)+'" target="_blank" rel="noopener" aria-label="Instagram">'+socialIcon('instagram')+'</a>':'';
-        return '<section class="follow"><div class="follow-in">'
-          + '<span class="ey">'+safe(f.eyebrow||'Stay Connected')+'</span>'
-          + '<h3>'+(f.headline||'Follow us on <em>social</em>')+'</h3>'
-          + '<p>'+safe(f.description||'Stay up to date on events, recognitions, and stories from across Monmouth County.')+'</p>'
-          + '<div class="follow-soc">'+fbLink+igLink+'</div>'
-          + '</div></section>';
-      })()
+    + '<section class="s s-bl" id="contact">'
+    + '<span class="ey">'+safe(contact.eyebrow||'Contact')+'</span>'
+    + '<h2 class="d">'+safe(contact.title||'')+'</h2>'
+    + '<div class="rule"></div>'
+    + '<p style="color:var(--m);max-width:700px;">'+safe(contact.description||'')+'</p>'
+    + '<div class="cx"><div>'
+    + '<div class="cd"><div><strong>Email</strong><p>'+safe(contact.emailNote||'')+'</p><a href="mailto:'+safe(contact.email||'')+'">'+safe(contact.email||'')+'</a></div></div>'
+    + '<div class="cd"><div><strong>Phone</strong><p>'+safe(contact.phoneNote||'')+'</p><a href="tel:'+safe(contact.phoneHref||'')+'">'+safe(contact.phone||'')+'</a></div></div>'
+    + '<div class="cd"><div><strong>Mailing Address</strong><p style="white-space:pre-line;">'+safe(contact.address||'')+'</p></div></div>'
+    + '<div class="cd"><div style="flex:1"><strong>Donations</strong><p>'+safe(contact.donationNote||'Processed securely via PayPal')+'</p><a class="btn bg" href="'+safe(don.ctaHref||'#')+'" target="_blank" rel="noopener" style="margin-top:10px;display:inline-flex;">Donate Now</a></div></div>'
+    + '</div>'
+    + '<div class="cf"><form class="fr" '+formAction+' '+(formProvider==='demo'?'onsubmit="alert(\'Form set to demo mode \u2014 please configure Formspree to receive messages.\');return false;"':'')+'>'
+    + '<div class="fg"><label>Your Name</label><input type="text" name="name" required></div>'
+    + '<div class="fg"><label>Email</label><input type="email" name="email" required></div>'
+    + '<div class="fg"><label>Subject</label><select name="subject"><option>General inquiry</option><option>Membership</option><option>Sponsorship</option><option>Media / press</option><option>Scholarship question</option><option>Valor Award nomination</option><option>Event tickets</option></select></div>'
+    + '<div class="fg"><label>Message</label><textarea name="message" required></textarea></div>'
+    + '<button class="btn bb" type="submit">'+safe(contact.submitLabel||'Send Message')+'</button>'
+    + (formProvider==='demo'?'<p class="fn-note">Form is in demo mode \u2014 configure Formspree in the admin panel to receive submissions.</p>':'')
+    + '</form></div></div>'
+    + '</section>'
     + footerHtml();
 
-  // Hero slideshow — smooth crossfade (new slide fades in over the old one)
-  const slides=document.querySelectorAll('.hs');
-  const dots=document.querySelectorAll('.hs-dot');
-  let hi=0;
-  function heroGo(i){
-    if(i===hi)return;
-    const next = slides[i];
-    const prev = slides[hi];
-    if(next){
-      next.classList.add('on');
-      if(dots[i]){ dots.forEach(d=>d.classList.remove('on')); dots[i].classList.add('on'); }
-      // After the crossfade finishes, drop the old slide's "on" so it stops painting
-      setTimeout(()=>{ if(prev && prev!==next) prev.classList.remove('on'); }, 1300);
-      hi=i;
-    }
-  }
-  dots.forEach((d,i)=>d.addEventListener('click',()=>heroGo(i)));
-  if(slides.length>1){setInterval(()=>heroGo((hi+1)%slides.length),7000);}
+  bindSubnav(joinSubnav.map(s=>s.id));
 
 
   bindMobileMenu();
