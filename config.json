@@ -1,0 +1,3981 @@
+{
+  "brand": {
+    "logo": "assets/images/logo.png",
+    "logoAlt": "The 200 Club of Monmouth County",
+    "name": "The 200 Club",
+    "tagline": "of Monmouth County",
+    "motto": "We Remember"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "About",
+        "href": "about.html"
+      },
+      {
+        "label": "Programs",
+        "href": "programs.html"
+      },
+      {
+        "label": "Galleries",
+        "href": "galleries.html"
+      },
+      {
+        "label": "Events",
+        "href": "events.html"
+      },
+      {
+        "label": "Media",
+        "href": "media.html"
+      },
+      {
+        "label": "Join",
+        "href": "join.html"
+      }
+    ],
+    "ctaLabel": "Donate",
+    "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/Monmouth200Club/",
+    "twitter": "https://twitter.com/Monmouth200Club",
+    "instagram": "https://www.instagram.com/200clubofmonmouth/",
+    "youtube": "https://www.youtube.com/channel/UCPAxG1yNOF9477tsYiqFp1A"
+  },
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "eyebrow": "Honoring First Responders Since 1971",
+          "headline": "Standing Beside Those Who <em>Answer the Call</em>",
+          "subheadline": "For over 50 years, The 200 Club of Monmouth County has supported first responders and their families \u2014 with immediate aid, scholarships, and recognition for extraordinary bravery.",
+          "primaryCtaLabel": "Make a Donation",
+          "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
+          "secondaryCtaLabel": "Learn Our Mission",
+          "secondaryCtaHref": "about.html",
+          "bgImage": "assets/images/hero-1.jpg",
+          "imageAlt": "First responders ceremony"
+        },
+        {
+          "eyebrow": "2025 Scholarships",
+          "headline": "Over <em>$100,000</em> Awarded in 2025",
+          "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
+          "primaryCtaLabel": "Apply Now",
+          "primaryCtaHref": "https://form.jotform.com/261056633582155",
+          "secondaryCtaLabel": "Ben Danskin Scholarship",
+          "secondaryCtaHref": "https://form.jotform.com/261056066290151",
+          "bgImage": "assets/images/hero-2.jpg",
+          "imageAlt": "Scholarship ceremony"
+        },
+        {
+          "eyebrow": "Annual Valor Awards",
+          "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
+          "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
+          "primaryCtaLabel": "Submit a Nomination",
+          "primaryCtaHref": "https://form.jotform.com/261055906149156",
+          "secondaryCtaLabel": "Luncheon Tickets",
+          "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
+          "bgImage": "assets/images/hero-3.jpg",
+          "imageAlt": "Valor Awards ceremony"
+        }
+      ]
+    },
+    "missionBar": {
+      "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> \u2014 not weeks."
+    },
+    "pillars": {
+      "eyebrow": "Our Mission",
+      "title": "Three Pillars. One Commitment.",
+      "paragraphs": [
+        "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining."
+      ],
+      "items": [
+        {
+          "number": "01",
+          "title": "Family Assistance",
+          "description": "When a Monmouth County first responder is killed or seriously injured in the line of duty, we respond within hours with financial support for their family \u2014 no paperwork, no red tape.",
+          "linkLabel": "Learn more",
+          "linkHref": "about.html"
+        },
+        {
+          "number": "02",
+          "title": "College Scholarships",
+          "description": "Each year we award scholarships to children of Monmouth County first responders. Over $3 million awarded to date \u2014 and over $100,000 in 2025 alone.",
+          "linkLabel": "Scholarship info",
+          "linkHref": "programs.html#scholarships"
+        },
+        {
+          "number": "03",
+          "title": "Valor Awards",
+          "description": "We honor first responders who go above and beyond \u2014 from Certificates of Recognition to our highest honor, the Valor Award.",
+          "linkLabel": "Awards info",
+          "linkHref": "programs.html#valor"
+        }
+      ]
+    },
+    "featuredStory": {
+      "eyebrow": "Valor Award Recipient",
+      "title": "\"I'm just doing what I signed up for.\"",
+      "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
+      "attribution": "Officer Dominique Russo",
+      "attributionDetail": "Neptune Township Police Department \u00b7 Valor Award Recipient",
+      "image": "assets/images/officer-russo.jpg",
+      "imageAlt": "Officer Dominique Russo",
+      "ctaLabel": "Read her story",
+      "ctaHref": "programs.html#story-russo"
+    },
+    "presidentMessage": {
+      "eyebrow": "A Message From Our President",
+      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
+      "attribution": "Mary Pat Angelini",
+      "attributionDetail": "President 2025\u201326, The 200 Club of Monmouth County",
+      "image": "assets/images/mary-pat-angelini.jpg",
+      "imageAlt": "Mary Pat Angelini, President",
+      "ctaLabel": "Become a Member",
+      "ctaHref": "join.html"
+    },
+    "follow": {
+      "eyebrow": "Stay Connected",
+      "headline": "Follow us on <em>social media</em>",
+      "description": "For events, recognitions, and stories from across Monmouth County."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "Standing Watch for Monmouth County's First Responders",
+      "subheadline": "For over 50 years, The 200 Club has been the safety net behind the people who run toward danger.",
+      "bgImage": "assets/images/about-hero-bg.jpg",
+      "bgImageAlt": "The 200 Club community"
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "Founded in 1971. Still Answering the Call.",
+      "paragraphs": [
+        "The 200 Club of Monmouth County was founded on a simple premise: when a first responder is killed or seriously injured in the line of duty, their family shouldn't have to wait weeks for help.",
+        "What started as a small group of committed citizens has grown into an organization that has delivered over $3 million in college scholarships, honored hundreds of first responders with Valor Awards, and provided immediate aid to families in their darkest hours.",
+        "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
+      ],
+      "photo": "assets/images/about-story.jpg",
+      "photoAlt": "A 200 Club moment supporting first responders"
+    },
+    "gallery": {
+      "eyebrow": "Our Leadership",
+      "title": "The People Behind The 200 Club",
+      "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
+      "photos": [
+        {
+          "src": "assets/images/leadership-1.jpg",
+          "alt": "200 Club Board of Trustees group photo",
+          "caption": "Our Board of Trustees"
+        },
+        {
+          "src": "assets/images/leadership-2.jpg",
+          "alt": "Executive Officers of the 200 Club",
+          "caption": "Executive Officers"
+        },
+        {
+          "src": "assets/images/leadership-3.jpg",
+          "alt": "Officers being sworn in at 200 Club ceremony",
+          "caption": "Officers sworn in at the Annual Meeting"
+        }
+      ]
+    },
+    "board": {
+      "eyebrow": "Leadership",
+      "title": "Our Board & Trustees",
+      "officers": {
+        "heading": "Executive Officers",
+        "members": [
+          {
+            "name": "Mary Pat Angelini",
+            "title": "President 2025\u201326"
+          },
+          {
+            "name": "Edward Kirschenbaum, Sr.",
+            "title": "Vice President"
+          },
+          {
+            "name": "John Kaye",
+            "title": "Secretary"
+          },
+          {
+            "name": "Dominick Mazza",
+            "title": "Treasurer"
+          }
+        ]
+      },
+      "trustees": {
+        "heading": "Board of Trustees",
+        "members": [
+          {
+            "name": "Thomas A. Arnone"
+          },
+          {
+            "name": "Edward M. Brock, Jr."
+          },
+          {
+            "name": "Edward G. Donovan"
+          },
+          {
+            "name": "Josh Elkes"
+          },
+          {
+            "name": "M. Claire French"
+          },
+          {
+            "name": "Robert Gagliano"
+          },
+          {
+            "name": "Robert A. Honecker, Jr."
+          },
+          {
+            "name": "R. Reginald Hyde, II"
+          },
+          {
+            "name": "Benjamin J. Lucarelli"
+          },
+          {
+            "name": "Kevin P. Orender"
+          },
+          {
+            "name": "Jim Petillo"
+          },
+          {
+            "name": "Robert Swannack"
+          }
+        ]
+      },
+      "emeritus": {
+        "heading": "Trustees Emeritus",
+        "members": [
+          {
+            "name": "William C. Barham"
+          },
+          {
+            "name": "Richard Daesener"
+          },
+          {
+            "name": "Kim Guadagno"
+          },
+          {
+            "name": "Gregory Metzger"
+          },
+          {
+            "name": "Jack McCormack"
+          },
+          {
+            "name": "Joseph L. Thompson, Jr."
+          }
+        ]
+      },
+      "advisory": {
+        "heading": "Advisory Committee",
+        "members": [
+          {
+            "name": "Alyssa T.G. Anderson, MFA, PhD"
+          },
+          {
+            "name": "Joseph C. Curto"
+          },
+          {
+            "name": "Charles Smentkowski"
+          }
+        ]
+      },
+      "exOfficio": {
+        "heading": "Trustees Ex Officio",
+        "members": [
+          {
+            "name": "Monmouth County PBA Conference Chair"
+          },
+          {
+            "name": "Monmouth County Prosecutor"
+          },
+          {
+            "name": "Monmouth County Sheriff"
+          },
+          {
+            "name": "President of Monmouth County Police Chiefs' Association"
+          }
+        ]
+      }
+    },
+    "presidentMessage": {
+      "eyebrow": "A Message From Our President",
+      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
+      "attribution": "Mary Pat Angelini",
+      "attributionDetail": "President 2025\u201326, The 200 Club of Monmouth County",
+      "image": "assets/images/mary-pat-angelini.jpg",
+      "imageAlt": "Mary Pat Angelini, President",
+      "ctaLabel": "Become a Member",
+      "ctaHref": "join.html"
+    }
+  },
+  "programs": {
+    "hero": {
+      "eyebrow": "Our Programs",
+      "title": "Scholarships, Valor, and the Lives Behind Them",
+      "subheadline": "Every year we invest in the next generation of first responder families \u2014 and honor the extraordinary bravery of those who serve.",
+      "bgImage": "assets/images/programs-hero-bg.jpg",
+      "bgImageAlt": "Valor Awards ceremony"
+    },
+    "heroRibbon": {
+      "photos": [
+        {
+          "src": "assets/images/ribbon-1.jpg",
+          "alt": "Scholarship recipients"
+        },
+        {
+          "src": "assets/images/ribbon-2.jpg",
+          "alt": "Valor Awards ceremony"
+        },
+        {
+          "src": "assets/images/ribbon-3.jpg",
+          "alt": "Awards Luncheon"
+        },
+        {
+          "src": "assets/images/ribbon-4.jpg",
+          "alt": "Scholarship Social"
+        },
+        {
+          "src": "assets/images/ribbon-5.jpg",
+          "alt": "Valor Award recipient"
+        }
+      ]
+    },
+    "scholarships": {
+      "eyebrow": "Scholarships",
+      "title": "Investing in the Next Generation",
+      "paragraphs": [
+        "Each year, The 200 Club awards college scholarships to children of first responders in Monmouth County. <strong>In 2025, we awarded over $100,000 in scholarships</strong> \u2014 and to date, more than $3 million has gone to the families of those who serve.",
+        "The <strong>Ben Danskin Scholarship</strong> is also awarded annually to one exceptional junior or senior who demonstrates outstanding merit."
+      ],
+      "stat": {
+        "number": "$100K+",
+        "label": "Awarded in 2025 to children of Monmouth County first responders."
+      },
+      "awards": [
+        {
+          "title": "Annual Scholarship",
+          "description": "Open to undergraduate children of active 200 Club member first responders in Monmouth County."
+        },
+        {
+          "title": "Ben Danskin Scholarship",
+          "description": "A merit-based award for one exceptional junior or senior demonstrating outstanding achievement."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Apply for the Annual Scholarship",
+          "href": "https://form.jotform.com/261056633582155",
+          "style": "solid"
+        },
+        {
+          "label": "Ben Danskin Scholarship",
+          "href": "https://form.jotform.com/261056066290151",
+          "style": "outline"
+        }
+      ],
+      "photos": [
+        {
+          "src": "assets/images/scholarship-1.jpg",
+          "alt": "Scholarship recipients 2025"
+        },
+        {
+          "src": "assets/images/scholarship-2.jpg",
+          "alt": "Scholarship ceremony"
+        },
+        {
+          "src": "assets/images/scholarship-3.jpg",
+          "alt": "Scholarship recipients group"
+        }
+      ]
+    },
+    "valor": {
+      "eyebrow": "Valor Awards",
+      "title": "Recognizing Extraordinary Bravery",
+      "paragraphs": [
+        "Each year at our Annual Awards Luncheon, The 200 Club recognizes first responders who went above and beyond. Awards range from Certificates of Recognition to The Valor Award \u2014 our highest honor."
+      ],
+      "awards": [
+        {
+          "title": "The Valor Award",
+          "description": "Highest honor \u2014 extraordinary bravery that placed an officer's life at risk."
+        },
+        {
+          "title": "Meritorious Service Award",
+          "description": "Exceptional performance of duty demonstrating outstanding skill and judgment."
+        },
+        {
+          "title": "Certificate of Recognition",
+          "description": "Acknowledges first responders for notable acts of service to the community."
+        }
+      ],
+      "ctaLabel": "Submit a Nomination",
+      "ctaHref": "https://form.jotform.com/261055906149156",
+      "photos": [
+        {
+          "src": "assets/images/valor-medal.jpg",
+          "alt": "Valor Medal"
+        },
+        {
+          "src": "assets/images/luncheon-1.jpg",
+          "alt": "Awards Luncheon 2025"
+        }
+      ]
+    },
+    "spotlights": {
+      "eyebrow": "Spotlight 200",
+      "title": "Stories of Valor",
+      "description": "The men and women behind the awards \u2014 in their own words.",
+      "stories": [
+        {
+          "slug": "russo",
+          "badge": "Valor Award \u00b7 Neptune Township PD",
+          "title": "Officer Dominique Russo",
+          "subtitle": "\"I'm just doing what I signed up for.\"",
+          "image": "assets/images/officer-russo.jpg",
+          "imageAlt": "Officer Dominique Russo",
+          "paragraphs": [
+            "She heard a loud pop and recognized the sound. Neptune Township Police Officer Dominique Russo immediately turned her patrol car around and spotted a group of men \u2014 one of them was carrying a gun. He took off running, and she followed him in her car. Then, he crossed her car and the two made eye contact. The gun was still in clear sight. \"I thought to myself, is this really happening\u2026 is this really in front of me right now,\" Officer Russo said when interviewed by The 200 Club of Monmouth County.",
+            "Officer Russo said her instincts kicked in, and she called for backup. The man darted into a yard, and she followed him on foot. The 24-year-old added, \"To be honest, you don't think about the danger in the moment, all I saw was a guy holding a gun, and all I thought was I have to get that gun off the street.\"",
+            "The officer, who measures in at five-foot-one inch, single-handedly got the suspect, who is five-foot-ten inches tall, to the ground and handcuffed him. The gun was recovered where he tossed it during the pursuit. It was a .45 caliber, and it was found cocked and loaded. Turns out that he was a known gang member with an extensive criminal history. He has since been convicted of that 2017 crime.",
+            "The 200 Club of Monmouth County honored Officer Russo with the 2018 Valor Award for her bravery and for serving with distinction. \"I'm just so happy I was able to get the gun off the street, because if he was trying to hurt someone, he wasn't able to succeed,\" stated Officer Russo.",
+            "Officer Russo says she does not consider herself a hero but is honored to be recognized by The 200 Club of Monmouth County. \"I'm just doing what I signed up for, but honestly, we (police) go through so much negativity, that going through this one positive and actually being recognized means a lot. The news only focuses on the bad. I rarely see the good, and there is so much good that police do every day. Thank you for this.\""
+          ]
+        },
+        {
+          "slug": "marlboro",
+          "badge": "Valor Award \u00b7 Marlboro PD",
+          "title": "The Marlboro Five",
+          "subtitle": "A teenager pinned between two cars \u2014 one on fire.",
+          "image": "assets/images/marlboro-officers.jpg",
+          "imageAlt": "Marlboro Police Department officers",
+          "paragraphs": [
+            "\"The call came in as entrapment and flames,\" recalled Marlboro Patrol Officer Adam Mattei.",
+            "Trapped between two vehicles \u2014 one of them on fire \u2014 was 17-year-old Rebecca Kniffin of Freehold, who was unconscious. Five Marlboro police officers came to her rescue.",
+            "\"Usually they're trapped inside the car, but this was the first time I had someone between the cars. She was ejected from one car, then pinned between the two cars,\" said Patrol Officer Colin Murray.",
+            "\"We knew we had to act fast. One car was on fire, and when that happens you don't have much time. So, I ran and got my patrol car and then used it to separate the cars to get her free. We weren't even sure she was alive, but we had to try. Nothing else worked. Luckily, it did,\" said Patrol Officer Donna Gonzalez.",
+            "Their heroism that day, June 16, 2020, was captured by body cameras and covered by the media. Their incredible actions also earned them the highest award given by The 200 Club of Monmouth County, The Valor Award.",
+            "On November 6, 2020, at the Valor Awards ceremony outside the Township's municipal building, Rebecca and her family got to express their gratitude to the officers in person. Rebecca suffered broken bones, punctured lungs, and second-degree burns in the accident. She spent two weeks in the hospital and had multiple surgeries, but you'd never know it looking at her.",
+            "\"All I can say is thank you for saving me,\" Rebecca said repeatedly, as her mom choked back tears and added, \"They literally put themselves in the line of fire to save my child who they never met before. It's amazing.\""
+          ]
+        },
+        {
+          "slug": "sosnowski",
+          "badge": "Valor Award \u00b7 Manalapan Township PD",
+          "title": "Officer Adam Sosnowski",
+          "subtitle": "\"It's amazing how your training kicks in.\"",
+          "image": "assets/images/officer-sosnowski.jpg",
+          "imageAlt": "Officer Adam Sosnowski",
+          "paragraphs": [
+            "\"I remember looking at the gun thinking, 'Wow, that's real.' It's amazing how your training kicks in.\"",
+            "Manalapan Township Police Department K-9 Officer Adam Sosnowski recounts what happened during his shift one night in August 2018. A call came in about an allegedly suicidal man, a person Officer Sosnowski knew from prior incidents.",
+            "Officer Sosnowski describes what happened when he went up to the house and convinced the man to come outside: \"He came out and appeared agitated, but the next thing you know, he reaches into his front pocket and pulls a handgun out.\"",
+            "Officer Sosnowski believes the man pointed the gun at him because he wanted to be shot and killed, but luckily, thanks to Sosnowski's quick actions and training, a \"suicide by cop\" scenario was avoided. His police chief, Michael Fountain, says that a physical struggle ensued between Sosnowski and the man, but his officer managed to free the firearm from the man's hand and subdue and handcuff him.",
+            "Chief Fountain says, \"Officer Sosnowski responded to what he thought was a deadly force situation with courage and the will to win.\" For these heroic actions, Officer Sosnowski received the Valor Award by The 200 Club of Monmouth County on June 7, 2019.",
+            "Officer Sosnowski added, \"I am definitely not a hero. There are definitely many other heroes in the world. I just think it was the right circumstances at the right time, with the right person. Thank God I had the proper training. Anything pro-law enforcement is amazing. And, The 200 Club is definitely the top of the top in New Jersey, and it truly is an honor to even be recognized by them.\""
+          ]
+        },
+        {
+          "slug": "magenheimer",
+          "badge": "Plaque Award \u00b7 MCPO",
+          "title": "Paralegal Heather Magenheimer",
+          "subtitle": "The unsung hero behind a ten-year justice.",
+          "image": "assets/images/heather-magenheimer.jpg",
+          "imageAlt": "Heather Magenheimer",
+          "paragraphs": [
+            "Jonelle Melton, a beloved 33-year-old social studies teacher at Red Bank Middle School, was murdered in her apartment in Neptune City in 2009 by three career criminals in a case of mistaken identity. They thought they were breaking into the apartment of a drug dealer who had cash inside, but they broke into the wrong apartment, then brutally beat, stabbed, and shot the fifth-grade teacher.",
+            "In 2019, Assistant Prosecutors Matthew Bogner and Lawrence Nelson successfully argued the case, and a jury convicted the three men. They were later sentenced to life in prison. A fourth man pleaded guilty to orchestrating the burglary.",
+            "That justice for Jonelle Melton took ten long years. Monmouth County Prosecutor Chris Gramiccioni wants the public to know it could not have been accomplished without the extraordinary behind-the-scenes contributions of one of his paralegals.",
+            "\"The public often sees the face of successful investigations and prosecutions in detectives and prosecutors \u2014 the 'directors' of criminal cases. But equally as important is the 'producer' work our paralegals put in to prepare discovery, conduct legal research, and assist in evidence and witness presentation to the jury,\" said Gramiccioni. \"Heather's work and support in the Jonelle Melton murder prosecution was nothing short of spectacular.\"",
+            "Magenheimer kept track of tens of thousands of pieces of evidence collected over several years. \"There were literally boxes up to the ceiling in an entire conference room. It was my job to know every inch of it, so it could be found in a pinch,\" said Magenheimer.",
+            "Magenheimer received a Plaque Award by The 200 Club of Monmouth County at the 2019 Valor Award Luncheon. \"I am honored to be recognized by my peers, and I was beyond shocked to get the notice that I had won an award. I did live, sleep, and breathe the Melton case\u2026 and was glad to do it. I am proud to have played a supporting part in the convictions.\""
+          ]
+        }
+      ]
+    }
+  },
+  "media": {
+    "hero": {
+      "eyebrow": "Press & Media",
+      "title": "The 200 Club in the News",
+      "subheadline": "Coverage of our work, awards, and the first responders we honor.",
+      "bgImage": "assets/images/media-hero-bg.jpg",
+      "bgImageAlt": "200 Club coverage"
+    },
+    "press": {
+      "eyebrow": "Press & Media",
+      "title": "The 200 Club in the News",
+      "description": "Coverage of our work, awards, and the first responders we honor.",
+      "categories": [
+        {
+          "heading": "Recent Press Releases",
+          "items": [
+            {
+              "title": "Eight Members of Law Enforcement Honored by 200 Club of Monmouth County with Valor Awards for Exceptional Bravery",
+              "outlet": "200 Club",
+              "date": "2021",
+              "url": "https://www.monmouth200club.com/s/Eight-Members-of-Law-Enforcement-Honored-by-200-Club-of-Monmouth-County-with-Valor-Awards-for-Except.pdf"
+            },
+            {
+              "title": "The 200 Club Assists Long Branch Police Officer with $5000 Check",
+              "outlet": "200 Club",
+              "date": "Apr 2021",
+              "url": "https://www.monmouth200club.com/s/PR-200-Club-Long-Branch-Officer-April-2021.pdf"
+            },
+            {
+              "title": "The 200 Club of Monmouth County State Police Recruit",
+              "outlet": "200 Club",
+              "date": "Dec 2020",
+              "url": "https://www.monmouth200club.com/s/PR-200-Club-State-Police-Recruit-December-2020.pdf"
+            },
+            {
+              "title": "The 200 Club of Monmouth County 2020 Valor Awards",
+              "outlet": "200 Club",
+              "date": "Sep 2020",
+              "url": "https://www.monmouth200club.com/s/PR-200-Club-Valor-Awards-September-2020.pdf"
+            },
+            {
+              "title": "The 200 Club of Monmouth County Virtual Scholarship Award Ceremony",
+              "outlet": "200 Club",
+              "date": "Aug 2020",
+              "url": "https://www.monmouth200club.com/s/FINAL200ClubSchoalrshipPRAugust2020.pdf"
+            },
+            {
+              "title": "The 200 Club of Monmouth County Swearing In",
+              "outlet": "200 Club",
+              "date": "Jun 2020",
+              "url": "https://www.monmouth200club.com/s/FINAL200CLUBSWEARINGINJUNE2020.pdf"
+            },
+            {
+              "title": "The 200 Club of Monmouth County to Host \u201cMeet the Chiefs Social\u201d in Holmdel",
+              "outlet": "200 Club",
+              "date": "Nov 2019",
+              "url": "https://www.monmouth200club.com/s/Meet-Chiefs-November-2019.doc"
+            },
+            {
+              "title": "Scholarship Social 2019",
+              "outlet": "200 Club",
+              "date": "Aug 2019",
+              "url": "https://www.monmouth200club.com/s/Final-Scholarship-200-Club-PR-Aug-2019.pdf"
+            },
+            {
+              "title": "Valor Awards 2019",
+              "outlet": "200 Club",
+              "date": "2019",
+              "url": "https://www.monmouth200club.com/s/Final-Valor-Awards-2019-PR.pdf"
+            },
+            {
+              "title": "200 Club of Monmouth County Receives Grant from Investors Foundation to Support its Mission",
+              "outlet": "200 Club",
+              "date": "2018",
+              "url": "https://www.monmouth200club.com/if-grant-2018"
+            },
+            {
+              "title": "New Jersey State Trooper Dies After More Than Three Decades of Suffering from his Line of Duty Injuries",
+              "outlet": "200 Club",
+              "date": "2018",
+              "url": "https://www.monmouth200club.com/s/200-Club-Erb-Check.pdf"
+            },
+            {
+              "title": "200 Club of Monmouth County to Host 'Meet the Chiefs Social'",
+              "outlet": "200 Club",
+              "date": "Oct 2018",
+              "url": "https://www.monmouth200club.com/s/FINAL-MEET-THE-CHIEFS-PR-OCT-18-6.doc"
+            },
+            {
+              "title": "The 200 Club of Monmouth County Awards $109,000 in College Scholarships",
+              "outlet": "200 Club",
+              "date": "2018",
+              "url": "https://www.monmouth200club.com/scholarship-2018"
+            },
+            {
+              "title": "The 200 Club of Monmouth County Swearing In",
+              "outlet": "200 Club",
+              "date": "2018",
+              "url": "https://www.monmouth200club.com/s/Final-200-Club-Swearing-In.doc"
+            }
+          ]
+        },
+        {
+          "heading": "In The News",
+          "items": [
+            {
+              "title": "Letter to the Editor in Patch of Monmouth County Honoring 911 First Responders",
+              "outlet": "Patch",
+              "date": "2024",
+              "url": "https://patch.com/new-jersey/redbank/9-11-never-forget-our-heroic-first-responders-nodx"
+            },
+            {
+              "title": "The 200 Club Of Monmouth County Honors Scholarship Winners",
+              "outlet": "The Patch",
+              "date": "Aug 24, 2021",
+              "url": "https://patch.com/new-jersey/manasquan/amp/29814535/the-200-club-of-monmouth-county-honors-scholarship-winners"
+            },
+            {
+              "title": "The 200 Club of Monmouth County Awards $87,750 in 2021 College Scholarships to Children of Local First Responders",
+              "outlet": "Atlantic Highlands Herald",
+              "date": "Aug 12, 2021",
+              "url": "https://www.ahherald.com/2021/08/12/the-200-club-of-monmouth-county-awards-87750-in-2021-college-scholarships-to-children-of-local-first-responders/"
+            },
+            {
+              "title": "The 200 Club of Monmouth County assists Long Branch police officer Olski",
+              "outlet": "app.com",
+              "date": "Apr 9, 2021",
+              "url": "https://www.app.com/story/news/local/people/2021/04/09/200-club-monmouth-long-branch-police-olski-kidney/7152034002/"
+            },
+            {
+              "title": "The 200 Club of Monmouth County supports Long Branch police officer preparing for kidney transplant with $5000 check",
+              "outlet": "Atlantic Highlands Herald",
+              "date": "Apr 9, 2021",
+              "url": "https://www.ahherald.com/newsbrief/local-news/28316-the-200-club-of-monmouth-county-supports-long-branch-police-officer-preparing-for-kidney-transplant-with-00-check"
+            },
+            {
+              "title": "Sister a match for Long Branch police officer who needs kidney",
+              "outlet": "The Patch",
+              "date": "Apr 8, 2021",
+              "url": "https://patch.com/new-jersey/longbranch/sister-match-long-branch-police-officer-who-needs-kidney"
+            },
+            {
+              "title": "Manalapan Police Officer Honored for Stopping Gunman in 2019",
+              "outlet": "The Patch",
+              "date": "Nov 2, 2020",
+              "url": "https://patch.com/new-jersey/manalapan/manalapan-police-officer-honored-stopping-gunman-2019"
+            },
+            {
+              "title": "Seven Hero Cops Honored",
+              "outlet": "The Asbury Park Press",
+              "date": "Sep 30, 2020",
+              "url": "https://www.app.com/story/news/local/monmouth-county/local-heroes/2020/09/30/200-club-monmouth-county-awards-seven-officers-heroism-and-service/3586192001/"
+            },
+            {
+              "title": "Seven Monmouth County Officers Receive The Valor Award for Extraordinary Bravery and Service",
+              "outlet": "AHHerald",
+              "date": "Sep 30, 2020",
+              "url": "https://www.ahherald.com/newsbrief/local-news/27601-seven-police-officers-in-monmouth-county-receive-valor-awards-for-extraordinary-bravery-and-service"
+            },
+            {
+              "title": "200 Club Awards $91,750 In College Scholarships To Children Of Local First Responders",
+              "outlet": "AHHerald",
+              "date": "2020",
+              "url": "https://www.ahherald.com/newsbrief/local-news/27433-the-200-club-of-monmouth-county-awards-$91,750-in-2020-college-scholarships-to-children-of-local-first-responders"
+            },
+            {
+              "title": "200 Club Awards $91,750 In College Scholarships To Children Of Local First Responders",
+              "outlet": "The Monmouth Journal",
+              "date": "2020",
+              "url": "https://themonmouthjournal.com/club-awards-in-college-scholarships-to-children-of-local-first-p9718-1.htm"
+            },
+            {
+              "title": "Honecker Named President of 200 Club; Fair Haven's Lucarelli Sworn-In As Vice President",
+              "outlet": "The Monmouth Journal",
+              "date": "2020",
+              "url": "https://themonmouthjournal.com/honecker-named-president-of-club-fair-havens-lucarelli-swornin-as-vi-p9346-1.htm"
+            },
+            {
+              "title": "The 200 Club of Monmouth County to Host \u201cMeet the Chiefs Social\u201d in Holmdel",
+              "outlet": "The Patch",
+              "date": "2019",
+              "url": "https://patch.com/new-jersey/holmdel-hazlet/200-club-hosts-meet-chiefs-social-nov-18-holmdel"
+            },
+            {
+              "title": "Long Branch Officer Valor Award 200 Club Monmouth County",
+              "outlet": "app.com",
+              "date": "Oct 27, 2020",
+              "url": "https://www.app.com/story/news/local/public-safety/2020/10/27/long-branch-officer-valor-award-200-club-monmouth-county/6046500002/"
+            },
+            {
+              "title": "Townsquare Media \u2014 Manalapan Patrolman Among Six Officers Being Honored With Valor Award",
+              "outlet": "WOBM / Townsquare Media",
+              "date": "Jun 7, 2019",
+              "url": "https://wobm.com/manalapan-patrolman-among-six-officers-being-honored-with-valor-award/"
+            },
+            {
+              "title": "200 Club Honoring Six Brave Police Officers Today",
+              "outlet": "More Monmouth Musings",
+              "date": "Jun 7, 2019",
+              "url": "http://www.moremonmouthmusings.net/2019/06/07/200-club-honoring-six-brave-police-officers-today/"
+            },
+            {
+              "title": "200 Club Awards $109,000 in Scholarships to Children of First Responders (Article)",
+              "outlet": "More Monmouth Musings",
+              "date": "Aug 2, 2018",
+              "url": "http://www.moremonmouthmusings.net/2018/08/03/200-club-awards-109000-in-scholarships-to-children-of-first-responders/"
+            },
+            {
+              "title": "97 Students of First Responders Receive College Scholarships in Monmouth County",
+              "outlet": "WOBM / Townsquare Media",
+              "date": "Aug 5, 2018",
+              "url": "https://wobm.com/97-students-of-first-responders-receive-college-scholarships-in-monmouth-county/"
+            },
+            {
+              "title": "The 200 Club Swears In New Officers",
+              "outlet": "The Monmouth Journal",
+              "date": "Jul 6, 2018",
+              "url": "https://themonmouthjournal.com/the-club-swears-in-new-officers-p7646-1.htm"
+            },
+            {
+              "title": "Guadagno to Lead 200 Club of Monmouth County",
+              "outlet": "More Monmouth Musings",
+              "date": "Jun 28, 2018",
+              "url": "http://www.moremonmouthmusings.net/2018/06/29/guadagno-to-lead-200-club-of-monmouth-county/"
+            }
+          ]
+        },
+        {
+          "heading": "Radio & Broadcast",
+          "items": [
+            {
+              "title": "President Mary Pat Angelini Discusses 200 Club Scholarship Awards",
+              "outlet": "OnNJ",
+              "date": "2024",
+              "url": "https://www.onnj.com/videos/mary-pat-angelini-president-of-the-200-club-of-monmouth-county/"
+            },
+            {
+              "title": "Marlboro NJ Car Crash Teenager Reunites with Officers",
+              "outlet": "CBS 2",
+              "date": "Nov 6, 2020",
+              "url": "https://newyork.cbslocal.com/2020/11/06/marlboro-nj-car-crash-teenager-reunites-with-officers/"
+            },
+            {
+              "title": "Rebecca Kniffin Meets Officers Who Saved Her Life (Video)",
+              "outlet": "app.com",
+              "date": "Nov 9, 2020",
+              "url": "https://www.app.com/videos/news/2020/11/09/rebecca-kniffin-17-freehold-meets-officers-who-saved-her-life-june-accident/6194918002/"
+            },
+            {
+              "title": "Long Branch Officer Korn Valor Award 200 Club Monmouth County (Video)",
+              "outlet": "app.com",
+              "date": "Oct 27, 2020",
+              "url": "https://www.app.com/videos/news/local/public-safety/2020/10/27/long-branch-officer-korm-valor-award-200-club-monmouth-county/6048156002/"
+            },
+            {
+              "title": "Seven Monmouth County Officers Receive The Valor Award",
+              "outlet": "94.3 The Point",
+              "date": "Sep 28, 2020",
+              "url": "https://943thepoint.com/seven-monmouth-county-police-officers-receive-the-valor-award/"
+            },
+            {
+              "title": "Seven Monmouth County Officers Receive The Valor Award",
+              "outlet": "WOBM-FM",
+              "date": "Sep 28, 2020",
+              "url": "https://wobm.com/seven-monmouth-county-police-officers-receive-the-valor-award/"
+            },
+            {
+              "title": "101.5 FM Radio \u2014 Blog by Bill Spadea with Interview of Kim Guadagno",
+              "outlet": "101.5 FM",
+              "date": "Jun 10, 2019",
+              "url": "https://nj1015.com/suicide-by-cop-thwarted-by-humble-hero-cop/"
+            },
+            {
+              "title": "News 12 New Jersey Coverage",
+              "outlet": "News 12 New Jersey",
+              "date": "Jun 7, 2019",
+              "url": "https://www.youtube.com/watch?v=2iULN3vQL1A"
+            },
+            {
+              "title": "Chasing News",
+              "outlet": "Channel 9 / Fox 5 / Channel 29",
+              "date": "Jun 7, 2019",
+              "url": "https://www.youtube.com/watch?v=8gQXrZVgMOk"
+            },
+            {
+              "title": "Townsquare Media Coverage",
+              "outlet": "92.7 WOBM, 105.7 The Hawk, 94.3 The Point, Beach Radio 1160 & 1310",
+              "date": "Jun 7, 2019",
+              "url": "https://wobm.com/manalapan-patrolman-among-six-officers-being-honored-with-valor-award/"
+            },
+            {
+              "title": "Tommy G Radio \u2014 Interview with Treasurer Ben Lucarelli",
+              "outlet": "Tommy G Radio",
+              "date": "May 5, 2019",
+              "url": "https://soundcloud.com/tommy-g-show/5-6-19-200-cluib-mayor-ben-lucarelli-of-fair-haven"
+            },
+            {
+              "title": "Tommy G Radio \u2014 Interview with President Kim Guadagno",
+              "outlet": "Tommy G Radio",
+              "date": "Feb 11, 2019",
+              "url": "https://soundcloud.com/tommy-g-show/kim-guadagno-2-11-19"
+            },
+            {
+              "title": "Joe Piscopo Radio Show \u2014 Interview with President Kim Guadagno",
+              "outlet": "Joe Piscopo Show",
+              "date": "Dec 17, 2018",
+              "url": "https://omny.fm/shows/the-joe-piscopo-show/7-am-hour-12-17-18-kim-guadagno-on-the-current-sta?t=38m52s"
+            },
+            {
+              "title": "Giving Tuesday at Count Basie",
+              "outlet": "92.3 The Point FM",
+              "date": "Nov 27, 2018",
+              "url": "https://943thepoint.com/giving-tuesday-count-basie/"
+            },
+            {
+              "title": "State Trooper Dies Over 30 Years After Injury in the Line of Duty",
+              "outlet": "News 12 New Jersey",
+              "date": "Nov 22, 2018",
+              "url": "http://newjersey.news12.com/story/39526880/state-trooper-dies-over-30-years-after-injury-in-the-line-of-duty"
+            },
+            {
+              "title": "Spotlight New Jersey",
+              "outlet": "News 12 New Jersey",
+              "date": "Aug 18, 2018",
+              "url": "http://newjersey.news12.com/clip/14559633/spotlight-new-jersey-aug-13-2018"
+            },
+            {
+              "title": "200 Club Awards $109,000 in Scholarships (Video)",
+              "outlet": "More Monmouth Musings (Facebook)",
+              "date": "Aug 2, 2018",
+              "url": "https://www.facebook.com/watch/?v=1324160734353584"
+            }
+          ]
+        }
+      ]
+    },
+    "videos": {
+      "eyebrow": "Video Gallery",
+      "title": "Watch Our Story",
+      "description": "Highlights from our Valor Awards, scholarship ceremonies, and the stories of the first responders we honor.",
+      "items": [
+        {
+          "title": "200 Club Feature",
+          "videoId": "QeS4BeOmxN4",
+          "url": "https://youtu.be/QeS4BeOmxN4?si=3mkZan3Er9XkXGwA"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "SNh6CTNTkm4",
+          "url": "https://youtu.be/SNh6CTNTkm4?si=_LQS9z5AU-_qh8hf"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "2iULN3vQL1A",
+          "url": "https://youtu.be/2iULN3vQL1A?si=vSuo7tAcuBB9OdN6"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "_vM7y-T1ARw",
+          "url": "https://youtu.be/_vM7y-T1ARw?si=dQrR-80KTNu20tQc"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "FeS0-L1CdTs",
+          "url": "https://youtu.be/FeS0-L1CdTs?si=82t40kzNCnNVTDO9"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "uQL3H6NQezc",
+          "url": "https://youtu.be/uQL3H6NQezc?si=I9G-uc7N-yoK8VaA"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "-7E5D1tlHpU",
+          "url": "https://youtu.be/-7E5D1tlHpU?si=InnWlPbrmDCe56Yv"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "UhKWGpFRtmE",
+          "url": "https://youtu.be/UhKWGpFRtmE?si=4UQUqZkvog8KGUWZ"
+        },
+        {
+          "title": "200 Club Feature",
+          "videoId": "HKJDLgccUgs",
+          "url": "https://youtu.be/HKJDLgccUgs?si=tPqg_ADRaS7s72Zm"
+        }
+      ]
+    }
+  },
+  "join": {
+    "hero": {
+      "eyebrow": "Get Involved",
+      "title": "Stand With First Responders",
+      "subheadline": "Become a member, make a donation, or reach out to learn more about supporting the families of those who serve.",
+      "bgImage": "assets/images/join-hero-bg.jpg",
+      "bgImageAlt": "Community supporting first responders"
+    },
+    "intro": {
+      "description": "Two ways to stand with first responders: become a member to join a community that has backed Monmouth County first responders since 1971, or make a one-time donation to directly support our mission."
+    },
+    "membership": {
+      "title": "Become a Member",
+      "description": "Members are the backbone of The 200 Club. Your annual dues directly fund family assistance when tragedy strikes a first responder.",
+      "benefitsHeading": "Member Benefits",
+      "benefits": [
+        "Supports immediate aid to families of fallen or injured first responders",
+        "Enables scholarships for first responders' children",
+        "Invitation to all 200 Club events",
+        "Your dependents are eligible for annual scholarships"
+      ],
+      "fine": "Membership is subject to approval by the Executive Board. Must be referred by an existing member.",
+      "ctaLabel": "Request Membership Info",
+      "ctaHref": "mailto:staylor@monmouth200club.com?subject=Membership%20Inquiry"
+    },
+    "donate": {
+      "title": "Make a Donation",
+      "description": "Your gift helps us deliver financial support to families in crisis and fund life-changing scholarships for first responders' children.",
+      "benefitsHeading": "Your Gift Supports",
+      "benefits": [
+        "Immediate aid to families of fallen or injured first responders",
+        "College scholarships for children of first responders",
+        "Valor Awards and community programs",
+        "100% of donations go to mission programs"
+      ],
+      "fine": "Donations are separate from membership dues and go directly to our mission programs.",
+      "ctaLabel": "Donate via PayPal",
+      "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Get in Touch",
+      "description": "We'd love to hear from you \u2014 membership, sponsorship, media, or anything else.",
+      "email": "staylor@monmouth200club.com",
+      "emailNote": "General inquiries and media",
+      "phone": "(732) 555-0200",
+      "phoneHref": "+17325550200",
+      "phoneNote": "Mon\u2013Fri, 9am\u20135pm ET",
+      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
+      "donationNote": "Processed securely via PayPal",
+      "submitLabel": "Send Message",
+      "formProvider": "demo",
+      "formAction": ""
+    }
+  },
+  "footer": {
+    "brandName": "The 200 Club of Monmouth County",
+    "blurb": "Since 1971, standing beside Monmouth County's first responders and their families.",
+    "columns": [
+      {
+        "heading": "The Club",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "about.html"
+          },
+          {
+            "label": "Board & Trustees",
+            "href": "about.html#board"
+          },
+          {
+            "label": "Our Programs",
+            "href": "programs.html"
+          },
+          {
+            "label": "Events",
+            "href": "events.html"
+          }
+        ]
+      },
+      {
+        "heading": "Get Involved",
+        "links": [
+          {
+            "label": "Become a Member",
+            "href": "join.html"
+          },
+          {
+            "label": "Donate via PayPal",
+            "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+          },
+          {
+            "label": "Apply for a Scholarship",
+            "href": "https://form.jotform.com/261056633582155"
+          },
+          {
+            "label": "Submit a Valor Nomination",
+            "href": "https://form.jotform.com/261055906149156"
+          }
+        ]
+      },
+      {
+        "heading": "Connect",
+        "links": [
+          {
+            "label": "Email",
+            "href": "mailto:staylor@monmouth200club.com"
+          },
+          {
+            "label": "Galleries",
+            "href": "galleries.html"
+          },
+          {
+            "label": "Press Releases",
+            "href": "media.html#press"
+          }
+        ]
+      }
+    ],
+    "copyright": "\u00a9 2026 The 200 Club of Monmouth County. All rights reserved.",
+    "designerCredit": {
+      "label": "Chevelle",
+      "href": "https://www.bychevelle.com"
+    }
+  },
+  "galleries": {
+    "hero": {
+      "eyebrow": "Galleries",
+      "title": "Photo Galleries",
+      "subheadline": "Moments from our Valor Awards Luncheons, Scholarship Socials, Golf Outings, and other 200 Club events through the years.",
+      "bgImage": "assets/images/galleries-hero-bg.jpg",
+      "bgImageAlt": "200 Club event"
+    },
+    "albums": [
+      {
+        "id": "2024-awards",
+        "title": "Valor Awards Luncheon",
+        "year": "2024",
+        "coverImage": "assets/images/gal-2024-awards.jpg",
+        "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Awards-2024/n-TBXNMf",
+        "photos": []
+      },
+      {
+        "id": "2023-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2023",
+        "coverImage": "assets/images/gal-2023-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2023-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2023-valor-12.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2022-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2022",
+        "coverImage": "assets/images/gal-2022-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2022-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-33.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-34.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-35.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-36.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-37.jpg"
+          },
+          {
+            "src": "assets/images/2022-valor-38.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2022-scholarship",
+        "title": "Scholarship Awards",
+        "year": "2022",
+        "coverImage": "assets/images/gal-2022-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2022-scholarship-01.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-02.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-03.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-04.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-05.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-06.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-07.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-08.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-09.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-10.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-11.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-12.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-13.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-14.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-15.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-16.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-17.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-18.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-19.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-20.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-21.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-22.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-23.jpg"
+          },
+          {
+            "src": "assets/images/2022-scholarship-24.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2022-golf",
+        "title": "Golf Outing",
+        "year": "2022",
+        "coverImage": "assets/images/gal-2022-golf.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2022-golf-01.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-02.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-03.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-04.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-05.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-06.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-07.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-08.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-09.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-10.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-11.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-12.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-13.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-14.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-15.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-16.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-17.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-18.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-19.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-20.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-21.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-22.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-23.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-24.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-25.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-26.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-27.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-28.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-29.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-30.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-31.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-32.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-33.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-34.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-35.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-36.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-37.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-38.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-39.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-40.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-41.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-42.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-43.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-44.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-45.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-46.jpg"
+          },
+          {
+            "src": "assets/images/2022-golf-47.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2021-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2021",
+        "coverImage": "assets/images/gal-2021-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2021-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2021-valor-23.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2021-scholarship",
+        "title": "Scholarship Awards",
+        "year": "2021",
+        "coverImage": "assets/images/gal-2021-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2021-scholarship-01.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-02.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-03.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-04.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-05.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-06.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-07.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-08.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-09.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-10.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-11.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-12.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-13.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-14.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-15.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-16.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-17.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-18.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-19.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-20.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-21.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-22.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-23.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-24.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-25.jpg"
+          },
+          {
+            "src": "assets/images/2021-scholarship-26.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2021-golf",
+        "title": "Golf Outing",
+        "year": "2021",
+        "coverImage": "assets/images/gal-2021-golf.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2021-golf-01.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-02.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-03.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-04.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-05.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-06.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-07.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-08.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-09.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-10.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-11.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-12.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-13.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-14.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-15.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-16.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-17.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-18.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-19.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-20.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-21.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-22.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-23.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-24.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-25.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-26.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-27.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-28.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-29.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-30.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-31.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-32.jpg"
+          },
+          {
+            "src": "assets/images/2021-golf-33.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2020-scholarship-virtual",
+        "title": "Virtual Scholarship Ceremony",
+        "year": "2020",
+        "coverImage": "assets/images/gal-2020-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2020-scholarship-virtual-01.jpg"
+          },
+          {
+            "src": "assets/images/2020-scholarship-virtual-02.jpg"
+          },
+          {
+            "src": "assets/images/2020-scholarship-virtual-03.jpg"
+          },
+          {
+            "src": "assets/images/2020-scholarship-virtual-04.jpg"
+          },
+          {
+            "src": "assets/images/2020-scholarship-virtual-05.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2019-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2019",
+        "coverImage": "assets/images/gal-2019-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2019-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-33.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-34.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-35.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-36.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-37.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-38.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-39.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-40.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-41.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-42.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-43.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-44.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-45.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-46.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-47.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-48.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-49.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-50.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-51.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-52.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-53.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-54.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-55.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-56.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-57.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-58.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-59.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-60.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-61.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-62.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-63.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-64.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-65.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-66.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-67.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-68.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-69.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-70.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-71.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-72.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-73.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-74.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-75.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-76.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-77.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-78.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-79.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-80.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-81.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-82.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-83.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-84.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-85.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-86.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-87.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-88.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-89.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-90.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-91.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-92.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-93.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-94.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-95.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-96.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-97.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-98.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-99.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-100.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-101.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-102.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-103.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-104.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-105.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-106.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-107.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-108.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-109.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-110.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-111.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-112.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-113.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-114.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-115.jpg"
+          },
+          {
+            "src": "assets/images/2019-valor-116.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2019-scholarship-social",
+        "title": "Scholarship Social",
+        "year": "2019",
+        "coverImage": "assets/images/gal-2019-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2019-scholarship-social-01.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-02.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-03.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-04.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-05.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-06.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-07.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-08.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-09.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-10.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-11.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-12.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-13.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-14.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-15.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-16.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-17.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-18.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-19.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-20.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-21.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-22.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-23.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-24.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-25.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-26.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-27.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-28.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-29.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-30.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-31.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-32.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-33.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-34.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-35.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-36.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-37.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-38.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-39.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-40.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-41.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-42.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-43.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-44.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-45.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-46.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-47.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-48.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-49.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-50.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-51.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-52.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-53.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-54.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-55.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-56.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-57.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-58.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-59.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-60.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-61.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-62.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-63.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-64.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-65.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-66.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-67.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-68.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-69.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-70.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-71.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-72.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-73.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-74.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-75.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-76.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-77.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-78.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-79.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-80.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-81.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-82.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-83.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-84.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-85.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-86.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-87.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-88.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-89.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-90.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-91.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-92.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-93.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-94.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-95.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-96.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-97.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-98.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-99.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-100.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-101.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-102.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-103.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-104.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-105.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-106.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-107.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-108.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-109.jpg"
+          },
+          {
+            "src": "assets/images/2019-scholarship-social-110.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2019-golf",
+        "title": "Golf Outing",
+        "year": "2019",
+        "coverImage": "assets/images/gal-2019-golf.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2019-golf-01.jpg"
+          },
+          {
+            "src": "assets/images/2019-golf-02.jpg"
+          },
+          {
+            "src": "assets/images/2019-golf-03.jpg"
+          },
+          {
+            "src": "assets/images/2019-golf-04.jpg"
+          },
+          {
+            "src": "assets/images/2019-golf-05.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2018-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2018",
+        "coverImage": "assets/images/gal-2018-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2018-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-33.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-34.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-35.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-36.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-37.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-38.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-39.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-40.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-41.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-42.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-43.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-44.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-45.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-46.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-47.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-48.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-49.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-50.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-51.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-52.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-53.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-54.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-55.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-56.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-57.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-58.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-59.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-60.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-61.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-62.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-63.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-64.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-65.jpg"
+          },
+          {
+            "src": "assets/images/2018-valor-66.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2018-scholarship",
+        "title": "Scholarship Awards",
+        "year": "2018",
+        "coverImage": "assets/images/gal-2018-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2018-scholarship-01.jpg"
+          },
+          {
+            "src": "assets/images/2018-scholarship-02.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2016-valor",
+        "title": "Valor Awards Luncheon",
+        "year": "2016",
+        "coverImage": "assets/images/gal-2016-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2016-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-33.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-34.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-35.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-36.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-37.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-38.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-39.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-40.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-41.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-42.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-43.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-44.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-45.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-46.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-47.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-48.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-49.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-50.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-51.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-52.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-53.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-54.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-55.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-56.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-57.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-58.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-59.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-60.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-61.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-62.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-63.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-64.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-65.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-66.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-67.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-68.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-69.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-70.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-71.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-72.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-73.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-74.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-75.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-76.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-77.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-78.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-79.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-80.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-81.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-82.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-83.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-84.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-85.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-86.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-87.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-88.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-89.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-90.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-91.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-92.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-93.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-94.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-95.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-96.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-97.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-98.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-99.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-100.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-101.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-102.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-103.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-104.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-105.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-106.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-107.jpg"
+          },
+          {
+            "src": "assets/images/2016-valor-108.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2015-scholarship",
+        "title": "Scholarship Awards",
+        "year": "2015",
+        "coverImage": "assets/images/gal-2015-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2015-scholarship-01.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-02.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-03.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-04.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-05.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-06.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-07.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-08.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-09.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-10.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-11.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-12.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-13.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-14.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-15.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-16.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-17.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-18.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-19.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-20.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-21.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-22.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-23.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-24.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-25.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-26.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-27.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-28.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-29.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-30.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-31.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-32.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-33.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-34.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-35.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-36.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-37.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-38.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-39.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-40.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-41.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-42.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-43.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-44.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-45.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-46.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-47.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-48.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-49.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-50.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-51.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-52.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-53.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-54.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-55.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-56.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-57.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-58.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-59.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-60.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-61.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-62.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-63.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-64.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-65.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-66.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-67.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-68.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-69.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-70.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-71.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-72.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-73.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-74.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-75.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-76.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-77.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-78.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-79.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-80.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-81.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-82.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-83.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-84.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-85.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-86.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-87.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-88.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-89.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-90.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-91.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-92.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-93.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-94.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-95.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-96.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-97.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-98.jpg"
+          },
+          {
+            "src": "assets/images/2015-scholarship-99.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2014-valor",
+        "title": "Valor Awards Dinner",
+        "year": "2014",
+        "coverImage": "assets/images/gal-2014-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2014-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-33.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-34.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-35.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-36.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-37.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-38.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-39.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-40.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-41.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-42.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-43.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-44.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-45.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-46.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-47.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-48.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-49.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-50.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-51.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-52.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-53.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-54.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-55.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-56.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-57.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-58.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-59.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-60.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-61.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-62.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-63.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-64.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-65.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-66.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-67.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-68.jpg"
+          },
+          {
+            "src": "assets/images/2014-valor-69.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2014-scholarship",
+        "title": "Scholarship Awards",
+        "year": "2014",
+        "coverImage": "assets/images/gal-2014-scholar.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2014-scholarship-01.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-02.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-03.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-04.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-05.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-06.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-07.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-08.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-09.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-10.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-11.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-12.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-13.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-14.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-15.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-16.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-17.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-18.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-19.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-20.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-21.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-22.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-23.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-24.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-25.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-26.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-27.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-28.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-29.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-30.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-31.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-32.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-33.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-34.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-35.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-36.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-37.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-38.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-39.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-40.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-41.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-42.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-43.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-44.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-45.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-46.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-47.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-48.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-49.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-50.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-51.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-52.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-53.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-54.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-55.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-56.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-57.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-58.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-59.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-60.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-61.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-62.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-63.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-64.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-65.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-66.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-67.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-68.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-69.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-70.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-71.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-72.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-73.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-74.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-75.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-76.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-77.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-78.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-79.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-80.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-81.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-82.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-83.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-84.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-85.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-86.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-87.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-88.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-89.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-90.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-91.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-92.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-93.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-94.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-95.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-96.jpg"
+          },
+          {
+            "src": "assets/images/2014-scholarship-97.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2013-valor",
+        "title": "Valor Awards Dinner",
+        "year": "2013",
+        "coverImage": "assets/images/gal-2013-valor.jpg",
+        "externalUrl": "",
+        "photos": [
+          {
+            "src": "assets/images/2013-valor-01.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-02.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-03.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-04.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-05.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-06.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-07.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-08.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-09.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-10.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-11.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-12.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-13.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-14.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-15.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-16.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-17.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-18.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-19.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-20.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-21.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-22.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-23.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-24.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-25.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-26.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-27.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-28.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-29.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-30.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-31.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-32.jpg"
+          },
+          {
+            "src": "assets/images/2013-valor-33.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "events": {
+    "hero": {
+      "eyebrow": "Events",
+      "title": "Join Us This Year",
+      "subheadline": "From our Annual Awards Luncheon to golf outings and scholarship socials \u2014 every event supports our mission.",
+      "bgImage": "assets/images/events-hero-bg.jpg",
+      "bgImageAlt": "200 Club event"
+    },
+    "list": {
+      "eyebrow": "Upcoming Events",
+      "title": "Join Us This Year",
+      "description": "From our Annual Awards Luncheon to golf outings and scholarship socials \u2014 every event supports our mission.",
+      "items": [
+        {
+          "month": "Jun",
+          "day": "05",
+          "year": "2026",
+          "title": "54th Annual Awards Luncheon & Valor Awards",
+          "description": "Our signature event honoring Monmouth County first responders for extraordinary bravery. Open to members and the public.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon"
+        },
+        {
+          "month": "Aug",
+          "day": "06",
+          "year": "2026",
+          "title": "15th Annual Scholarship Social",
+          "description": "Celebrating our scholarship recipients and the families of first responders who make it all possible.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://www.zeffy.com/en-US/ticketing/15th-annual-scholarship-social"
+        },
+        {
+          "month": "Oct",
+          "day": "19",
+          "year": "2026",
+          "title": "43rd Annual Golf Outing",
+          "description": "Our longstanding golf outing at Deal Golf & Country Club \u2014 a day on the course in support of first responders and their families.",
+          "ctaLabel": "Get Tickets",
+          "ctaHref": "https://events.ticketleap.com/tickets/the-200-club-of-monmouth-county/43nd-annual-golf-outing"
+        }
+      ]
+    }
+  }
+}
