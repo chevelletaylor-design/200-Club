@@ -1,10 +1,27 @@
 {
-  "brand": {
-    "logo": "assets/images/logo.png",
-    "logoAlt": "The 200 Club of Monmouth County",
-    "name": "The 200 Club",
-    "tagline": "of Monmouth County",
-    "motto": "We Remember"
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Get in Touch",
+      "subheadline": "We'd love to hear from you — membership, sponsorship, media, or anything else.",
+      "bgImage": "assets/images/contact-hero-bg.jpg",
+      "bgImageAlt": "Contact The 200 Club"
+    },
+    "info": {
+      "email": "staylor@monmouth200club.com",
+      "emailNote": "General inquiries and media",
+      "phone": "917-543-5476",
+      "phoneHref": "+19175435476",
+      "phoneNote": "Mon–Fri, 9am–5pm ET",
+      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
+      "donationNote": "Processed securely via PayPal"
+    },
+    "form": {
+      "submitLabel": "Send Message",
+      "formProvider": "formspree",
+      "formAction": "https://formspree.io/f/xeenzlqe",
+      "heading": "Send Us a Message"
+    }
   },
   "nav": {
     "links": [
@@ -43,461 +60,6 @@
     ],
     "ctaLabel": "Donate",
     "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
-  },
-  "social": {
-    "facebook": "https://www.facebook.com/Monmouth200Club/",
-    "twitter": "https://twitter.com/Monmouth200Club",
-    "instagram": "https://www.instagram.com/200clubofmonmouth/",
-    "youtube": "https://www.youtube.com/channel/UCPAxG1yNOF9477tsYiqFp1A"
-  },
-  "home": {
-    "hero": {
-      "slides": [
-        {
-          "eyebrow": "Honoring First Responders Since 1971",
-          "headline": "Standing Beside Those Who <em>Answer the Call</em>",
-          "subheadline": "For over 50 years, The 200 Club of Monmouth County has supported first responders and their families \u2014 with immediate aid, scholarships, and recognition for extraordinary bravery.",
-          "primaryCtaLabel": "Make a Donation",
-          "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU",
-          "secondaryCtaLabel": "Learn Our Mission",
-          "secondaryCtaHref": "about.html",
-          "bgImage": "assets/images/hero-1.jpg",
-          "imageAlt": "First responders ceremony"
-        },
-        {
-          "eyebrow": "2025 Scholarships",
-          "headline": "Over <em>$100,000</em> Awarded in 2025",
-          "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
-          "primaryCtaLabel": "Apply Now",
-          "primaryCtaHref": "https://form.jotform.com/261056633582155",
-          "secondaryCtaLabel": "Ben Danskin Scholarship",
-          "secondaryCtaHref": "https://form.jotform.com/261056066290151",
-          "bgImage": "assets/images/hero-2.jpg",
-          "imageAlt": "Scholarship ceremony"
-        },
-        {
-          "eyebrow": "Annual Valor Awards",
-          "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
-          "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
-          "primaryCtaLabel": "Submit a Nomination",
-          "primaryCtaHref": "https://form.jotform.com/261055906149156",
-          "secondaryCtaLabel": "Luncheon Tickets",
-          "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
-          "bgImage": "assets/images/hero-3.jpg",
-          "imageAlt": "Valor Awards ceremony"
-        }
-      ]
-    },
-    "missionBar": {
-      "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> \u2014 not weeks."
-    },
-    "pillars": {
-      "eyebrow": "Our Mission",
-      "title": "Three Pillars. One Commitment.",
-      "paragraphs": [
-        "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining."
-      ],
-      "items": [
-        {
-          "number": "01",
-          "title": "Family Assistance",
-          "description": "When a Monmouth County first responder is killed or seriously injured in the line of duty, we respond within hours with financial support for their family \u2014 no paperwork, no red tape.",
-          "linkLabel": "Learn more",
-          "linkHref": "about.html"
-        },
-        {
-          "number": "02",
-          "title": "College Scholarships",
-          "description": "Each year we award scholarships to children of Monmouth County first responders. Over $3 million awarded to date \u2014 and over $100,000 in 2025 alone.",
-          "linkLabel": "Scholarship info",
-          "linkHref": "programs.html#scholarships"
-        },
-        {
-          "number": "03",
-          "title": "Valor Awards",
-          "description": "We honor first responders who go above and beyond \u2014 from Certificates of Recognition to our highest honor, the Valor Award.",
-          "linkLabel": "Awards info",
-          "linkHref": "programs.html#valor"
-        }
-      ]
-    },
-    "featuredStory": {
-      "eyebrow": "Valor Award Recipient",
-      "title": "\"I'm just doing what I signed up for.\"",
-      "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
-      "attribution": "Officer Dominique Russo",
-      "attributionDetail": "Neptune Township Police Department \u00b7 Valor Award Recipient",
-      "image": "assets/images/officer-russo.jpg",
-      "imageAlt": "Officer Dominique Russo",
-      "ctaLabel": "Read her story",
-      "ctaHref": "programs.html#story-russo"
-    },
-    "presidentMessage": {
-      "eyebrow": "A Message From Our President",
-      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
-      "attribution": "Mary Pat Angelini",
-      "attributionDetail": "President 2025\u201326, The 200 Club of Monmouth County",
-      "image": "assets/images/mary-pat-angelini.jpg",
-      "imageAlt": "Mary Pat Angelini, President",
-      "ctaLabel": "Become a Member",
-      "ctaHref": "join.html"
-    },
-    "follow": {
-      "eyebrow": "Stay Connected",
-      "headline": "Follow us on <em>social media</em>",
-      "description": "For events, recognitions, and stories from across Monmouth County."
-    }
-  },
-  "about": {
-    "hero": {
-      "eyebrow": "About Us",
-      "title": "Standing Watch for Monmouth County's First Responders",
-      "subheadline": "For over 50 years, The 200 Club has been the safety net behind the people who run toward danger.",
-      "bgImage": "assets/images/about-hero-bg.jpg",
-      "bgImageAlt": "The 200 Club community"
-    },
-    "story": {
-      "eyebrow": "Our Story",
-      "title": "Founded in 1971. Still Answering the Call.",
-      "paragraphs": [
-        "The 200 Club of Monmouth County was founded on a simple premise: when a first responder is killed or seriously injured in the line of duty, their family shouldn't have to wait weeks for help.",
-        "What started as a small group of committed citizens has grown into an organization that has delivered over $3 million in college scholarships, honored hundreds of first responders with Valor Awards, and provided immediate aid to families in their darkest hours.",
-        "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
-      ],
-      "photo": "",
-      "photoAlt": ""
-    },
-    "gallery": {
-      "eyebrow": "Our Leadership",
-      "title": "The People Behind The 200 Club",
-      "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
-      "photos": []
-    },
-    "board": {
-      "eyebrow": "Leadership",
-      "title": "",
-      "officers": {
-        "heading": "Executive Officers",
-        "members": [
-          {
-            "name": "Mary Pat Angelini",
-            "title": "President 2025\u201326"
-          },
-          {
-            "name": "Edward Kirschenbaum, Sr.",
-            "title": "Vice President"
-          },
-          {
-            "name": "John Kaye",
-            "title": "Secretary"
-          },
-          {
-            "name": "Dominick Mazza",
-            "title": "Treasurer"
-          }
-        ]
-      },
-      "trustees": {
-        "heading": "Board of Trustees",
-        "members": [
-          {
-            "name": "Thomas A. Arnone"
-          },
-          {
-            "name": "Edward M. Brock, Jr."
-          },
-          {
-            "name": "Edward G. Donovan"
-          },
-          {
-            "name": "Josh Elkes"
-          },
-          {
-            "name": "M. Claire French"
-          },
-          {
-            "name": "Robert Gagliano"
-          },
-          {
-            "name": "Robert A. Honecker, Jr."
-          },
-          {
-            "name": "R. Reginald Hyde, II"
-          },
-          {
-            "name": "Benjamin J. Lucarelli"
-          },
-          {
-            "name": "Kevin P. Orender"
-          },
-          {
-            "name": "Jim Petillo"
-          },
-          {
-            "name": "Robert Swannack"
-          }
-        ]
-      },
-      "emeritus": {
-        "heading": "Trustees Emeritus",
-        "members": [
-          {
-            "name": "William C. Barham"
-          },
-          {
-            "name": "Richard Daesener"
-          },
-          {
-            "name": "Kim Guadagno"
-          },
-          {
-            "name": "Gregory Metzger"
-          },
-          {
-            "name": "Jack McCormack"
-          },
-          {
-            "name": "Joseph L. Thompson, Jr."
-          }
-        ]
-      },
-      "advisory": {
-        "heading": "Advisory Committee",
-        "members": [
-          {
-            "name": "Alyssa T.G. Anderson, MFA, PhD"
-          },
-          {
-            "name": "Joseph C. Curto"
-          },
-          {
-            "name": "Charles Smentkowski"
-          }
-        ]
-      },
-      "exOfficio": {
-        "heading": "Trustees Ex Officio",
-        "members": [
-          {
-            "name": "Monmouth County PBA Conference Chair"
-          },
-          {
-            "name": "Monmouth County Prosecutor"
-          },
-          {
-            "name": "Monmouth County Sheriff"
-          },
-          {
-            "name": "President of Monmouth County Police Chiefs' Association"
-          }
-        ]
-      }
-    },
-    "presidentMessage": {
-      "eyebrow": "A Message From Our President",
-      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
-      "attribution": "Mary Pat Angelini",
-      "attributionDetail": "President 2025\u201326, The 200 Club of Monmouth County",
-      "image": "assets/images/mary-pat-angelini.jpg",
-      "imageAlt": "Mary Pat Angelini, President",
-      "ctaLabel": "Become a Member",
-      "ctaHref": "join.html"
-    },
-    "leadership_photo": {
-      "src": "assets/images/leadership-2.jpg",
-      "alt": "Executive Officers of The 200 Club",
-      "caption": "Executive Officers"
-    },
-    "officersPhoto": {
-      "src": "assets/images/leadership-2.jpg",
-      "alt": "Executive Officers of The 200 Club of Monmouth County",
-      "caption": "Executive Officers"
-    }
-  },
-  "programs": {
-    "hero": {
-      "eyebrow": "Our Programs",
-      "title": "Scholarships, Valor, and the Lives Behind Them",
-      "subheadline": "Every year we invest in the next generation of first responder families \u2014 and honor the extraordinary bravery of those who serve.",
-      "bgImage": "assets/images/programs-hero-bg.jpg",
-      "bgImageAlt": "Valor Awards ceremony"
-    },
-    "heroRibbon": {
-      "photos": [
-        {
-          "src": "assets/images/ribbon-1.jpg",
-          "alt": "Scholarship recipients"
-        },
-        {
-          "src": "assets/images/ribbon-2.jpg",
-          "alt": "Valor Awards ceremony"
-        },
-        {
-          "src": "assets/images/ribbon-3.jpg",
-          "alt": "Awards Luncheon"
-        },
-        {
-          "src": "assets/images/ribbon-4.jpg",
-          "alt": "Scholarship Social"
-        },
-        {
-          "src": "assets/images/ribbon-5.jpg",
-          "alt": "Valor Award recipient"
-        }
-      ]
-    },
-    "scholarships": {
-      "eyebrow": "Scholarships",
-      "title": "Investing in the Next Generation",
-      "paragraphs": [
-        "Each year, The 200 Club awards college scholarships to children of first responders in Monmouth County. <strong>In 2025, we awarded over $100,000 in scholarships</strong> \u2014 and to date, more than $3 million has gone to the families of those who serve.",
-        "The <strong>Ben Danskin Scholarship</strong> is also awarded annually to one exceptional junior or senior who demonstrates outstanding merit."
-      ],
-      "stat": {
-        "number": "$100K+",
-        "label": "Awarded in 2025 to children of Monmouth County first responders."
-      },
-      "awards": [
-        {
-          "title": "Annual Scholarship",
-          "description": "Open to undergraduate children of active 200 Club member first responders in Monmouth County."
-        },
-        {
-          "title": "Ben Danskin Scholarship",
-          "description": "The recipient will be selected based on demonstrated achievements that reflect the values and legacy of Ben Danskin, in whose honor this scholarship is awarded."
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Apply for the Annual Scholarship",
-          "href": "https://form.jotform.com/261056633582155",
-          "style": "solid"
-        },
-        {
-          "label": "Ben Danskin Scholarship",
-          "href": "https://form.jotform.com/261056066290151",
-          "style": "outline"
-        }
-      ],
-      "photos": [
-        {
-          "src": "assets/images/scholarship-1.jpg",
-          "alt": "Scholarship recipients 2025"
-        },
-        {
-          "src": "assets/images/scholarship-2.jpg",
-          "alt": "Scholarship ceremony"
-        },
-        {
-          "src": "assets/images/scholarship-3.jpg",
-          "alt": "Scholarship recipients group"
-        }
-      ]
-    },
-    "valor": {
-      "eyebrow": "Valor Awards",
-      "title": "Recognizing Extraordinary Bravery",
-      "paragraphs": [
-        "Each year at our Annual Awards Luncheon, The 200 Club recognizes first responders who went above and beyond. Awards range from Certificates of Recognition to The Valor Award \u2014 our highest honor."
-      ],
-      "awards": [
-        {
-          "title": "The Valor Award",
-          "description": "Highest honor \u2014 extraordinary bravery that placed an officer's life at risk."
-        },
-        {
-          "title": "Meritorious Service Award",
-          "description": "Exceptional performance of duty demonstrating outstanding skill and judgment."
-        },
-        {
-          "title": "Certificate of Recognition",
-          "description": "Acknowledges first responders for notable acts of service to the community."
-        }
-      ],
-      "ctaLabel": "Submit a Nomination",
-      "ctaHref": "https://form.jotform.com/261055906149156",
-      "photos": [
-        {
-          "src": "assets/images/valor-medal.jpg",
-          "alt": "Valor Medal"
-        },
-        {
-          "src": "assets/images/luncheon-1.jpg",
-          "alt": "Awards Luncheon 2025"
-        }
-      ]
-    },
-    "spotlights": {
-      "eyebrow": "Spotlight 200",
-      "title": "Stories of Valor",
-      "description": "The men and women behind the awards \u2014 in their own words.",
-      "stories": [
-        {
-          "slug": "russo",
-          "badge": "Valor Award \u00b7 Neptune Township PD",
-          "title": "Officer Dominique Russo",
-          "subtitle": "\"I'm just doing what I signed up for.\"",
-          "image": "assets/images/officer-russo.jpg",
-          "imageAlt": "Officer Dominique Russo",
-          "paragraphs": [
-            "She heard a loud pop and recognized the sound. Neptune Township Police Officer Dominique Russo immediately turned her patrol car around and spotted a group of men \u2014 one of them was carrying a gun. He took off running, and she followed him in her car. Then, he crossed her car and the two made eye contact. The gun was still in clear sight. \"I thought to myself, is this really happening\u2026 is this really in front of me right now,\" Officer Russo said when interviewed by The 200 Club of Monmouth County.",
-            "Officer Russo said her instincts kicked in, and she called for backup. The man darted into a yard, and she followed him on foot. The 24-year-old added, \"To be honest, you don't think about the danger in the moment, all I saw was a guy holding a gun, and all I thought was I have to get that gun off the street.\"",
-            "The officer, who measures in at five-foot-one inch, single-handedly got the suspect, who is five-foot-ten inches tall, to the ground and handcuffed him. The gun was recovered where he tossed it during the pursuit. It was a .45 caliber, and it was found cocked and loaded. Turns out that he was a known gang member with an extensive criminal history. He has since been convicted of that 2017 crime.",
-            "The 200 Club of Monmouth County honored Officer Russo with the 2018 Valor Award for her bravery and for serving with distinction. \"I'm just so happy I was able to get the gun off the street, because if he was trying to hurt someone, he wasn't able to succeed,\" stated Officer Russo.",
-            "Officer Russo says she does not consider herself a hero but is honored to be recognized by The 200 Club of Monmouth County. \"I'm just doing what I signed up for, but honestly, we (police) go through so much negativity, that going through this one positive and actually being recognized means a lot. The news only focuses on the bad. I rarely see the good, and there is so much good that police do every day. Thank you for this.\""
-          ]
-        },
-        {
-          "slug": "marlboro",
-          "badge": "Valor Award \u00b7 Marlboro PD",
-          "title": "The Marlboro Five",
-          "subtitle": "A teenager pinned between two cars \u2014 one on fire.",
-          "image": "assets/images/marlboro-officers.jpg",
-          "imageAlt": "Marlboro Police Department officers",
-          "paragraphs": [
-            "\"The call came in as entrapment and flames,\" recalled Marlboro Patrol Officer Adam Mattei.",
-            "Trapped between two vehicles \u2014 one of them on fire \u2014 was 17-year-old Rebecca Kniffin of Freehold, who was unconscious. Five Marlboro police officers came to her rescue.",
-            "\"Usually they're trapped inside the car, but this was the first time I had someone between the cars. She was ejected from one car, then pinned between the two cars,\" said Patrol Officer Colin Murray.",
-            "\"We knew we had to act fast. One car was on fire, and when that happens you don't have much time. So, I ran and got my patrol car and then used it to separate the cars to get her free. We weren't even sure she was alive, but we had to try. Nothing else worked. Luckily, it did,\" said Patrol Officer Donna Gonzalez.",
-            "Their heroism that day, June 16, 2020, was captured by body cameras and covered by the media. Their incredible actions also earned them the highest award given by The 200 Club of Monmouth County, The Valor Award.",
-            "On November 6, 2020, at the Valor Awards ceremony outside the Township's municipal building, Rebecca and her family got to express their gratitude to the officers in person. Rebecca suffered broken bones, punctured lungs, and second-degree burns in the accident. She spent two weeks in the hospital and had multiple surgeries, but you'd never know it looking at her.",
-            "\"All I can say is thank you for saving me,\" Rebecca said repeatedly, as her mom choked back tears and added, \"They literally put themselves in the line of fire to save my child who they never met before. It's amazing.\""
-          ]
-        },
-        {
-          "slug": "sosnowski",
-          "badge": "Valor Award \u00b7 Manalapan Township PD",
-          "title": "Officer Adam Sosnowski",
-          "subtitle": "\"It's amazing how your training kicks in.\"",
-          "image": "assets/images/officer-sosnowski.jpg",
-          "imageAlt": "Officer Adam Sosnowski",
-          "paragraphs": [
-            "\"I remember looking at the gun thinking, 'Wow, that's real.' It's amazing how your training kicks in.\"",
-            "Manalapan Township Police Department K-9 Officer Adam Sosnowski recounts what happened during his shift one night in August 2018. A call came in about an allegedly suicidal man, a person Officer Sosnowski knew from prior incidents.",
-            "Officer Sosnowski describes what happened when he went up to the house and convinced the man to come outside: \"He came out and appeared agitated, but the next thing you know, he reaches into his front pocket and pulls a handgun out.\"",
-            "Officer Sosnowski believes the man pointed the gun at him because he wanted to be shot and killed, but luckily, thanks to Sosnowski's quick actions and training, a \"suicide by cop\" scenario was avoided. His police chief, Michael Fountain, says that a physical struggle ensued between Sosnowski and the man, but his officer managed to free the firearm from the man's hand and subdue and handcuff him.",
-            "Chief Fountain says, \"Officer Sosnowski responded to what he thought was a deadly force situation with courage and the will to win.\" For these heroic actions, Officer Sosnowski received the Valor Award by The 200 Club of Monmouth County on June 7, 2019.",
-            "Officer Sosnowski added, \"I am definitely not a hero. There are definitely many other heroes in the world. I just think it was the right circumstances at the right time, with the right person. Thank God I had the proper training. Anything pro-law enforcement is amazing. And, The 200 Club is definitely the top of the top in New Jersey, and it truly is an honor to even be recognized by them.\""
-          ]
-        },
-        {
-          "slug": "magenheimer",
-          "badge": "Plaque Award \u00b7 MCPO",
-          "title": "Paralegal Heather Magenheimer",
-          "subtitle": "The unsung hero behind a ten-year justice.",
-          "image": "assets/images/heather-magenheimer.jpg",
-          "imageAlt": "Heather Magenheimer",
-          "paragraphs": [
-            "Jonelle Melton, a beloved 33-year-old social studies teacher at Red Bank Middle School, was murdered in her apartment in Neptune City in 2009 by three career criminals in a case of mistaken identity. They thought they were breaking into the apartment of a drug dealer who had cash inside, but they broke into the wrong apartment, then brutally beat, stabbed, and shot the fifth-grade teacher.",
-            "In 2019, Assistant Prosecutors Matthew Bogner and Lawrence Nelson successfully argued the case, and a jury convicted the three men. They were later sentenced to life in prison. A fourth man pleaded guilty to orchestrating the burglary.",
-            "That justice for Jonelle Melton took ten long years. Monmouth County Prosecutor Chris Gramiccioni wants the public to know it could not have been accomplished without the extraordinary behind-the-scenes contributions of one of his paralegals.",
-            "\"The public often sees the face of successful investigations and prosecutions in detectives and prosecutors \u2014 the 'directors' of criminal cases. But equally as important is the 'producer' work our paralegals put in to prepare discovery, conduct legal research, and assist in evidence and witness presentation to the jury,\" said Gramiccioni. \"Heather's work and support in the Jonelle Melton murder prosecution was nothing short of spectacular.\"",
-            "Magenheimer kept track of tens of thousands of pieces of evidence collected over several years. \"There were literally boxes up to the ceiling in an entire conference room. It was my job to know every inch of it, so it could be found in a pinch,\" said Magenheimer.",
-            "Magenheimer received a Plaque Award by The 200 Club of Monmouth County at the 2019 Valor Award Luncheon. \"I am honored to be recognized by my peers, and I was beyond shocked to get the notice that I had won an award. I did live, sleep, and breathe the Melton case\u2026 and was glad to do it. I am proud to have played a supporting part in the convictions.\""
-          ]
-        }
-      ]
-    }
   },
   "media": {
     "hero": {
@@ -552,7 +114,7 @@
               "url": "https://www.monmouth200club.com/s/FINAL200CLUBSWEARINGINJUNE2020.pdf"
             },
             {
-              "title": "The 200 Club of Monmouth County to Host \u201cMeet the Chiefs Social\u201d in Holmdel",
+              "title": "The 200 Club of Monmouth County to Host “Meet the Chiefs Social” in Holmdel",
               "outlet": "200 Club",
               "date": "Nov 2019",
               "url": "https://www.monmouth200club.com/s/Meet-Chiefs-November-2019.doc"
@@ -677,7 +239,7 @@
               "url": "https://themonmouthjournal.com/honecker-named-president-of-club-fair-havens-lucarelli-swornin-as-vi-p9346-1.htm"
             },
             {
-              "title": "The 200 Club of Monmouth County to Host \u201cMeet the Chiefs Social\u201d in Holmdel",
+              "title": "The 200 Club of Monmouth County to Host “Meet the Chiefs Social” in Holmdel",
               "outlet": "The Patch",
               "date": "2019",
               "url": "https://patch.com/new-jersey/holmdel-hazlet/200-club-hosts-meet-chiefs-social-nov-18-holmdel"
@@ -689,7 +251,7 @@
               "url": "https://www.app.com/story/news/local/public-safety/2020/10/27/long-branch-officer-valor-award-200-club-monmouth-county/6046500002/"
             },
             {
-              "title": "Townsquare Media \u2014 Manalapan Patrolman Among Six Officers Being Honored With Valor Award",
+              "title": "Townsquare Media — Manalapan Patrolman Among Six Officers Being Honored With Valor Award",
               "outlet": "WOBM / Townsquare Media",
               "date": "Jun 7, 2019",
               "url": "https://wobm.com/manalapan-patrolman-among-six-officers-being-honored-with-valor-award/"
@@ -766,7 +328,7 @@
               "url": "https://wobm.com/seven-monmouth-county-police-officers-receive-the-valor-award/"
             },
             {
-              "title": "101.5 FM Radio \u2014 Blog by Bill Spadea with Interview of Kim Guadagno",
+              "title": "101.5 FM Radio — Blog by Bill Spadea with Interview of Kim Guadagno",
               "outlet": "101.5 FM",
               "date": "Jun 10, 2019",
               "url": "https://nj1015.com/suicide-by-cop-thwarted-by-humble-hero-cop/"
@@ -790,19 +352,19 @@
               "url": "https://wobm.com/manalapan-patrolman-among-six-officers-being-honored-with-valor-award/"
             },
             {
-              "title": "Tommy G Radio \u2014 Interview with Treasurer Ben Lucarelli",
+              "title": "Tommy G Radio — Interview with Treasurer Ben Lucarelli",
               "outlet": "Tommy G Radio",
               "date": "May 5, 2019",
               "url": "https://soundcloud.com/tommy-g-show/5-6-19-200-cluib-mayor-ben-lucarelli-of-fair-haven"
             },
             {
-              "title": "Tommy G Radio \u2014 Interview with President Kim Guadagno",
+              "title": "Tommy G Radio — Interview with President Kim Guadagno",
               "outlet": "Tommy G Radio",
               "date": "Feb 11, 2019",
               "url": "https://soundcloud.com/tommy-g-show/kim-guadagno-2-11-19"
             },
             {
-              "title": "Joe Piscopo Radio Show \u2014 Interview with President Kim Guadagno",
+              "title": "Joe Piscopo Radio Show — Interview with President Kim Guadagno",
               "outlet": "Joe Piscopo Show",
               "date": "Dec 17, 2018",
               "url": "https://omny.fm/shows/the-joe-piscopo-show/7-am-hour-12-17-18-kim-guadagno-on-the-current-sta?t=38m52s"
@@ -888,6 +450,13 @@
       ]
     }
   },
+  "brand": {
+    "logo": "assets/images/logo.png",
+    "logoAlt": "The 200 Club of Monmouth County",
+    "name": "The 200 Club",
+    "tagline": "of Monmouth County",
+    "motto": "We Remember"
+  },
   "join": {
     "hero": {
       "eyebrow": "Become a Member",
@@ -900,19 +469,19 @@
       "description": "Membership in The 200 Club connects you to a legacy of support for the men and women who serve Monmouth County. Your annual dues directly fund aid to families of fallen and injured first responders, and scholarships for their children."
     },
     "membership": {
-      "title": "Become a Member",
-      "description": "Your annual dues directly fund aid to families of fallen and injured first responders, and scholarships for their children.",
+      "ctaLabel": "Become a Member",
       "benefitsHeading": "Member Benefits",
+      "formProvider": "formspree",
+      "title": "Become a Member",
+      "formAction": "https://formspree.io/f/maqvbdwg",
+      "fine": "",
+      "ctaHref": "#membership-form",
       "benefits": [
         "Supports immediate aid to families of fallen or injured first responders",
         "Enables scholarships for first responders' children",
         "Invitation to all 200 Club events"
       ],
-      "fine": "",
-      "ctaLabel": "Become a Member",
-      "ctaHref": "#membership-form",
-      "formProvider": "formspree",
-      "formAction": "https://formspree.io/f/maqvbdwg"
+      "description": "Your annual dues directly fund aid to families of fallen and injured first responders, and scholarships for their children."
     },
     "donate": {
       "title": "Make a Donation",
@@ -927,93 +496,376 @@
       "ctaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
     },
     "contact": {
-      "eyebrow": "Contact",
-      "title": "Get in Touch",
-      "description": "We'd love to hear from you \u2014 membership, sponsorship, media, or anything else.",
-      "email": "staylor@monmouth200club.com",
-      "emailNote": "General inquiries and media",
-      "phone": "917-543-5476",
-      "phoneHref": "+19175435476",
-      "phoneNote": "Mon\u2013Fri, 9am\u20135pm ET",
-      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
+      "phoneNote": "Mon–Fri, 9am–5pm ET",
       "donationNote": "Processed securely via PayPal",
-      "submitLabel": "Send Message",
+      "eyebrow": "Contact",
+      "phone": "917-543-5276",
+      "emailNote": "General inquiries and media",
+      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
       "formProvider": "formspree",
-      "formAction": "https://formspree.io/f/xeenzlqe"
+      "title": "Get in Touch",
+      "phoneHref": "+19175435476",
+      "formAction": "https://formspree.io/f/xeenzlqe",
+      "submitLabel": "Send Message",
+      "email": "staylor@monmouth200club.com",
+      "description": "We'd love to hear from you — membership, sponsorship, media, or anything else."
     }
   },
-  "footer": {
-    "brandName": "The 200 Club of Monmouth County",
-    "blurb": "Since 1971, standing beside Monmouth County's first responders and their families.",
-    "columns": [
-      {
-        "heading": "The Club",
-        "links": [
+  "social": {
+    "facebook": "https://www.facebook.com/Monmouth200Club/",
+    "twitter": "https://twitter.com/Monmouth200Club",
+    "instagram": "https://www.instagram.com/200clubofmonmouth/",
+    "youtube": "https://www.youtube.com/channel/UCPAxG1yNOF9477tsYiqFp1A"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "Standing Watch for Monmouth County's First Responders",
+      "subheadline": "For over 50 years, The 200 Club has been the safety net behind the people who run toward danger.",
+      "bgImage": "assets/images/about-hero-bg.jpg",
+      "bgImageAlt": "The 200 Club community"
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "Founded in 1971. Still Answering the Call.",
+      "paragraphs": [
+        "The 200 Club of Monmouth County was founded on a simple premise: when a first responder is killed or seriously injured in the line of duty, their family shouldn't have to wait weeks for help.",
+        "What started as a small group of committed citizens has grown into an organization that has delivered over $3 million in college scholarships, honored hundreds of first responders with Valor Awards, and provided immediate aid to families in their darkest hours.",
+        "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
+      ],
+      "photo": "",
+      "photoAlt": ""
+    },
+    "gallery": {
+      "eyebrow": "Our Leadership",
+      "title": "The People Behind The 200 Club",
+      "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
+      "photos": []
+    },
+    "board": {
+      "eyebrow": "Leadership",
+      "title": "",
+      "officers": {
+        "heading": "Executive Officers",
+        "members": [
           {
-            "label": "About Us",
-            "href": "about.html"
+            "name": "Mary Pat Angelini",
+            "title": "President 2025–26"
           },
           {
-            "label": "Our Leadership",
-            "href": "about.html#leadership"
+            "name": "Edward Kirschenbaum, Sr.",
+            "title": "Vice President"
           },
           {
-            "label": "Our Programs",
-            "href": "programs.html"
+            "name": "John Kaye",
+            "title": "Secretary"
           },
           {
-            "label": "Events",
-            "href": "events.html"
-          },
-          {
-            "label": "Contact",
-            "href": "contact.html"
+            "name": "Dominick Mazza",
+            "title": "Treasurer"
           }
         ]
       },
-      {
-        "heading": "Get Involved",
-        "links": [
+      "trustees": {
+        "heading": "Board of Trustees",
+        "members": [
           {
-            "label": "Become a Member",
-            "href": "join.html"
+            "name": "Thomas A. Arnone"
           },
           {
-            "label": "Donate via PayPal",
-            "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+            "name": "Edward M. Brock, Jr."
           },
           {
-            "label": "Apply for a Scholarship",
-            "href": "https://form.jotform.com/261056633582155"
+            "name": "Edward G. Donovan"
           },
           {
-            "label": "Submit a Valor Nomination",
-            "href": "https://form.jotform.com/261055906149156"
+            "name": "Josh Elkes"
+          },
+          {
+            "name": "M. Claire French"
+          },
+          {
+            "name": "Robert Gagliano"
+          },
+          {
+            "name": "Robert A. Honecker, Jr."
+          },
+          {
+            "name": "R. Reginald Hyde, II"
+          },
+          {
+            "name": "Benjamin J. Lucarelli"
+          },
+          {
+            "name": "Kevin P. Orender"
+          },
+          {
+            "name": "Jim Petillo"
+          },
+          {
+            "name": "Robert Swannack"
           }
         ]
       },
-      {
-        "heading": "Connect",
-        "links": [
+      "emeritus": {
+        "heading": "Trustees Emeritus",
+        "members": [
           {
-            "label": "Email",
-            "href": "mailto:staylor@monmouth200club.com"
+            "name": "William C. Barham"
           },
           {
-            "label": "Galleries",
-            "href": "galleries.html"
+            "name": "Richard Daesener"
           },
           {
-            "label": "Press Releases",
-            "href": "media.html#press"
+            "name": "Kim Guadagno"
+          },
+          {
+            "name": "Gregory Metzger"
+          },
+          {
+            "name": "Jack McCormack"
+          },
+          {
+            "name": "Joseph L. Thompson, Jr."
+          }
+        ]
+      },
+      "advisory": {
+        "heading": "Advisory Committee",
+        "members": [
+          {
+            "name": "Alyssa T.G. Anderson, MFA, PhD"
+          },
+          {
+            "name": "Joseph C. Curto"
+          },
+          {
+            "name": "Charles Smentkowski"
+          }
+        ]
+      },
+      "exOfficio": {
+        "heading": "Trustees Ex Officio",
+        "members": [
+          {
+            "name": "Monmouth County PBA Conference Chair"
+          },
+          {
+            "name": "Monmouth County Prosecutor"
+          },
+          {
+            "name": "Monmouth County Sheriff"
+          },
+          {
+            "name": "President of Monmouth County Police Chiefs' Association"
           }
         ]
       }
-    ],
-    "copyright": "\u00a9 2026 The 200 Club of Monmouth County. All rights reserved.",
-    "designerCredit": {
-      "label": "Chevelle",
-      "href": "https://www.bychevelle.com"
+    },
+    "presidentMessage": {
+      "eyebrow": "A Message From Our President",
+      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
+      "attribution": "Mary Pat Angelini",
+      "attributionDetail": "President 2025–26, The 200 Club of Monmouth County",
+      "image": "assets/images/mary-pat-angelini.jpg",
+      "imageAlt": "Mary Pat Angelini, President",
+      "ctaLabel": "Become a Member",
+      "ctaHref": "join.html"
+    },
+    "leadership_photo": {
+      "src": "assets/images/leadership-2.jpg",
+      "alt": "Executive Officers of The 200 Club",
+      "caption": "Executive Officers"
+    },
+    "officersPhoto": {
+      "src": "assets/images/leadership-2.jpg",
+      "alt": "Executive Officers of The 200 Club of Monmouth County",
+      "caption": "Executive Officers"
+    }
+  },
+  "programs": {
+    "hero": {
+      "eyebrow": "Our Programs",
+      "title": "Scholarships, Valor, and the Lives Behind Them",
+      "subheadline": "Every year we invest in the next generation of first responder families — and honor the extraordinary bravery of those who serve.",
+      "bgImage": "assets/images/programs-hero-bg.jpg",
+      "bgImageAlt": "Valor Awards ceremony"
+    },
+    "heroRibbon": {
+      "photos": [
+        {
+          "src": "assets/images/ribbon-1.jpg",
+          "alt": "Scholarship recipients"
+        },
+        {
+          "src": "assets/images/ribbon-2.jpg",
+          "alt": "Valor Awards ceremony"
+        },
+        {
+          "src": "assets/images/ribbon-3.jpg",
+          "alt": "Awards Luncheon"
+        },
+        {
+          "src": "assets/images/ribbon-4.jpg",
+          "alt": "Scholarship Social"
+        },
+        {
+          "src": "assets/images/ribbon-5.jpg",
+          "alt": "Valor Award recipient"
+        }
+      ]
+    },
+    "scholarships": {
+      "eyebrow": "Scholarships",
+      "title": "Investing in the Next Generation",
+      "paragraphs": [
+        "Each year, The 200 Club awards college scholarships to children of first responders in Monmouth County. <strong>In 2025, we awarded over $100,000 in scholarships</strong> — and to date, more than $3 million has gone to the families of those who serve.",
+        "The <strong>Ben Danskin Scholarship</strong> is also awarded annually to one exceptional junior or senior who demonstrates outstanding merit."
+      ],
+      "stat": {
+        "number": "$100K+",
+        "label": "Awarded in 2025 to children of Monmouth County first responders."
+      },
+      "awards": [
+        {
+          "title": "Annual Scholarship",
+          "description": "Open to undergraduate children of active 200 Club member first responders in Monmouth County."
+        },
+        {
+          "title": "Ben Danskin Scholarship",
+          "description": "The recipient will be selected based on demonstrated achievements that reflect the values and legacy of Ben Danskin, in whose honor this scholarship is awarded."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Apply for the Annual Scholarship",
+          "href": "https://form.jotform.com/261056633582155",
+          "style": "solid"
+        },
+        {
+          "label": "Ben Danskin Scholarship",
+          "href": "https://form.jotform.com/261056066290151",
+          "style": "outline"
+        }
+      ],
+      "photos": [
+        {
+          "src": "assets/images/scholarship-1.jpg",
+          "alt": "Scholarship recipients 2025"
+        },
+        {
+          "src": "assets/images/scholarship-2.jpg",
+          "alt": "Scholarship ceremony"
+        },
+        {
+          "src": "assets/images/scholarship-3.jpg",
+          "alt": "Scholarship recipients group"
+        }
+      ]
+    },
+    "valor": {
+      "eyebrow": "Valor Awards",
+      "title": "Recognizing Extraordinary Bravery",
+      "paragraphs": [
+        "Each year at our Annual Awards Luncheon, The 200 Club recognizes first responders who went above and beyond. Awards range from Certificates of Recognition to The Valor Award — our highest honor."
+      ],
+      "awards": [
+        {
+          "title": "The Valor Award",
+          "description": "Highest honor — extraordinary bravery that placed an officer's life at risk."
+        },
+        {
+          "title": "Meritorious Service Award",
+          "description": "Exceptional performance of duty demonstrating outstanding skill and judgment."
+        },
+        {
+          "title": "Certificate of Recognition",
+          "description": "Acknowledges first responders for notable acts of service to the community."
+        }
+      ],
+      "ctaLabel": "Submit a Nomination",
+      "ctaHref": "https://form.jotform.com/261055906149156",
+      "photos": [
+        {
+          "src": "assets/images/valor-medal.jpg",
+          "alt": "Valor Medal"
+        },
+        {
+          "src": "assets/images/luncheon-1.jpg",
+          "alt": "Awards Luncheon 2025"
+        }
+      ]
+    },
+    "spotlights": {
+      "eyebrow": "Spotlight 200",
+      "title": "Stories of Valor",
+      "description": "The men and women behind the awards — in their own words.",
+      "stories": [
+        {
+          "slug": "russo",
+          "badge": "Valor Award · Neptune Township PD",
+          "title": "Officer Dominique Russo",
+          "subtitle": "\"I'm just doing what I signed up for.\"",
+          "image": "assets/images/officer-russo.jpg",
+          "imageAlt": "Officer Dominique Russo",
+          "paragraphs": [
+            "She heard a loud pop and recognized the sound. Neptune Township Police Officer Dominique Russo immediately turned her patrol car around and spotted a group of men — one of them was carrying a gun. He took off running, and she followed him in her car. Then, he crossed her car and the two made eye contact. The gun was still in clear sight. \"I thought to myself, is this really happening… is this really in front of me right now,\" Officer Russo said when interviewed by The 200 Club of Monmouth County.",
+            "Officer Russo said her instincts kicked in, and she called for backup. The man darted into a yard, and she followed him on foot. The 24-year-old added, \"To be honest, you don't think about the danger in the moment, all I saw was a guy holding a gun, and all I thought was I have to get that gun off the street.\"",
+            "The officer, who measures in at five-foot-one inch, single-handedly got the suspect, who is five-foot-ten inches tall, to the ground and handcuffed him. The gun was recovered where he tossed it during the pursuit. It was a .45 caliber, and it was found cocked and loaded. Turns out that he was a known gang member with an extensive criminal history. He has since been convicted of that 2017 crime.",
+            "The 200 Club of Monmouth County honored Officer Russo with the 2018 Valor Award for her bravery and for serving with distinction. \"I'm just so happy I was able to get the gun off the street, because if he was trying to hurt someone, he wasn't able to succeed,\" stated Officer Russo.",
+            "Officer Russo says she does not consider herself a hero but is honored to be recognized by The 200 Club of Monmouth County. \"I'm just doing what I signed up for, but honestly, we (police) go through so much negativity, that going through this one positive and actually being recognized means a lot. The news only focuses on the bad. I rarely see the good, and there is so much good that police do every day. Thank you for this.\""
+          ]
+        },
+        {
+          "slug": "marlboro",
+          "badge": "Valor Award · Marlboro PD",
+          "title": "The Marlboro Five",
+          "subtitle": "A teenager pinned between two cars — one on fire.",
+          "image": "assets/images/marlboro-officers.jpg",
+          "imageAlt": "Marlboro Police Department officers",
+          "paragraphs": [
+            "\"The call came in as entrapment and flames,\" recalled Marlboro Patrol Officer Adam Mattei.",
+            "Trapped between two vehicles — one of them on fire — was 17-year-old Rebecca Kniffin of Freehold, who was unconscious. Five Marlboro police officers came to her rescue.",
+            "\"Usually they're trapped inside the car, but this was the first time I had someone between the cars. She was ejected from one car, then pinned between the two cars,\" said Patrol Officer Colin Murray.",
+            "\"We knew we had to act fast. One car was on fire, and when that happens you don't have much time. So, I ran and got my patrol car and then used it to separate the cars to get her free. We weren't even sure she was alive, but we had to try. Nothing else worked. Luckily, it did,\" said Patrol Officer Donna Gonzalez.",
+            "Their heroism that day, June 16, 2020, was captured by body cameras and covered by the media. Their incredible actions also earned them the highest award given by The 200 Club of Monmouth County, The Valor Award.",
+            "On November 6, 2020, at the Valor Awards ceremony outside the Township's municipal building, Rebecca and her family got to express their gratitude to the officers in person. Rebecca suffered broken bones, punctured lungs, and second-degree burns in the accident. She spent two weeks in the hospital and had multiple surgeries, but you'd never know it looking at her.",
+            "\"All I can say is thank you for saving me,\" Rebecca said repeatedly, as her mom choked back tears and added, \"They literally put themselves in the line of fire to save my child who they never met before. It's amazing.\""
+          ]
+        },
+        {
+          "slug": "sosnowski",
+          "badge": "Valor Award · Manalapan Township PD",
+          "title": "Officer Adam Sosnowski",
+          "subtitle": "\"It's amazing how your training kicks in.\"",
+          "image": "assets/images/officer-sosnowski.jpg",
+          "imageAlt": "Officer Adam Sosnowski",
+          "paragraphs": [
+            "\"I remember looking at the gun thinking, 'Wow, that's real.' It's amazing how your training kicks in.\"",
+            "Manalapan Township Police Department K-9 Officer Adam Sosnowski recounts what happened during his shift one night in August 2018. A call came in about an allegedly suicidal man, a person Officer Sosnowski knew from prior incidents.",
+            "Officer Sosnowski describes what happened when he went up to the house and convinced the man to come outside: \"He came out and appeared agitated, but the next thing you know, he reaches into his front pocket and pulls a handgun out.\"",
+            "Officer Sosnowski believes the man pointed the gun at him because he wanted to be shot and killed, but luckily, thanks to Sosnowski's quick actions and training, a \"suicide by cop\" scenario was avoided. His police chief, Michael Fountain, says that a physical struggle ensued between Sosnowski and the man, but his officer managed to free the firearm from the man's hand and subdue and handcuff him.",
+            "Chief Fountain says, \"Officer Sosnowski responded to what he thought was a deadly force situation with courage and the will to win.\" For these heroic actions, Officer Sosnowski received the Valor Award by The 200 Club of Monmouth County on June 7, 2019.",
+            "Officer Sosnowski added, \"I am definitely not a hero. There are definitely many other heroes in the world. I just think it was the right circumstances at the right time, with the right person. Thank God I had the proper training. Anything pro-law enforcement is amazing. And, The 200 Club is definitely the top of the top in New Jersey, and it truly is an honor to even be recognized by them.\""
+          ]
+        },
+        {
+          "slug": "magenheimer",
+          "badge": "Plaque Award · MCPO",
+          "title": "Paralegal Heather Magenheimer",
+          "subtitle": "The unsung hero behind a ten-year justice.",
+          "image": "assets/images/heather-magenheimer.jpg",
+          "imageAlt": "Heather Magenheimer",
+          "paragraphs": [
+            "Jonelle Melton, a beloved 33-year-old social studies teacher at Red Bank Middle School, was murdered in her apartment in Neptune City in 2009 by three career criminals in a case of mistaken identity. They thought they were breaking into the apartment of a drug dealer who had cash inside, but they broke into the wrong apartment, then brutally beat, stabbed, and shot the fifth-grade teacher.",
+            "In 2019, Assistant Prosecutors Matthew Bogner and Lawrence Nelson successfully argued the case, and a jury convicted the three men. They were later sentenced to life in prison. A fourth man pleaded guilty to orchestrating the burglary.",
+            "That justice for Jonelle Melton took ten long years. Monmouth County Prosecutor Chris Gramiccioni wants the public to know it could not have been accomplished without the extraordinary behind-the-scenes contributions of one of his paralegals.",
+            "\"The public often sees the face of successful investigations and prosecutions in detectives and prosecutors — the 'directors' of criminal cases. But equally as important is the 'producer' work our paralegals put in to prepare discovery, conduct legal research, and assist in evidence and witness presentation to the jury,\" said Gramiccioni. \"Heather's work and support in the Jonelle Melton murder prosecution was nothing short of spectacular.\"",
+            "Magenheimer kept track of tens of thousands of pieces of evidence collected over several years. \"There were literally boxes up to the ceiling in an entire conference room. It was my job to know every inch of it, so it could be found in a pinch,\" said Magenheimer.",
+            "Magenheimer received a Plaque Award by The 200 Club of Monmouth County at the 2019 Valor Award Luncheon. \"I am honored to be recognized by my peers, and I was beyond shocked to get the notice that I had won an award. I did live, sleep, and breathe the Melton case… and was glad to do it. I am proud to have played a supporting part in the convictions.\""
+          ]
+        }
+      ]
     }
   },
   "galleries": {
@@ -3940,14 +3792,14 @@
     "hero": {
       "eyebrow": "Events",
       "title": "Join Us This Year",
-      "subheadline": "From our Annual Awards Luncheon to golf outings and scholarship socials \u2014 every event supports our mission.",
+      "subheadline": "From our Annual Awards Luncheon to golf outings and scholarship socials — every event supports our mission.",
       "bgImage": "assets/images/events-hero-bg.jpg",
       "bgImageAlt": "200 Club event"
     },
     "list": {
       "eyebrow": "Upcoming Events",
       "title": "Join Us This Year",
-      "description": "From our Annual Awards Luncheon to golf outings and scholarship socials \u2014 every event supports our mission.",
+      "description": "From our Annual Awards Luncheon to golf outings and scholarship socials — every event supports our mission.",
       "items": [
         {
           "month": "Jun",
@@ -3972,35 +3824,183 @@
           "day": "19",
           "year": "2026",
           "title": "43rd Annual Golf Outing",
-          "description": "Our longstanding golf outing at Deal Golf & Country Club \u2014 a day on the course in support of first responders and their families.",
+          "description": "Our longstanding golf outing at Deal Golf & Country Club — a day on the course in support of first responders and their families.",
           "ctaLabel": "Get Tickets",
           "ctaHref": "https://events.ticketleap.com/tickets/the-200-club-of-monmouth-county/43nd-annual-golf-outing"
         }
       ]
     }
   },
-  "contact": {
+  "footer": {
+    "brandName": "The 200 Club of Monmouth County",
+    "blurb": "Since 1971, standing beside Monmouth County's first responders and their families.",
+    "columns": [
+      {
+        "heading": "The Club",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "about.html"
+          },
+          {
+            "label": "Our Leadership",
+            "href": "about.html#leadership"
+          },
+          {
+            "label": "Our Programs",
+            "href": "programs.html"
+          },
+          {
+            "label": "Events",
+            "href": "events.html"
+          },
+          {
+            "label": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      },
+      {
+        "heading": "Get Involved",
+        "links": [
+          {
+            "label": "Become a Member",
+            "href": "join.html"
+          },
+          {
+            "label": "Donate via PayPal",
+            "href": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+          },
+          {
+            "label": "Apply for a Scholarship",
+            "href": "https://form.jotform.com/261056633582155"
+          },
+          {
+            "label": "Submit a Valor Nomination",
+            "href": "https://form.jotform.com/261055906149156"
+          }
+        ]
+      },
+      {
+        "heading": "Connect",
+        "links": [
+          {
+            "label": "Email",
+            "href": "mailto:staylor@monmouth200club.com"
+          },
+          {
+            "label": "Galleries",
+            "href": "galleries.html"
+          },
+          {
+            "label": "Press Releases",
+            "href": "media.html#press"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 The 200 Club of Monmouth County. All rights reserved.",
+    "designerCredit": {
+      "label": "Chevelle",
+      "href": "https://www.bychevelle.com"
+    }
+  },
+  "home": {
     "hero": {
-      "eyebrow": "Contact",
-      "title": "Get in Touch",
-      "subheadline": "We'd love to hear from you \u2014 membership, sponsorship, media, or anything else.",
-      "bgImage": "assets/images/contact-hero-bg.jpg",
-      "bgImageAlt": "Contact The 200 Club"
+      "slides": [
+        {
+          "primaryCtaLabel": "Make a Donation",
+          "secondaryCtaHref": "about.html",
+          "eyebrow": "Honoring First Responders Since 1971",
+          "imageAlt": "First responders ceremony",
+          "subheadline": "For over 50 years, The 200 Club of Monmouth County has supported first responders and their families — with immediate aid, scholarships, and recognition for extraordinary bravery.",
+          "headline": "Standing Beside Those Who <em>Answer the Call</em>",
+          "bgImage": "assets/images/hero-1.jpg",
+          "secondaryCtaLabel": "Learn Our Mission",
+          "primaryCtaHref": "https://www.paypal.com/donate/?hosted_button_id=Z28XEPETAASFU"
+        },
+        {
+          "primaryCtaLabel": "Apply Now",
+          "secondaryCtaHref": "https://form.jotform.com/261056066290151",
+          "eyebrow": "2025 Scholarships",
+          "imageAlt": "Scholarship ceremony",
+          "subheadline": "Each year we invest in the children of Monmouth County first responders. Applications are now open for the Annual and Ben Danskin Scholarships.",
+          "headline": "Over <em>$100,000</em> Awarded in 2025",
+          "bgImage": "assets/images/hero-2.jpg",
+          "secondaryCtaLabel": "Ben Danskin Scholarship",
+          "primaryCtaHref": "https://form.jotform.com/261056633582155"
+        },
+        {
+          "primaryCtaLabel": "Submit a Nomination",
+          "secondaryCtaHref": "https://www.zeffy.com/en-US/ticketing/54rd-annual-awards-luncheon",
+          "eyebrow": "Annual Valor Awards",
+          "imageAlt": "Valor Awards ceremony",
+          "subheadline": "We recognize first responders who go above and beyond. Nominations are now being accepted for the 54th Annual Awards Luncheon on June 5.",
+          "headline": "Honoring Bravery at the <em>Annual Valor Awards</em>",
+          "bgImage": "assets/images/hero-3.jpg",
+          "secondaryCtaLabel": "Luncheon Tickets",
+          "primaryCtaHref": "https://form.jotform.com/261055906149156"
+        }
+      ]
     },
-    "info": {
-      "email": "staylor@monmouth200club.com",
-      "emailNote": "General inquiries and media",
-      "phone": "917-543-5476",
-      "phoneHref": "+19175435476",
-      "phoneNote": "Mon\u2013Fri, 9am\u20135pm ET",
-      "address": "The 200 Club of Monmouth County\nP.O. Box 6518\nFreehold, NJ 07728",
-      "donationNote": "Processed securely via PayPal"
+    "missionBar": {
+      "text": "When tragedy strikes a first responder's family, <em>we respond within hours</em> — not weeks."
     },
-    "form": {
-      "submitLabel": "Send Message",
-      "formProvider": "formspree",
-      "formAction": "https://formspree.io/f/xeenzlqe",
-      "heading": "Send Us a Message"
+    "pillars": {
+      "eyebrow": "Our Mission",
+      "title": "Three Pillars. One Commitment.",
+      "paragraphs": [
+        "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining."
+      ],
+      "items": [
+        {
+          "number": "01",
+          "title": "Family Assistance",
+          "description": "When a Monmouth County first responder is killed or seriously injured in the line of duty, we respond within hours with financial support for their family — no paperwork, no red tape.",
+          "linkLabel": "Learn more",
+          "linkHref": "about.html"
+        },
+        {
+          "number": "02",
+          "title": "College Scholarships",
+          "description": "Each year we award scholarships to children of Monmouth County first responders. Over $3 million awarded to date — and over $100,000 in 2025 alone.",
+          "linkLabel": "Scholarship info",
+          "linkHref": "programs.html#scholarships"
+        },
+        {
+          "number": "03",
+          "title": "Valor Awards",
+          "description": "We honor first responders who go above and beyond — from Certificates of Recognition to our highest honor, the Valor Award.",
+          "linkLabel": "Awards info",
+          "linkHref": "programs.html#valor"
+        }
+      ]
+    },
+    "featuredStory": {
+      "ctaLabel": "Read her story",
+      "eyebrow": "Valor Award Recipient",
+      "imageAlt": "Officer Dominique Russo",
+      "attributionDetail": "Neptune Township Police Department · Valor Award Recipient",
+      "title": "\"I'm just doing what I signed up for.\"",
+      "image": "assets/images/officer-russo.jpg",
+      "ctaHref": "programs.html#story-russo",
+      "description": "Officer Dominique Russo, five-foot-one, saw a cocked .45 in clear sight. She chased the suspect on foot, took him to the ground single-handedly, and got the weapon off the street.",
+      "attribution": "Officer Dominique Russo"
+    },
+    "presidentMessage": {
+      "eyebrow": "A Message From Our President",
+      "quote": "We support our first responders in Monmouth County by giving them the comfort of knowing that, if they pay the ultimate sacrifice for their service or are seriously injured in the line-of-duty, The 200 Club of Monmouth County will be there to support their families financially. If you believe, like we do, that our first responders need all the support our community can provide, please consider joining.",
+      "attribution": "Mary Pat Angelini",
+      "attributionDetail": "President 2025–26, The 200 Club of Monmouth County",
+      "image": "assets/images/mary-pat-angelini.jpg",
+      "imageAlt": "Mary Pat Angelini, President",
+      "ctaLabel": "Become a Member",
+      "ctaHref": "join.html"
+    },
+    "follow": {
+      "eyebrow": "Stay Connected",
+      "headline": "Follow us on <em>social media</em>",
+      "description": "For events, recognitions, and stories from across Monmouth County."
     }
   }
 }
