@@ -804,7 +804,7 @@
         "coverImage": "",
         "externalUrl": "",
         "photos": [],
-        "visible": true
+        "visible": false
       },
       {
         "id": "2026-golf",
@@ -813,7 +813,7 @@
         "coverImage": "",
         "externalUrl": "",
         "photos": [],
-        "visible": true
+        "visible": false
       },
       {
         "id": "2024-scholarship",
@@ -822,7 +822,7 @@
         "coverImage": "",
         "externalUrl": "",
         "photos": [],
-        "visible": true
+        "visible": false
       },
       {
         "id": "2024-golf",
