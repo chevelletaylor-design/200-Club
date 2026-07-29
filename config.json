@@ -451,7 +451,13 @@
       "eyebrow": "Our Leadership",
       "title": "The People Behind The 200 Club",
       "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
-      "photos": []
+      "photos": [
+        {
+          "src": "/assets/images/9b1a4233.jpeg",
+          "caption": "EXECUTIVE OFFICERS",
+          "alt": "EXECUTIVE OFFICERS"
+        }
+      ]
     },
     "board": {
       "eyebrow": "Leadership",
@@ -578,7 +584,7 @@
       "quote": "As the new President of The 200 Club of Monmouth County, I am honored to continue our long-standing mission of standing beside the brave men and women who protect and serve our communities every day. Our commitment is unwavering. When a first responder makes the ultimate sacrifice or suffers a serious line-of-duty injury, The 200 Club of Monmouth County is there to provide immediate financial support and compassion to their families during their greatest time of need. This mission is only possible because of the generosity and dedication of our members, sponsors, and community partners. Together, we demonstrate that the service and sacrifice of our first responders will never be forgotten. I invite you to become part of this important work. Whether by joining as a member, sponsoring an event, making a donation, or helping us spread awareness, your support directly strengthens our ability to care for the heroes who care for us. Together, we honor their sacrifice, support their families, and ensure that no first responder's loved ones face their most difficult days alone.",
       "attribution": "Chief Edward D. Kirschenbaum, Sr., Ret.",
       "attributionDetail": "President 2026–2027, The 200 Club of Monmouth County",
-      "image": "assets/images/kirschenbaum.jpg",
+      "image": "/assets/images/9b1a4163.jpeg",
       "imageAlt": "Chief Edward D. Kirschenbaum, Sr., Ret., President",
       "ctaLabel": "Become a Member",
       "ctaHref": "join.html"
@@ -3967,7 +3973,7 @@
       "quote": "As the new President of The 200 Club of Monmouth County, I am honored to continue our long-standing mission of standing beside the brave men and women who protect and serve our communities every day. Our commitment is unwavering. When a first responder makes the ultimate sacrifice or suffers a serious line-of-duty injury, The 200 Club of Monmouth County is there to provide immediate financial support and compassion to their families during their greatest time of need. This mission is only possible because of the generosity and dedication of our members, sponsors, and community partners. Together, we demonstrate that the service and sacrifice of our first responders will never be forgotten. I invite you to become part of this important work. Whether by joining as a member, sponsoring an event, making a donation, or helping us spread awareness, your support directly strengthens our ability to care for the heroes who care for us. Together, we honor their sacrifice, support their families, and ensure that no first responder's loved ones face their most difficult days alone.",
       "attribution": "Chief Edward D. Kirschenbaum, Sr., Ret.",
       "attributionDetail": "President 2026–2027, The 200 Club of Monmouth County",
-      "image": "assets/images/kirschenbaum.jpg",
+      "image": "/assets/images/9b1a4163.jpeg",
       "imageAlt": "Chief Edward D. Kirschenbaum, Sr., Ret., President",
       "ctaLabel": "Become a Member",
       "ctaHref": "join.html"
