@@ -444,7 +444,7 @@
         "What started as a small group of committed citizens has grown into an organization that has delivered over $3 million in college scholarships, honored hundreds of first responders with Valor Awards, and provided immediate aid to families in their darkest hours.",
         "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
       ],
-      "photo": "/assets/images/9b1a4233.jpeg",
+      "photo": "",
       "photoAlt": ""
     },
     "gallery": {
@@ -589,7 +589,7 @@
       "caption": "Executive Officers"
     },
     "officersPhoto": {
-      "src": "assets/images/leadership-2.jpg",
+      "src": "/assets/images/9b1a4233.jpeg",
       "alt": "Executive Officers of The 200 Club of Monmouth County",
       "caption": "Executive Officers"
     }
@@ -794,7 +794,8 @@
         "year": "2026",
         "coverImage": "/assets/images/9b1a4318.jpg",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Awards-2026/n-ThzT9d",
-        "photos": []
+        "photos": [],
+        "visible": false
       },
       {
         "id": "2026-scholarship",
@@ -802,7 +803,8 @@
         "year": "2026",
         "coverImage": "",
         "externalUrl": "",
-        "photos": []
+        "photos": [],
+        "visible": false
       },
       {
         "id": "2026-golf",
@@ -810,7 +812,8 @@
         "year": "2026",
         "coverImage": "",
         "externalUrl": "",
-        "photos": []
+        "photos": [],
+        "visible": false
       },
       {
         "id": "2024-scholarship",
@@ -818,7 +821,8 @@
         "year": "2024",
         "coverImage": "",
         "externalUrl": "",
-        "photos": []
+        "photos": [],
+        "visible": false
       },
       {
         "id": "2024-golf",
@@ -826,7 +830,8 @@
         "year": "2024",
         "coverImage": "/assets/images/screenshot-2026-07-28-at-8.51.15 pm.png",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Golf-Outing-2024",
-        "photos": []
+        "photos": [],
+        "visible": true
       },
       {
         "id": "2025-valor",
@@ -834,7 +839,8 @@
         "year": "2025",
         "coverImage": "/assets/images/9b1a4434.jpg",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Awards-2026/n-ThzT9d",
-        "photos": []
+        "photos": [],
+        "visible": true
       },
       {
         "id": "2025-scholarship",
@@ -842,7 +848,8 @@
         "year": "2025",
         "coverImage": "/assets/images/screenshot-2026-07-28-at-8.44.10 pm.png",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Scholarships-2025",
-        "photos": []
+        "photos": [],
+        "visible": true
       },
       {
         "id": "2025-golf",
@@ -850,7 +857,8 @@
         "year": "2025",
         "coverImage": "/assets/images/screenshot-2026-07-28-at-8.42.48 pm.png",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Golf-Outing-2025",
-        "photos": []
+        "photos": [],
+        "visible": true
       },
       {
         "id": "2024-awards",
@@ -858,7 +866,8 @@
         "year": "2024",
         "coverImage": "assets/images/gal-2024-awards.jpg",
         "externalUrl": "https://tomzapcicphotography.smugmug.com/200-Club-Awards-2024/n-TBXNMf",
-        "photos": []
+        "photos": [],
+        "visible": true
       },
       {
         "id": "2023-valor",
@@ -903,7 +912,8 @@
           {
             "src": "assets/images/2023-valor-12.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2022-valor",
@@ -1026,7 +1036,8 @@
           {
             "src": "assets/images/2022-valor-38.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2022-scholarship",
@@ -1107,7 +1118,8 @@
           {
             "src": "assets/images/2022-scholarship-24.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2022-golf",
@@ -1257,7 +1269,8 @@
           {
             "src": "assets/images/2022-golf-47.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2021-valor",
@@ -1335,7 +1348,8 @@
           {
             "src": "assets/images/2021-valor-23.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2021-scholarship",
@@ -1422,7 +1436,8 @@
           {
             "src": "assets/images/2021-scholarship-26.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2021-golf",
@@ -1530,7 +1545,8 @@
           {
             "src": "assets/images/2021-golf-33.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2020-scholarship-virtual",
@@ -1554,7 +1570,8 @@
           {
             "src": "assets/images/2020-scholarship-virtual-05.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2019-valor",
@@ -1911,7 +1928,8 @@
           {
             "src": "assets/images/2019-valor-116.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2019-scholarship-social",
@@ -2250,7 +2268,8 @@
           {
             "src": "assets/images/2019-scholarship-social-110.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2019-golf",
@@ -2274,7 +2293,8 @@
           {
             "src": "assets/images/2019-golf-05.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2018-valor",
@@ -2481,7 +2501,8 @@
           {
             "src": "assets/images/2018-valor-66.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2018-scholarship",
@@ -2496,7 +2517,8 @@
           {
             "src": "assets/images/2018-scholarship-02.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2016-valor",
@@ -2829,7 +2851,8 @@
           {
             "src": "assets/images/2016-valor-108.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2015-scholarship",
@@ -3135,7 +3158,8 @@
           {
             "src": "assets/images/2015-scholarship-99.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2014-valor",
@@ -3351,7 +3375,8 @@
           {
             "src": "assets/images/2014-valor-69.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2014-scholarship",
@@ -3651,7 +3676,8 @@
           {
             "src": "assets/images/2014-scholarship-97.jpg"
           }
-        ]
+        ],
+        "visible": true
       },
       {
         "id": "2013-valor",
@@ -3759,7 +3785,8 @@
           {
             "src": "assets/images/2013-valor-33.jpg"
           }
-        ]
+        ],
+        "visible": true
       }
     ]
   },
