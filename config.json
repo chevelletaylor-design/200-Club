@@ -444,20 +444,14 @@
         "What started as a small group of committed citizens has grown into an organization that has delivered over $3 million in college scholarships, honored hundreds of first responders with Valor Awards, and provided immediate aid to families in their darkest hours.",
         "Every dollar we raise, every event we host, and every member we welcome extends our ability to say to the officers, firefighters, EMTs, and first responders of Monmouth County: <strong>we remember, and we stand with you.</strong>"
       ],
-      "photo": "",
+      "photo": "/assets/images/9b1a4233.jpeg",
       "photoAlt": ""
     },
     "gallery": {
       "eyebrow": "Our Leadership",
       "title": "The People Behind The 200 Club",
       "description": "Our Board of Trustees and Executive Officers, who steward the mission year after year.",
-      "photos": [
-        {
-          "src": "/assets/images/9b1a4233.jpeg",
-          "caption": "EXECUTIVE OFFICERS",
-          "alt": "EXECUTIVE OFFICERS"
-        }
-      ]
+      "photos": []
     },
     "board": {
       "eyebrow": "Leadership",
